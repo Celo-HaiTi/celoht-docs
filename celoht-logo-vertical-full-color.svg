@@ -1,0 +1,11 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 260 320" width="260" height="320">
+  <rect x="20" y="0" width="220" height="220" rx="28" fill="#FCE94F"/>
+  <path d="M195 42
+           A85 85 0 1 0 195 178
+           L165 148
+           A47 47 0 1 1 165 72
+           Z" transform="translate(-45,0)" fill="#1B2A4A"/>
+  <polyline points="83,144 118,106 142,132 182,80" fill="none" stroke="#F5A623" stroke-width="15" stroke-linecap="round" stroke-linejoin="round"/>
+  <polygon points="182,80 208,72 190,98" fill="#F5A623"/>
+  <text x="130" y="270" text-anchor="middle" font-family="Fraunces, Georgia, serif" font-size="44" font-weight="600" fill="#1B2A4A">CeloHT</text>
+</svg>
