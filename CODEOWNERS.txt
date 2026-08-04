@@ -1,0 +1,49 @@
+# CeloHT CODEOWNERS
+#
+# This file follows GitHub's CODEOWNERS specification:
+# https://docs.github.com/en/repositories/managing-your-repositorys-settings-and-features/customizing-your-repository/about-code-owners
+#
+# STATUS: No individual Maintainers have been confirmed and verified as of
+# this file's publication date (see TEAM.md and MAINTAINERS.md). This file
+# is therefore published in placeholder form, using GitHub team handles
+# rather than individual usernames, consistent with CeloHT's policy of
+# never presenting unverified or unconfirmed individuals as role holders
+# (see VERIFICATION_POLICY.md).
+#
+# Team handles below (e.g. @celoht/governance-maintainers) refer to GitHub
+# Teams to be created within the CeloHT GitHub organization once Maintainers
+# are appointed per MAINTAINERS.md. Until a team has confirmed members,
+# review requests routed by this file will have no assignee, and pull
+# requests will require manual review assignment by the Governance Council.
+#
+# This file will be updated with real team assignments as Maintainers are
+# verified and confirmed. No individual GitHub username is listed here
+# until that individual has been verified per VERIFICATION_POLICY.md and
+# published in MAINTAINERS.md.
+
+# Default owner for anything not matched below.
+# Currently unassigned pending Maintainer appointment.
+*                           
+
+# Governance documents (this repository)
+/GOVERNANCE.md              @celoht/governance-council
+/LEGAL_STATUS.md            @celoht/governance-council @celoht/legal-working-group
+/TEAM.md                    @celoht/governance-council
+/AUTHORS.md                 @celoht/governance-council
+/MAINTAINERS.md             @celoht/governance-council
+/CONTRIBUTORS.md            @celoht/governance-council
+/VERIFICATION_POLICY.md     @celoht/governance-council @celoht/legal-working-group
+/CODEOWNERS                 @celoht/governance-council
+
+# Website repository (path examples; adjust per actual repo structure)
+/apps/website/               @celoht/technology-maintainers
+
+# dApp monorepo
+/apps/dapp/                  @celoht/technology-maintainers
+
+# Smart contracts package — requires two-maintainer review per
+# GOVERNANCE.md Section 13.3
+/packages/contracts/         @celoht/contracts-maintainers
+
+# Documentation hub
+/docs/                       @celoht/documentation-maintainers
