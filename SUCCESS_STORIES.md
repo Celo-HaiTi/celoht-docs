@@ -28,7 +28,7 @@ A success story should be tied to a verifiable program activity and, where it re
 
 ## Editorial Standards
 
-- Never imply a financial return or investment outcome, consistent with [../NO_TOKEN_POLICY.md](./NO_TOKEN_POLICY.md) — a success story is about access, confidence, or opportunity, never about money "growing"
+- Never imply a financial return or investment outcome, consistent with [./NO_TOKEN_POLICY.md](./NO_TOKEN_POLICY.md) — a success story is about access, confidence, or opportunity, never about money "growing"
 - Always obtain and document consent before publishing a community member's story, photo, or quote
 - Avoid presenting a single story as representative of typical outcomes without the supporting aggregate data from [METRICS.md](./METRICS.md)
 

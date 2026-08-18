@@ -18,21 +18,21 @@ This is the master reference for CeloHT's identity. It summarizes and links to t
 ## What CeloHT Is Not
 
 - Not a cryptocurrency
-- Not a token — CeloHT has **no native token, no ICO, no presale, no staking token, no speculation model, and makes no investment promises**. It uses only existing Celo network assets (cUSD, CELO for gas).
+- Not a token — CeloHT has **no native token, no ICO, no presale, no staking token, no speculation model, and makes no investment promises**. It uses only existing Celo network assets (USDm, CELO for gas).
 - Not an investment platform
 - Not officially affiliated with Celo Foundation or Valora (see disclaimer below)
 
 ## Core Pillars — Full Detail
 
-**Education:** blockchain fundamentals, Web3, the Celo ecosystem, cUSD, CELO, the Valora wallet, digital security, financial literacy, and responsible digital finance — taught primarily in Haitian Creole.
+**Education:** blockchain fundamentals, Web3, the Celo ecosystem, USDm, CELO, the Valora wallet, digital security, financial literacy, and responsible digital finance — taught primarily in Haitian Creole.
 
-**Agent Network:** trained community agents provide cash ↔ cUSD conversion, cash-in/cash-out services, digital payment assistance, wallet onboarding, and community liquidity — bridging traditional cash with digital money through real local relationships.
+**Agent Network:** trained community agents provide cash ↔ USDm conversion, cash-in/cash-out services, digital payment assistance, wallet onboarding, and community liquidity — bridging traditional cash with digital money through real local relationships.
 
 **Reforestation:** tree planting, community environmental restoration, environmental education, and long-term, transparent, verifiable impact monitoring.
 
 ## Success Metrics
 
-CeloHT measures impact, not speculation: people trained, active learners, wallets created, active agents, transactions and cUSD volume, communities reached, trees planted, partner organizations, GitHub contributors, and documentation/developer adoption quality.
+CeloHT measures impact, not speculation: people trained, active learners, wallets created, active agents, transactions and USDm volume, communities reached, trees planted, partner organizations, GitHub contributors, and documentation/developer adoption quality.
 
 ## Identity At a Glance
 
@@ -50,7 +50,7 @@ Full detail: [COLOR_SYSTEM.md](./COLOR_SYSTEM.md) · [TYPOGRAPHY.md](./TYPOGRAPH
 
 ## Non-Affiliation & Disclaimers
 
-CeloHT uses Celo blockchain (cUSD, CELO) and recommends the Valora wallet as infrastructure choices — not as an endorsement or partnership. Every official material referencing Celo or Valora must carry the disclaimer in [LOGO_GUIDELINES.md](./LOGO_GUIDELINES.md#required-disclaimer).
+CeloHT uses Celo blockchain (USDm, CELO) and recommends the Valora wallet as infrastructure choices — not as an endorsement or partnership. Every official material referencing Celo or Valora must carry the disclaimer in [LOGO_GUIDELINES.md](./LOGO_GUIDELINES.md#required-disclaimer).
 
 ## Design Principles
 

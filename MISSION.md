@@ -15,7 +15,7 @@ Sustainable development means the communities CeloHT serves are not left worse o
 
 ## No Token Policy
 
-CeloHT has no native token, no ICO, no presale, no staking token, no speculation model, and no investment promises. The ecosystem runs entirely on existing Celo network assets — cUSD for payments, CELO for gas only.
+CeloHT has no native token, no ICO, no presale, no staking token, no speculation model, and no investment promises. The ecosystem runs entirely on existing Celo network assets — USDm for payments, CELO for gas only.
 
 ## Operating Principles
 

@@ -1,6 +1,6 @@
 # Module 7: Using the Agent Network
 
-*Part of the CeloHT Education curriculum — see [../EDUCATION.md](../EDUCATION.md).*
+*Part of the CeloHT Education curriculum — see [EDUCATION.md](./EDUCATION.md).*
 *Previous: [Module 6 →](./module-06-responsible-digital-finance.md)*
 
 ## Audience
@@ -17,7 +17,7 @@ Approx. 30 minutes.
 
 ## Lesson 7.1 — Finding a Verified Agent
 
-Walkthrough of the in-app agent directory (see [../USER_GUIDE.md](../USER_GUIDE.md#4-find-an-agent-for-cash-incash-out)) and the meaning of the on-chain "Verified" badge, which reflects real-time status from the [AgentRegistry](../SMART_CONTRACTS.md#agentregistry--reference-specification).
+Walkthrough of the in-app agent directory (see [USER_GUIDE.md](./USER_GUIDE.md#4-find-an-agent-for-cash-incash-out)) and the meaning of the on-chain "Verified" badge, which reflects real-time status from the [AgentRegistry](./SMART_CONTRACTS.md#agentregistry--reference-specification).
 
 ## Lesson 7.2 — The Transaction Flow
 
@@ -29,7 +29,7 @@ Clarify boundaries: agents facilitate cash-in/cash-out and wallet onboarding hel
 
 ## Lesson 7.4 — If Something Goes Wrong
 
-Clear escalation path: mismatched confirmation → do not proceed, contact the Agent Network support channel (see [../AGENT_NETWORK.md](../AGENT_NETWORK.md#support-systems)); suspected agent misconduct → report via contact@celoht.com, per [../SECURITY.md](../SECURITY.md#reporting-a-vulnerability).
+Clear escalation path: mismatched confirmation → do not proceed, contact the Agent Network support channel (see [AGENT_NETWORK.md](./AGENT_NETWORK.md#support-systems)); suspected agent misconduct → report via contact@celoht.com, per [SECURITY.md](./SECURITY.md#reporting-a-vulnerability).
 
 ## Assessment
 
@@ -37,7 +37,7 @@ Participant successfully completes a supervised practice transaction flow (can b
 
 ## Course Completion
 
-Completing Modules 1–7 constitutes the core CeloHT Financial & Digital Literacy Certificate — tracked per [../EDUCATION.md](../EDUCATION.md#measuring-effectiveness) and reflected in the "people trained" metric in [../METRICS.md](../METRICS.md).
+Completing Modules 1–7 constitutes the core CeloHT Financial & Digital Literacy Certificate — tracked per [EDUCATION.md](./EDUCATION.md#measuring-effectiveness) and reflected in the "people trained" metric in [METRICS.md](./METRICS.md).
 
 ## See Also
 

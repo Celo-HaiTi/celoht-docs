@@ -12,7 +12,7 @@ Standards for content published on CeloHT's Medium/blog channel — technical wr
 | Technical deep-dives | As shipped | "How CeloHT's AgentRegistry works" |
 | Governance updates | As decided | "RFC-014: Approved — updated Agent Network fee schedule" |
 | Community/success stories | Ongoing | See [SUCCESS_STORIES.md](./SUCCESS_STORIES.md) |
-| Educational explainers | Ongoing | "What is cUSD, really?" (public-friendly version of [CUSD.md](./CUSD.md)) |
+| Educational explainers | Ongoing | "What is USDm, really?" (public-friendly version of [CUSD.md](./CUSD.md)) |
 
 ## Voice & Style
 
@@ -20,7 +20,7 @@ Follows the Brand repository's `VOICE_AND_TONE.md` — clear, warm, confident wi
 
 ## Required Elements
 
-- Every post mentioning cUSD, CELO, or CeloHT's model must be consistent with [NO_TOKEN_POLICY.md](./NO_TOKEN_POLICY.md) — no language implying investment or speculative opportunity
+- Every post mentioning USDm, CELO, or CeloHT's model must be consistent with [NO_TOKEN_POLICY.md](./NO_TOKEN_POLICY.md) — no language implying investment or speculative opportunity
 - Every impact figure cited must match the current published figures in [METRICS.md](./METRICS.md) — no rounding up or cherry-picking favorable timeframes
 - Technical posts referencing code should link to the actual repository/file, not just describe it
 

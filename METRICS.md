@@ -183,7 +183,7 @@ Collected Metrics
 - Successful Contract Calls
 - Failed Contract Calls
 - Total CELO Volume
-- Total cUSD Volume
+- Total USDm Volume
 - Average Gas Fee
 - Average Confirmation Time
 - Network Status
@@ -312,7 +312,7 @@ The CeloHT dApp may display real-time indicators including:
 - 🎓 Learners Trained
 - 📜 Certificates Issued
 - 🤝 Active Agents
-- 💸 Total cUSD Volume
+- 💸 Total USDm Volume
 - 🪙 Total CELO Volume
 - 🔄 Transactions
 - 🌳 Trees Planted

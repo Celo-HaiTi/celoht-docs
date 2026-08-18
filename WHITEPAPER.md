@@ -78,7 +78,7 @@ This whitepaper exists to give any institutional stakeholder — a grant committ
 | Pillar | Core Activity | Primary Technology Enablers |
 |---|---|---|
 | **Education** | Web3, financial-literacy, and digital-skills training delivered primarily in Haitian Creole | dApp learning modules, CeloHT Academy content series, community workshops |
-| **Agent Network** | Community-based agents providing cUSD cash-in/cash-out and onboarding support | Valora, MiniPay, on-chain agent verification registry |
+| **Agent Network** | Community-based agents providing USDm cash-in/cash-out and onboarding support | Valora, MiniPay, on-chain agent verification registry |
 | **Reforestation** | Community-driven tree planting with transparent, independently verifiable impact reporting | On-chain attestation hashes, public Impact Dashboard |
 
 ### 1.5 Summary of Governance and Legal Posture
@@ -177,11 +177,11 @@ Haiti combines significant unmet financial-inclusion need, a large and economica
 
 ### 5.2 Why Celo
 
-Celo was selected as CeloHT's blockchain foundation because of its mobile-first design philosophy, its EVM compatibility (lowering the barrier for future developer contribution and tooling reuse), and its native stablecoin infrastructure (cUSD), which directly supports CeloHT's core design principle of avoiding exposure of vulnerable users to price-volatile assets. Celo's low transaction costs are particularly relevant to CeloHT's Agent Network use case, where transaction fees that are trivial in absolute terms can represent a meaningful barrier for low-value, high-frequency cash-in/cash-out activity.
+Celo was selected as CeloHT's blockchain foundation because of its mobile-first design philosophy, its EVM compatibility (lowering the barrier for future developer contribution and tooling reuse), and its native stablecoin infrastructure (USDm), which directly supports CeloHT's core design principle of avoiding exposure of vulnerable users to price-volatile assets. Celo's low transaction costs are particularly relevant to CeloHT's Agent Network use case, where transaction fees that are trivial in absolute terms can represent a meaningful barrier for low-value, high-frequency cash-in/cash-out activity.
 
 ### 5.3 Why Stablecoins
 
-CeloHT's use of cUSD, rather than a volatile cryptocurrency, reflects a considered position: financial-inclusion tools for economically vulnerable populations should not introduce new forms of financial risk. A stablecoin allows CeloHT's Agent Network and education programs to demonstrate real, practical digital-payment functionality without asking a first-time user to absorb exchange-rate risk as the cost of participation.
+CeloHT's use of USDm, rather than a volatile cryptocurrency, reflects a considered position: financial-inclusion tools for economically vulnerable populations should not introduce new forms of financial risk. A stablecoin allows CeloHT's Agent Network and education programs to demonstrate real, practical digital-payment functionality without asking a first-time user to absorb exchange-rate risk as the cost of participation.
 
 ### 5.4 Why Open Source
 
@@ -210,7 +210,7 @@ CeloHT's Education pillar delivers Web3, blockchain, financial-literacy, and dig
 | Category | Example Content |
 |---|---|
 | Web3 and blockchain basics | What a blockchain is, what a wallet is, custody and key-management fundamentals |
-| cUSD and Valora/MiniPay training | Practical, hands-on modules on sending, receiving, and safeguarding cUSD |
+| USDm and Valora/MiniPay training | Practical, hands-on modules on sending, receiving, and safeguarding USDm |
 | Financial literacy | Budgeting, savings discipline, remittance management, fraud awareness |
 | Digital skills | Basic smartphone literacy, internet safety, account security |
 
@@ -254,7 +254,7 @@ Planned development includes dApp-integrated interactive modules, structured com
 
 ### 7.1 Executive Summary
 
-The Agent Network is CeloHT's human-infrastructure layer: verified community members who provide cUSD cash-in/cash-out services, bridging digital value and physical cash in communities where that bridge is otherwise limited or absent.
+The Agent Network is CeloHT's human-infrastructure layer: verified community members who provide USDm cash-in/cash-out services, bridging digital value and physical cash in communities where that bridge is otherwise limited or absent.
 
 ### 7.2 Objectives
 
@@ -267,7 +267,7 @@ The Agent Network is CeloHT's human-infrastructure layer: verified community mem
 ```mermaid
 flowchart TD
     A[Agent Application] --> B[Identity and<br/>Background Verification]
-    B --> C[Training: cUSD, Valora/MiniPay,<br/>Compliance, Ethics]
+    B --> C[Training: USDm, Valora/MiniPay,<br/>Compliance, Ethics]
     C --> D[On-Chain Agent<br/>Registry Entry]
     D --> E[Active Agent Status]
     E --> F[Cash-In / Cash-Out<br/>Transaction Facilitation]
@@ -412,7 +412,7 @@ CeloHT's technical architecture, documented in full in `ARCHITECTURE.md`, connec
 
 | Layer | Technologies |
 |---|---|
-| Blockchain | Celo, cUSD, CELO, EVM-compatible smart contracts |
+| Blockchain | Celo, USDm, CELO, EVM-compatible smart contracts |
 | Frontend | Next.js, React, TypeScript, Tailwind CSS, shadcn/ui |
 | Wallets | Valora, MiniPay, WalletConnect |
 | Backend | REST API (`API.md`), relational database, service-oriented architecture |
@@ -425,7 +425,7 @@ CeloHT's technical architecture, documented in full in `ARCHITECTURE.md`, connec
 graph TD
     U[Users: Learners, Agents,<br/>Community Members] --> DAPP[CeloHT dApp]
     DAPP --> WALLET[Wallet Layer<br/>Valora / MiniPay / WalletConnect]
-    WALLET --> CHAIN[Celo Blockchain<br/>cUSD / CELO / Smart Contracts]
+    WALLET --> CHAIN[Celo Blockchain<br/>USDm / CELO / Smart Contracts]
     DAPP --> API[Backend API Layer]
     API --> DB[(Database Layer)]
     API --> ANALYTICS[Impact Analytics Engine]
@@ -1059,7 +1059,7 @@ CeloHT allocates available funds across Education, Agent Network, Reforestation,
 | Risk | Mitigation |
 |---|---|
 | Single-donor over-dependence | Diversified funding-source strategy |
-| Currency or macroeconomic instability affecting programmatic costs | cUSD-denominated operational spending where feasible, reducing local-currency exposure |
+| Currency or macroeconomic instability affecting programmatic costs | USDm-denominated operational spending where feasible, reducing local-currency exposure |
 
 ### 24.5 Key Takeaways
 
@@ -1320,7 +1320,7 @@ Through grants, donations, and ecosystem partnerships, evaluated and accepted un
 Not yet. CeloHT commits to an independent financial review once its annual treasury flow exceeds $50,000 USD-equivalent, and may commission a voluntary review earlier. See `AUDIT_POLICY.md`.
 
 **What blockchain does CeloHT use, and why?**
-Celo, chosen for its mobile-first design, EVM compatibility, and native stablecoin (cUSD) infrastructure. See Section 5.2.
+Celo, chosen for its mobile-first design, EVM compatibility, and native stablecoin (USDm) infrastructure. See Section 5.2.
 
 **Can I contribute to CeloHT without being in Haiti?**
 Yes. CeloHT is an open-source project; code, documentation, translation, and design contributions are welcome from anywhere, subject to `CONTRIBUTING.md` and `CODE_OF_CONDUCT.md`.
@@ -1337,9 +1337,9 @@ Through a combination of on-chain attestation (for reforestation and agent verif
 
 | Term | Definition |
 |---|---|
-| **Agent** | A verified community member facilitating cUSD cash-in/cash-out and digital-payment onboarding |
+| **Agent** | A verified community member facilitating USDm cash-in/cash-out and digital-payment onboarding |
 | **CHIP** | CeloHT Improvement Proposal, the DAO-era proposal format described in `DAO.md` Section 5 |
-| **cUSD** | A Celo-network stablecoin used by CeloHT strictly as an operational payment rail |
+| **USDm** | A Celo-network stablecoin used by CeloHT strictly as an operational payment rail |
 | **Emergency Decision** | A narrowly scoped decision made to contain immediate risk, subject to mandatory ratification (`GOVERNANCE.md` Section 4.5) |
 | **Governance Council** | CeloHT's primary strategic and treasury decision-making body |
 | **Impact Dashboard** | CeloHT's public, continuously updated reporting interface aggregating Education, Agent Network, and Reforestation metrics |

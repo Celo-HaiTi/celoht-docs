@@ -64,7 +64,7 @@ The model is currently in **Phase 1 (Foundation)**, transitioning toward **Phase
 
 ## 2. Mission
 
-CeloHT exists to expand **financial inclusion**, **Web3 literacy**, and **environmental stewardship** in Haiti and comparable communities, using the Celo blockchain's low-cost, mobile-first infrastructure and the existing cUSD stablecoin — without issuing any new token, security, or speculative asset.
+CeloHT exists to expand **financial inclusion**, **Web3 literacy**, and **environmental stewardship** in Haiti and comparable communities, using the Celo blockchain's low-cost, mobile-first infrastructure and the existing USDm stablecoin — without issuing any new token, security, or speculative asset.
 
 ---
 
@@ -83,9 +83,9 @@ A future in which any community member — regardless of banking access, formal 
 | **Remittance friction** | Diaspora-to-family transfers pass through costly, slow intermediaries | Value lost to fees; delays in urgent transfers |
 | **Environmental degradation** | Deforestation pressures in Haiti reduce agricultural resilience and increase disaster vulnerability | Compounding economic and ecological harm in the same communities CeloHT serves |
 | **Fragmented, opaque Web3 education** | Existing crypto education is often promotional, token-focused, or inaccessible in Haitian Creole | Communities miss genuinely useful tools, or are exposed to token speculation risk instead |
-| **Weak trust infrastructure for on/off ramps** | Converting cash to cUSD and back requires a trusted human interface, which is scarce | Low practical usability of stablecoin tools despite technical availability |
+| **Weak trust infrastructure for on/off ramps** | Converting cash to USDm and back requires a trusted human interface, which is scarce | Low practical usability of stablecoin tools despite technical availability |
 
-CeloHT's three pillars map directly onto this problem set: **Education** addresses literacy and trust; the **Agent Network** addresses the cash↔cUSD conversion gap; **Reforestation** addresses environmental resilience.
+CeloHT's three pillars map directly onto this problem set: **Education** addresses literacy and trust; the **Agent Network** addresses the cash↔USDm conversion gap; **Reforestation** addresses environmental resilience.
 
 ---
 
@@ -152,7 +152,7 @@ flowchart LR
 | **Key Partners** | Celo Foundation & ecosystem grant programs; local NGOs and cooperatives; educational institutions; development agencies; strategic collaborators (e.g., FreClean, subject to formal agreement per CeloHT's Partnerships Policy) |
 | **Key Activities** | Curriculum development; agent recruitment & certification; open-source software development; reforestation program design; community governance facilitation |
 | **Key Resources** | Open-source codebase (Apache 2.0); brand and documentation assets; trained agent network; Maintainer Council governance capacity; Celo blockchain infrastructure |
-| **Value Propositions** | Free, trustworthy Web3/financial education in Haitian Creole; accessible cash↔cUSD conversion via local agents; transparent, non-speculative blockchain adoption; measurable environmental impact |
+| **Value Propositions** | Free, trustworthy Web3/financial education in Haitian Creole; accessible cash↔USDm conversion via local agents; transparent, non-speculative blockchain adoption; measurable environmental impact |
 | **Customer Relationships** | Community-based trust via local agents; self-service education content; direct enterprise engagement for consulting/reporting services |
 | **Channels** | celoht.com; GitHub organization; local agent network; community workshops; social media (@CeloHT / celohtofficial); partner institutions |
 | **Customer Segments** | Individuals (students, youth, women entrepreneurs, farmers, merchants, diaspora); Institutions (NGOs, universities, enterprises, development agencies) |
@@ -196,7 +196,7 @@ flowchart TD
 | Women entrepreneurs | Economic opportunity, safe onboarding | Agent network support, non-predatory tools |
 | Farmers / landholders | Environmental resilience, fair collaboration | Transparent reforestation program design |
 | Merchants | Reliable payment tooling | Merchant dashboards, agent support |
-| Diaspora communities | Low-cost, fast remittance-adjacent tools | Education on cUSD/Valora usage; no token speculation |
+| Diaspora communities | Low-cost, fast remittance-adjacent tools | Education on USDm/Valora usage; no token speculation |
 | Local agents | Fair compensation, professional growth | Certification pathway, service-fee model (Phase 3+) |
 | NGOs / development agencies | Verifiable, measurable social impact | Public KPI reporting, transparent governance |
 | Universities | Credible curricular partnership | Structured education partnerships, no promotional bias |
@@ -284,7 +284,7 @@ All revenue streams below are structured as **service fees for optional, advance
 | Offering | Description |
 |---|---|
 | Blockchain consulting | Advisory on Celo-based integration, avoiding token-issuance products |
-| Stablecoin payment integration | Technical implementation support for cUSD payment flows |
+| Stablecoin payment integration | Technical implementation support for USDm payment flows |
 | Digital transformation advisory | Broader digitization strategy for partner organizations |
 | Smart contract consulting | Security-conscious Solidity/Hardhat advisory (non-custodial, non-token) |
 
@@ -430,7 +430,7 @@ flowchart TD
 1. **Sequencing:** CeloHT SHOULD launch revenue streams in order of lowest operational complexity and risk first — beginning with certifications and sponsorships, progressing toward enterprise consulting and developer-platform subscriptions as technical and governance capacity matures.
 2. **Cross-subsidy discipline:** Surpluses from revenue-generating services SHOULD be explicitly earmarked, in financial reporting, toward specific social-impact line items (e.g., "certification revenue funded X reforestation seedlings").
 3. **Avoiding mission drift:** Any new revenue stream proposal MUST pass a mission-alignment review (see `PARTNERSHIPS.md` Section 4, Guiding Principles) before launch, confirming it does not compromise the No Token Policy or free-access commitments.
-4. **Currency and settlement:** Where practical, CeloHT SHOULD settle service revenue in cUSD to reinforce ecosystem usage and transparency, while maintaining fiat off-ramp capability for operational needs.
+4. **Currency and settlement:** Where practical, CeloHT SHOULD settle service revenue in USDm to reinforce ecosystem usage and transparency, while maintaining fiat off-ramp capability for operational needs.
 
 ---
 
@@ -451,7 +451,7 @@ flowchart LR
 | Pillar | Output Metric | Outcome Metric |
 |---|---|---|
 | Education | Participants completing core curriculum | % reporting increased confidence using digital financial tools |
-| Agent Network | Certified active agents; merchants onboarded | Volume of cash↔cUSD conversions facilitated |
+| Agent Network | Certified active agents; merchants onboarded | Volume of cash↔USDm conversions facilitated |
 | Reforestation | Seedlings planted (pilot phase) | Survival rate at 12/24 months |
 
 CeloHT MUST NOT publish impact figures that have not been measured; placeholders in this document MUST NOT be copied into public communications as if they were real results.
@@ -508,7 +508,7 @@ Go-to-market execution MUST remain consistent with the No Token Policy at every 
 | Agent network fraud or misconduct | Low–Medium | High (reputational) | Agent certification, monitoring, Partnerships/Ethics policies |
 | Reforestation program underperformance | Medium | Medium | Pilot-phase scoping before scaling; transparent outcome reporting |
 | Key-person dependency (Foundation Director / core contributors) | Medium | High | Community governance structure; documented processes; succession planning in `GOVERNANCE.md` |
-| Currency/FX volatility affecting local operations | Medium | Medium | cUSD settlement where practical; conservative reserve management |
+| Currency/FX volatility affecting local operations | Medium | Medium | USDm settlement where practical; conservative reserve management |
 | Reputational risk from misrepresented partnerships | Low | High | Partnerships Policy due diligence and category discipline |
 | Technology risk (smart contract bugs, infra downtime) | Low–Medium | Medium | Standard engineering practices, CI/CD, security disclosure process (`SECURITY.md`) |
 
@@ -556,7 +556,7 @@ CeloHT's differentiated position is the **combination** of local trust infrastru
 |---|---|---|
 | Active certified agents | Number of agents currently certified and active | Agent Network |
 | Merchants onboarded | Cumulative merchants using CeloHT-supported tools | Agent Network |
-| Cash↔cUSD conversion volume | Aggregate volume facilitated (placeholder — to be tracked) | Agent Network |
+| Cash↔USDm conversion volume | Aggregate volume facilitated (placeholder — to be tracked) | Agent Network |
 | Learners reached | Cumulative participants in free core curriculum | Education |
 | Certifications issued | Paid certifications completed | Education |
 | Enterprise/university partnerships signed | Count of Confirmed Partners under `PARTNERSHIPS.md` | Partnerships |
@@ -584,7 +584,7 @@ This Business Model document:
 - Does **not** promise, imply, or guarantee financial returns to any party.
 - Does **not** encourage speculative trading or holding of any digital asset.
 - Reinforces CeloHT's **No Token Policy**: CeloHT does not issue, plan to issue, or endorse the issuance of any native token, ICO, presale, or staking instrument.
-- Uses cUSD and CELO strictly as existing, pre-built Celo-ecosystem infrastructure for payments and education — never as products CeloHT creates or controls.
+- Uses USDm and CELO strictly as existing, pre-built Celo-ecosystem infrastructure for payments and education — never as products CeloHT creates or controls.
 - Should be read alongside `PARTNERSHIPS.md`, `GOVERNANCE.md`, and (where published) `LEGAL_STATUS.md` and `FUNDING_POLICY.md` for full compliance context.
 
 Any commercial service described in this document (consulting, certification, enterprise integration) MUST be delivered under terms that are reviewed for consistency with applicable law in the relevant jurisdiction before public launch. CeloHT is not a licensed financial institution, and no service described here MAY be marketed in a way that implies such licensure unless separately and legitimately obtained.

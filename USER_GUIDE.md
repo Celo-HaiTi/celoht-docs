@@ -6,7 +6,7 @@
 Install **Valora** (see [VALORA.md](./VALORA.md)) — the wallet CeloHT's education and Agent Network materials are built around.
 
 ### 2. Learn the Basics (Optional but Recommended)
-Complete the first CeloHT education module before your first transaction — it takes about 15 minutes and covers what cUSD is, how CeloHT works, and how to stay safe. See [EDUCATION.md](./EDUCATION.md).
+Complete the first CeloHT education module before your first transaction — it takes about 15 minutes and covers what USDm is, how CeloHT works, and how to stay safe. See [EDUCATION.md](./EDUCATION.md).
 
 ### 3. Connect Your Wallet
 Open the CeloHT dApp and select "Connect Wallet." Follow your wallet app's confirmation prompt. See [DAPP.md](./DAPP.md#wallet-connection) for the technical flow.

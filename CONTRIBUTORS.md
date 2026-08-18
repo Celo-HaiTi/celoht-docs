@@ -27,7 +27,7 @@ CeloHT recognizes several categories of contribution, consistent with the role d
 | **Design Contributors** | Produce visual assets, UI/UX design, and brand-consistent materials |
 | **Community Contributors (Volunteers)** | Support forum moderation, event coordination, and Code of Conduct enforcement |
 | **Field Contributors** | Participate in reforestation planting events and impact reporting |
-| **Agent Network Contributors** | Community-based agents supporting cUSD cash-in/cash-out access, per `ARCHITECTURE.md` Section 8 |
+| **Agent Network Contributors** | Community-based agents supporting USDm cash-in/cash-out access, per `ARCHITECTURE.md` Section 8 |
 
 ---
 

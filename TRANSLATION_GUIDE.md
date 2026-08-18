@@ -24,7 +24,7 @@ Should this English-language documentation be translated into French or another 
 
 ## Terminology Consistency
 
-Maintain a single glossary of approved translations for key terms (cUSD, Agent Network, No-Token Policy, etc.) rather than letting each translator choose independently — coordinate through the Education Working Group for community-facing terms and the Governance & Legal Working Group for policy terms.
+Maintain a single glossary of approved translations for key terms (USDm, Agent Network, No-Token Policy, etc.) rather than letting each translator choose independently — coordinate through the Education Working Group for community-facing terms and the Governance & Legal Working Group for policy terms.
 
 ## Contributing a Translation
 

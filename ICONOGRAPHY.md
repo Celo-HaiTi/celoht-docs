@@ -21,7 +21,7 @@ CeloHT icons are **line icons**, 2px stroke at 24×24px base grid, rounded caps 
 ## Core Icon Set (by category)
 
 **Education:** book-open, graduation-cap, lightbulb, chalkboard
-**Agent Network:** handshake, map-pin, users, exchange-arrows (cash↔cUSD)
+**Agent Network:** handshake, map-pin, users, exchange-arrows (cash↔USDm)
 **Reforestation:** tree, leaf, seedling, globe
 **Finance/Wallet:** wallet, qr-code, send-arrow, receive-arrow, shield-check (security)
 **Governance/Community:** users-group, megaphone, vote-check, github-mark
@@ -40,7 +40,7 @@ CeloHT icons are **line icons**, 2px stroke at 24×24px base grid, rounded caps 
 ❌ Don't use photographic or 3D-rendered icons — they break the flat, accessible visual system
 ❌ Don't rely on icons alone to convey critical actions (e.g. "delete," "confirm transaction") without a text label
 
-## Example: Agent Network Icon (cash ↔ cUSD)
+## Example: Agent Network Icon (cash ↔ USDm)
 
 ```svg
 <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" width="24" height="24" fill="none" stroke="#1B2A4A" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">

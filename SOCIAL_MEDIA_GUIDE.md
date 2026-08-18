@@ -38,7 +38,7 @@ Use `logos/icon/celoht-icon-full-color.svg` (exported to PNG at the required siz
 
 - Use CeloHT Navy `#1B2A4A` or Off-White `#FAF9F6` as post backgrounds — reserve full Yellow `#FCE94F` backgrounds for the logo lockup itself, not entire post backgrounds (readability at thumbnail size)
 - Headlines in Fraunces, body copy in IBM Plex Sans (see [TYPOGRAPHY.md](./TYPOGRAPHY.md))
-- Every post mentioning cUSD/CELO must avoid any language implying price speculation or investment returns (see [VOICE_AND_TONE.md](./VOICE_AND_TONE.md))
+- Every post mentioning USDm/CELO must avoid any language implying price speculation or investment returns (see [VOICE_AND_TONE.md](./VOICE_AND_TONE.md))
 - Include alt text on every image for screen-reader accessibility — describe the image content, not just "CeloHT logo"
 
 ## Required Disclaimer Placement

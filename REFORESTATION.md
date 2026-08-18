@@ -1,6 +1,6 @@
 # Reforestation
 
-> **Current status:** As of this writing, the Reforestation program is in its design and pilot phase — the operational procedures below (in [`reforestation/`](./reforestation/)) describe the model being stood up for the first pilot, targeted for [Phase 2 of the roadmap](./ROADMAP.md#phase-2--validation-2026-q4--2027-q1), not an already-mature, multi-region operation. This document and its companion manuals describe the intended, designed process — treat status claims about "current" activity as pilot-stage unless [METRICS.md](./METRICS.md) or a dated community update says otherwise.
+> **Current status:** As of this writing, the Reforestation program is in its design and pilot phase — the operational procedures below in the companion manuals describe the model being stood up for the first pilot, targeted for [Phase 2 of the roadmap](./ROADMAP.md#phase-2--validation-2026-q4--2027-q1), not an already-mature, multi-region operation. This document and its companion manuals describe the intended, designed process — treat status claims about "current" activity as pilot-stage unless [METRICS.md](./METRICS.md) or a dated community update says otherwise.
 
 ## Purpose
 
@@ -9,20 +9,20 @@ Reforestation ensures CeloHT's economic development work does not come at enviro
 ## Program Components
 
 ### Tree Planting
-Community-led planting programs using native and regionally appropriate species, selected in consultation with local agricultural and environmental partners. **Full planting methodology:** [reforestation/planting-methodology.md](./reforestation/planting-methodology.md)
+Community-led planting programs using native and regionally appropriate species, selected in consultation with local agricultural and environmental partners. **Full planting methodology:** [planting-methodology.md](./planting-methodology.md)
 
 ### Community Nurseries
-Local nurseries, established and maintained by community members (often coordinated through the Agent Network's local presence), providing saplings for planting programs and building long-term local capacity rather than one-time external planting events. **Full nursery operations manual:** [reforestation/nursery-operations.md](./reforestation/nursery-operations.md)
+Local nurseries, established and maintained by community members (often coordinated through the Agent Network's local presence), providing saplings for planting programs and building long-term local capacity rather than one-time external planting events. **Full nursery operations manual:** [nursery-operations.md](./nursery-operations.md)
 
 ### Climate Education
 Environmental education modules integrated into the broader Education pillar — see [EDUCATION.md](./EDUCATION.md) — covering local climate impact, soil health, and the community benefits of reforestation.
 
 ### Volunteer Management
-Structured volunteer program for community members and diaspora supporters, with defined roles (planting, nursery maintenance, monitoring) and recognition system. **Full volunteer manual:** [reforestation/volunteer-management.md](./reforestation/volunteer-management.md)
+Structured volunteer program for community members and diaspora supporters, with defined roles (planting, nursery maintenance, monitoring) and recognition system. **Full volunteer manual:** [volunteer-management.md](./volunteer-management.md)
 
 ## Impact Measurement
 
-**Full monitoring and survival-tracking manual:** [reforestation/monitoring-and-survival.md](./reforestation/monitoring-and-survival.md)
+**Full monitoring and survival-tracking manual:** [monitoring-and-survival.md](./monitoring-and-survival.md)
 
 ### Methodology
 - Each planting event is logged with: location (GPS-tagged), species, quantity, date, and responsible community group
@@ -40,7 +40,7 @@ Where scientifically defensible, estimated carbon sequestration is reported usin
 
 ## Community Incentives
 
-Community members involved in nursery maintenance and planting verification receive transparent, published compensation for their time (denominated in cUSD, consistent with [NO_TOKEN_POLICY.md](./NO_TOKEN_POLICY.md)), not speculative or token-based rewards.
+Community members involved in nursery maintenance and planting verification receive transparent, published compensation for their time (denominated in USDm, consistent with [NO_TOKEN_POLICY.md](./NO_TOKEN_POLICY.md)), not speculative or token-based rewards.
 
 ## Environmental Reporting
 

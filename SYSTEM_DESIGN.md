@@ -36,7 +36,7 @@ dApp queries AgentRegistry.isActiveAgent(agentAddress) [on-chain read]
 User & Agent meet, agree amount → both confirm in-app
       │
       ▼
-Agent initiates cUSD transfer from their wallet to user's wallet
+Agent initiates USDm transfer from their wallet to user's wallet
       │
       ▼
 User's wallet (Valora) prompts transaction signature

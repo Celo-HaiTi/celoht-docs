@@ -18,7 +18,7 @@ CeloHT is built entirely in the open — code, documentation, governance discuss
 
 ## Why "No Token"
 
-Web3's reputation in many communities has been shaped by speculation, hype, and projects that promised financial upside and delivered loss. CeloHT was deliberately built without a token, without an ICO, and without any investment framing — because the goal was never to create a new asset to trade. The goal is to make people's existing money — and existing tools like cUSD — genuinely usable, day to day.
+Web3's reputation in many communities has been shaped by speculation, hype, and projects that promised financial upside and delivered loss. CeloHT was deliberately built without a token, without an ICO, and without any investment framing — because the goal was never to create a new asset to trade. The goal is to make people's existing money — and existing tools like USDm — genuinely usable, day to day.
 
 ## Where It's Going
 

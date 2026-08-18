@@ -12,7 +12,7 @@ This document defines what donations CeloHT accepts, how restricted and unrestri
 
 ## Scope
 
-This policy applies to all monetary and in-kind donations offered to CeloHT, regardless of amount, source, or form (fiat, cUSD, or other assets), and to every individual involved in soliciting, accepting, or processing a donation on CeloHT's behalf.
+This policy applies to all monetary and in-kind donations offered to CeloHT, regardless of amount, source, or form (fiat, USDm, or other assets), and to every individual involved in soliciting, accepting, or processing a donation on CeloHT's behalf.
 
 ## Responsibilities
 
@@ -34,7 +34,7 @@ CeloHT accepts donations that:
 
 - Are consistent with CeloHT's mission as described in `LEGAL_STATUS.md` Section 2.
 - Do not require CeloHT to misrepresent its legal status (`LEGAL_STATUS.md` Section 3) or compromise its non-token, non-investment identity (`NO_TOKEN_POLICY.md`).
-- Are made in a form CeloHT can practically receive, record, and report on (fiat via available channels, or cUSD via CeloHT's treasury infrastructure per `TREASURY.md`).
+- Are made in a form CeloHT can practically receive, record, and report on (fiat via available channels, or USDm via CeloHT's treasury infrastructure per `TREASURY.md`).
 
 Donations above $1,000 USD-equivalent from an undisclosed or anonymous source require additional Treasury Committee review before acceptance, consistent with `LEGAL_STATUS.md` Section 8, to guard against misuse.
 

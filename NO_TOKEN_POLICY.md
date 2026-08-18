@@ -19,10 +19,10 @@ Specifically, CeloHT has:
 
 CeloHT operates entirely on **existing, independently-issued Celo network assets**:
 
-- **cUSD** (Celo Dollar) — used for payments, education stipends where applicable, and Agent Network transactions
+- **USDm** (Celo Dollar) — used for payments, education stipends where applicable, and Agent Network transactions
 - **CELO** — used exclusively for network gas fees, never held or promoted as an investment asset by CeloHT
 
-CeloHT did not create, does not control, and does not profit from the issuance of cUSD or CELO. These are pre-existing assets on the Celo network that CeloHT uses as payment infrastructure, in the same way a merchant uses an existing national currency.
+CeloHT did not create, does not control, and does not profit from the issuance of USDm or CELO. These are pre-existing assets on the Celo network that CeloHT uses as payment infrastructure, in the same way a merchant uses an existing national currency.
 
 ## Why This Policy Exists
 
@@ -35,8 +35,8 @@ CeloHT did not create, does not control, and does not profit from the issuance o
 
 - No CeloHT communication, document, or representative may describe CeloHT participation as an "investment" or promise financial "returns"
 - No CeloHT material may reference a "CeloHT token," "$CELOHT," or similar — any such reference found anywhere is unauthorized and should be reported per [SECURITY.md](./SECURITY.md)
-- Agents in the [Agent Network](./AGENT_NETWORK.md) are compensated through a transparent, published fee/incentive structure denominated in cUSD for services rendered — not through token rewards or appreciation
-- Grant or donor funding (see [PARTNERS.md](./PARTNERS.md)) is denominated in fiat or cUSD, never structured as a token allocation
+- Agents in the [Agent Network](./AGENT_NETWORK.md) are compensated through a transparent, published fee/incentive structure denominated in USDm for services rendered — not through token rewards or appreciation
+- Grant or donor funding (see [PARTNERS.md](./PARTNERS.md)) is denominated in fiat or USDm, never structured as a token allocation
 
 ## Reporting Violations
 

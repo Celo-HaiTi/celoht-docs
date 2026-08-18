@@ -10,7 +10,7 @@ That said, certain roles are compensated, funded through the mechanisms describe
 
 | Role | Compensation basis |
 |---|---|
-| Agent Network members | Transparent per-transaction fee, paid in cUSD — see [AGENT_NETWORK.md](./AGENT_NETWORK.md#revenue-model) |
+| Agent Network members | Transparent per-transaction fee, paid in USDm — see [AGENT_NETWORK.md](./AGENT_NETWORK.md#revenue-model) |
 | Regional Coordinators | Stipend funded through earmarked grants, published per region |
 | Reforestation nursery/monitoring staff | Transparent compensation per [REFORESTATION.md](./REFORESTATION.md#community-incentives) |
 | Core Engineering/Education staff (where grant-funded) | Standard employment or contractor terms, disclosed in aggregate per [FUNDING_POLICY.md](./FUNDING_POLICY.md#transparency-reporting) |

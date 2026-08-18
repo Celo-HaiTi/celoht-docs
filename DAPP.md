@@ -14,10 +14,10 @@ The CeloHT dApp is the core transactional interface connecting users, agents, an
 3. Optional guided education mini-module before first transaction
 4. Nearest verified agent lookup (for cash-in) or direct payment flow
 
-### Sending / Receiving cUSD
+### Sending / Receiving USDm
 1. User selects "Send" or "Receive"
 2. For "Receive": QR code generated, displayable offline once loaded
-3. For "Send": QR scan or manual address entry, amount entry in both cUSD and local currency equivalent, confirmation screen showing exact fee (gas in CELO), wallet-app signature
+3. For "Send": QR scan or manual address entry, amount entry in both USDm and local currency equivalent, confirmation screen showing exact fee (gas in CELO), wallet-app signature
 4. Transaction status shown with on-chain confirmation tracking
 
 ### Agent Interaction

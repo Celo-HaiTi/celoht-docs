@@ -1,6 +1,6 @@
 # Module 1: Digital & Financial Literacy Foundations
 
-*Part of the CeloHT Education curriculum — see [../EDUCATION.md](../EDUCATION.md) for the full module list and delivery model.*
+*Part of the CeloHT Education curriculum — see [./EDUCATION.md](./EDUCATION.md) for the full module list and delivery model.*
 
 ## Audience
 Individuals and communities with little or no prior formal financial education. No smartphone or blockchain knowledge assumed.
@@ -18,11 +18,11 @@ By the end of this module, a participant should be able to:
 
 ## Lesson 1.1 — Understanding Money and Value
 
-**Key concept:** Money is a tool for exchanging value — whether it's paper cash, a bank balance, or a digital asset like cUSD, the function is the same: it lets you trade what you have for what you need.
+**Key concept:** Money is a tool for exchanging value — whether it's paper cash, a bank balance, or a digital asset like USDm, the function is the same: it lets you trade what you have for what you need.
 
 **Discussion prompt:** "What do you currently use to pay for things day to day? What works well? What's frustrating?"
 
-**Facilitator note:** This module is delivered in Haitian Creole in practice; this document is the English-language reference/master version maintained per [../CONTRIBUTING.md](../CONTRIBUTING.md#language-policy). Localized delivery materials are maintained separately by the Education Working Group.
+**Facilitator note:** This module is delivered in Haitian Creole in practice; this document is the English-language reference/master version maintained per [./CONTRIBUTING.md](./CONTRIBUTING.md#language-policy). Localized delivery materials are maintained separately by the Education Working Group.
 
 ## Lesson 1.2 — Budgeting Basics
 
@@ -40,21 +40,21 @@ By the end of this module, a participant should be able to:
 
 ## Lesson 1.3 — Understanding Fees
 
-**Key concept:** Every payment method has some cost — cash has the cost of travel/time to a bank or agent, wire transfers have fees, and digital payments have network fees (see [../CELO.md](../CELO.md#gas--fees)).
+**Key concept:** Every payment method has some cost — cash has the cost of travel/time to a bank or agent, wire transfers have fees, and digital payments have network fees (see [./CELO.md](./CELO.md#gas--fees)).
 
-**Activity:** Compare, as a group, the real cost (money + time + risk) of three ways to send money to a family member in another city: in-person cash delivery, a money transfer service, and a CeloHT Agent Network cash-in/cash-out (see [../AGENT_NETWORK.md](../AGENT_NETWORK.md)).
+**Activity:** Compare, as a group, the real cost (money + time + risk) of three ways to send money to a family member in another city: in-person cash delivery, a money transfer service, and a CeloHT Agent Network cash-in/cash-out (see [./AGENT_NETWORK.md](./AGENT_NETWORK.md)).
 
 ## Lesson 1.4 — Introduction to Saving Digitally
 
-**Key concept:** Holding value digitally (e.g. in cUSD) can reduce the risks of holding physical cash (theft, loss, spoilage) — introduces the idea developed fully in [Module 3](./module-03-cusd-and-celo.md).
+**Key concept:** Holding value digitally (e.g. in USDm) can reduce the risks of holding physical cash (theft, loss, spoilage) — introduces the idea developed fully in [Module 3](./module-03-cusd-and-celo.md).
 
 ## Assessment
 
-Simple 5-question true/false or multiple-choice check, delivered verbally in group settings or via the app. A participant should correctly answer at least 4/5 to be considered to have completed the module — see [../EDUCATION.md](../EDUCATION.md#measuring-effectiveness).
+Simple 5-question true/false or multiple-choice check, delivered verbally in group settings or via the app. A participant should correctly answer at least 4/5 to be considered to have completed the module — see [./EDUCATION.md](./EDUCATION.md#measuring-effectiveness).
 
 ## Facilitator Requirements
 
-Any Agent Network member or trained community facilitator can deliver this module after completing the Education Working Group's train-the-trainer session — see [../AGENT_NETWORK.md](../AGENT_NETWORK.md#training-curriculum).
+Any Agent Network member or trained community facilitator can deliver this module after completing the Education Working Group's train-the-trainer session — see [./AGENT_NETWORK.md](./AGENT_NETWORK.md#training-curriculum).
 
 ## Next Module
 

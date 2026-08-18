@@ -28,7 +28,7 @@
 
 ### Wallet & Seed-Phrase Phishing
 **Threat:** attacker tricks a user into revealing their seed phrase.
-**Mitigation:** absolute rule taught in [education/module-04-wallet-safety.md](./education/module-04-wallet-safety.md): CeloHT never asks for it, under any circumstance.
+**Mitigation:** absolute rule taught in [module-04-wallet-safety.md](./module-04-wallet-safety.md): CeloHT never asks for it, under any circumstance.
 
 ### Smart Contract Vulnerabilities
 **Threat:** reentrancy, access-control bypass, or logic errors in deployed contracts.
@@ -36,7 +36,7 @@
 
 ### Agent Fraud
 **Threat:** a registered agent commits fraud against users, or a fraudster impersonates an agent.
-**Mitigation:** on-chain [AgentRegistry](./SMART_CONTRACTS.md#agentregistry--reference-specification) verification, mandatory training and re-certification, transaction limits and velocity monitoring — see [agent-network/risk-management.md](./agent-network/risk-management.md).
+**Mitigation:** on-chain [AgentRegistry](./SMART_CONTRACTS.md#agentregistry--reference-specification) verification, mandatory training and re-certification, transaction limits and velocity monitoring — see [risk-management.md](./risk-management.md).
 
 ### Supply Chain
 **Threat:** a compromised dependency introduces malicious code.
@@ -58,5 +58,5 @@ This threat model is reviewed whenever a new major feature ships (especially any
 
 - [SECURITY.md](./SECURITY.md)
 - [SMART_CONTRACTS.md](./SMART_CONTRACTS.md)
-- [agent-network/risk-management.md](./agent-network/risk-management.md)
+- [risk-management.md](./risk-management.md)
 - [PRIVACY.md](./PRIVACY.md)

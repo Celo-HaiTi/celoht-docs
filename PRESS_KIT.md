@@ -15,7 +15,7 @@ CeloHT is a Haitian-led, open-source initiative focused on financial inclusion, 
 - **Founded by:** Johnny Dubic
 - **Governance:** Community-governed, open source
 - **Focus areas:** Financial inclusion, Web3/financial education, environmental sustainability
-- **Blockchain infrastructure:** Celo (cUSD for payments, CELO for gas)
+- **Blockchain infrastructure:** Celo (USDm for payments, CELO for gas)
 - **Wallet:** Valora (recommended, not exclusive or affiliated)
 - **Token model:** None — no native token, no ICO, no presale, no staking token
 - **Website:** celoht.com
@@ -24,7 +24,7 @@ CeloHT is a Haitian-led, open-source initiative focused on financial inclusion, 
 
 ## Logo & Visual Assets
 
-All logo files are available in [`logos/`](./logos) — SVG preferred for print and digital use. See [LOGO_GUIDELINES.md](./LOGO_GUIDELINES.md) before publishing.
+All logo files are available in the repository root as SVG and PNG assets, with SVG preferred for print and digital use. See [LOGO_GUIDELINES.md](./LOGO_GUIDELINES.md) before publishing.
 
 ## Approved Quotes
 
@@ -36,7 +36,7 @@ All logo files are available in [`logos/`](./logos) — SVG preferred for print 
 
 - CeloHT is **not** a cryptocurrency, token, or investment platform — please do not characterize it as one
 - CeloHT's relationship to Celo and Valora is a technology choice, not a formal partnership or endorsement
-- Impact claims should reference CeloHT's published metrics (people trained, wallets created, active agents, cUSD transaction volume, trees planted) — request current figures at contact@celoht.org
+- Impact claims should reference CeloHT's published metrics (people trained, wallets created, active agents, USDm transaction volume, trees planted) — request current figures at contact@celoht.org
 - Interviews and comments from CeloHT should be attributed to named community maintainers or the founder, not to "the CeloHT team" anonymously, wherever possible
 
 ## Media Contact

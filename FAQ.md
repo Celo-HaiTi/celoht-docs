@@ -34,7 +34,7 @@ Never, under any circumstance. Any message asking for this is fraudulent. See [S
 See the lifecycle and requirements in [AGENT_NETWORK.md](./AGENT_NETWORK.md#agent-lifecycle). Registration begins through the dApp's agent onboarding flow.
 
 **How are agents compensated?**
-Through a transparent, published per-transaction fee paid in cUSD — never through token rewards. See [AGENT_NETWORK.md](./AGENT_NETWORK.md#revenue-model).
+Through a transparent, published per-transaction fee paid in USDm — never through token rewards. See [AGENT_NETWORK.md](./AGENT_NETWORK.md#revenue-model).
 
 ## Contributing & Partnering
 
@@ -45,7 +45,7 @@ Yes — CeloHT is fully open source and welcomes global contributors. See [DEVEL
 See [PARTNERS.md](./PARTNERS.md#how-to-propose-a-partnership).
 
 **Does CeloHT accept donations or grants?**
-Yes, denominated in fiat or cUSD, earmarked to specific pillars. See [GOVERNANCE.md](./GOVERNANCE.md#funding-governance).
+Yes, denominated in fiat or USDm, earmarked to specific pillars. See [GOVERNANCE.md](./GOVERNANCE.md#funding-governance).
 
 ## Governance
 

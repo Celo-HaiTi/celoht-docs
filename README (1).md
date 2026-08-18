@@ -11,7 +11,7 @@
 
 CeloHT (Celo-HT) is a Haitian-led, community-governed, open-source social-impact initiative focused on financial inclusion, blockchain education, and environmental sustainability in Haiti. It is built on the Celo blockchain ecosystem as an infrastructure choice — **CeloHT is not affiliated with Celo Foundation or Valora, is not a cryptocurrency, and is not an investment platform.**
 
-**No Token Policy:** CeloHT has no native token, no ICO, no presale, no staking token, no speculation model, and makes no investment promises. It uses only existing Celo network assets — cUSD for payments, CELO for gas.
+**No Token Policy:** CeloHT has no native token, no ICO, no presale, no staking token, no speculation model, and makes no investment promises. It uses only existing Celo network assets — USDm for payments, CELO for gas.
 
 CeloHT is organized around three permanent pillars:
 

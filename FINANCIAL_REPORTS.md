@@ -162,7 +162,7 @@ Prepared by: Treasury Committee
 ## Treasury Balance
 | Asset | Opening Balance | Inflows | Outflows | Closing Balance |
 |---|---|---|---|---|
-| cUSD | [Not Yet Available] | | | |
+| USDm | [Not Yet Available] | | | |
 | Fiat (if applicable) | [Not Yet Available] | | | |
 
 ## Multi-Signature Custody Status

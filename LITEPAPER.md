@@ -10,7 +10,7 @@ A large share of Haiti's population lacks access to formal banking, reliable fin
 
 CeloHT addresses this through three permanent, interdependent pillars:
 
-**Education** — Financial literacy and Web3 education delivered primarily in Haitian Creole, covering blockchain fundamentals, digital security, cUSD, CELO, and responsible use of digital financial tools. See [EDUCATION.md](./EDUCATION.md).
+**Education** — Financial literacy and Web3 education delivered primarily in Haitian Creole, covering blockchain fundamentals, digital security, USDm, CELO, and responsible use of digital financial tools. See [EDUCATION.md](./EDUCATION.md).
 
 **Agent Network** — A trained network of local community agents providing cash-in/cash-out services, wallet onboarding, and ongoing human support — bridging cash economies with digital payments. See [AGENT_NETWORK.md](./AGENT_NETWORK.md).
 
@@ -18,7 +18,7 @@ CeloHT addresses this through three permanent, interdependent pillars:
 
 ## The Technology
 
-CeloHT is built on the **Celo blockchain**, chosen for its mobile-first design, low transaction fees, and stable-value **cUSD** asset — well suited to everyday payments in contexts where currency volatility is a real concern. CeloHT supports the **Valora** wallet. CELO is used exclusively for gas.
+CeloHT is built on the **Celo blockchain**, chosen for its mobile-first design, low transaction fees, and stable-value **USDm** asset — well suited to everyday payments in contexts where currency volatility is a real concern. CeloHT supports the **Valora** wallet. CELO is used exclusively for gas.
 
 CeloHT is **not affiliated with Celo Foundation or Valora** beyond this technical infrastructure choice, and has **no native token, no ICO, and no investment model** — see [NO_TOKEN_POLICY.md](./NO_TOKEN_POLICY.md).
 
@@ -28,7 +28,7 @@ CeloHT is community-governed. Founded by Johnny Dubic, the project is directed t
 
 ## Impact Measurement
 
-CeloHT tracks and publishes: people trained, wallets created, active agents, transaction volume (cUSD), communities reached, trees planted, partner organizations, and open-source contributor growth. See [METRICS.md](./METRICS.md).
+CeloHT tracks and publishes: people trained, wallets created, active agents, transaction volume (USDm), communities reached, trees planted, partner organizations, and open-source contributor growth. See [METRICS.md](./METRICS.md).
 
 ## Who This Is For
 

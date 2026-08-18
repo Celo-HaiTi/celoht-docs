@@ -8,7 +8,7 @@
 
 CeloHT is an open-source, community-governed initiative built on the Celo blockchain, focused on financial inclusion education, a community Agent Network, and environmental reforestation. This document specifies the CeloHT API: its design principles, authentication model, conventions, and endpoints.
 
-**CeloHT is not a cryptocurrency, ICO, token sale, or investment platform.** No endpoint in this specification issues, sells, or trades a token or security. Endpoints referencing cUSD or CELO expose read access to existing, independently issued Celo-network assets used strictly as payment and settlement infrastructure — never a CeloHT-issued instrument.
+**CeloHT is not a cryptocurrency, ICO, token sale, or investment platform.** No endpoint in this specification issues, sells, or trades a token or security. Endpoints referencing USDm or CELO expose read access to existing, independently issued Celo-network assets used strictly as payment and settlement infrastructure — never a CeloHT-issued instrument.
 
 As of this document's publication date, CeloHT's backend infrastructure is in early development. Every endpoint below is explicitly labeled **Implemented**, **In Development**, or **Planned**. Endpoints marked **Planned** describe designed-but-unbuilt functionality and are published so that integrating partners and contributors can build against a stable, forward-looking contract. No endpoint's status label should be read as a claim that the underlying functionality is live unless labeled **Implemented**.
 
@@ -299,7 +299,7 @@ GET /v1/education/courses?sort=created_at&order=desc
 Endpoints supporting free-text search accept a `q` parameter:
 
 ```
-GET /v1/education/courses?q=cUSD+basics
+GET /v1/education/courses?q=USDm+basics
 ```
 
 Search behavior (exact-match vs. full-text) is documented per endpoint in Section 15.
@@ -573,7 +573,7 @@ print(response.json())
   "data": {
     "pillar": "education",
     "description": "Web3, financial literacy, and digital-skills education.",
-    "categories": ["web3-basics", "financial-literacy", "cusd-valora-training", "digital-skills"]
+    "categories": ["web3-basics", "financial-literacy", "usdm-valora-training", "digital-skills"]
   }
 }
 ```
@@ -605,8 +605,8 @@ curl -s https://api.celoht.org/v1/education
   "data": [
     {
       "id": "crs_01HXAMPLE",
-      "title": "Introduction to cUSD and Valora",
-      "category": "cusd-valora-training",
+      "title": "Introduction to USDm and Valora",
+      "category": "usdm-valora-training",
       "language": "ht",
       "duration_minutes": 45
     }
@@ -628,13 +628,13 @@ curl -s https://api.celoht.org/v1/education
 
 **cURL**
 ```bash
-curl -s "https://api.celoht.org/v1/education/courses?category=cusd-valora-training&limit=10"
+curl -s "https://api.celoht.org/v1/education/courses?category=usdm-valora-training&limit=10"
 ```
 
 **JavaScript (Fetch)**
 ```javascript
 const res = await fetch(
-  "https://api.celoht.org/v1/education/courses?category=cusd-valora-training&limit=10"
+  "https://api.celoht.org/v1/education/courses?category=usdm-valora-training&limit=10"
 );
 const { data } = await res.json();
 ```
@@ -659,7 +659,7 @@ import requests
 
 response = requests.get(
     "https://api.celoht.org/v1/education/courses",
-    params={"category": "cusd-valora-training", "limit": 10},
+    params={"category": "usdm-valora-training", "limit": 10},
 )
 courses = response.json()["data"]
 ```
@@ -667,7 +667,7 @@ courses = response.json()["data"]
 **Flutter / Dart**
 ```dart
 final uri = Uri.parse('https://api.celoht.org/v1/education/courses')
-    .replace(queryParameters: {'category': 'cusd-valora-training', 'limit': '10'});
+    .replace(queryParameters: {'category': 'usdm-valora-training', 'limit': '10'});
 final response = await http.get(uri);
 final courses = jsonDecode(response.body)['data'];
 ```
@@ -911,7 +911,7 @@ curl -s https://api.celoht.org/v1/news
 
 | Field | Detail |
 |---|---|
-| **Purpose** | Return the authenticated user's or agent's cUSD transaction history facilitated through CeloHT |
+| **Purpose** | Return the authenticated user's or agent's USDm transaction history facilitated through CeloHT |
 | **Method / URL** | `GET /v1/transactions` |
 | **Description** | Returns off-chain records reconciled with on-chain data per `ARCHITECTURE.md` Section 6.5. Does **not** expose other users' transaction data. |
 | **Authentication** | Required (JWT) |
@@ -1019,7 +1019,7 @@ curl -s "https://api.celoht.org/v1/donations?scope=aggregate"
 
 | Field | Type | Required | Description |
 |---|---|---|---|
-| `amount_cusd` | string (decimal) | Yes | Intended donation amount in cUSD |
+| `amount_cusd` | string (decimal) | Yes | Intended donation amount in USDm (Note: field name is legacy; reflects `cusd` historical naming before terminology standardized to USDm) |
 | `restriction` | string \| null | No | One of the categories in `TREASURY.md` Section 6, or `null` for unrestricted |
 | `anonymous` | boolean | No | Whether the donor requests anonymity per `DONATION_POLICY.md` Section 6 |
 
@@ -1713,7 +1713,7 @@ Every endpoint in Section 15 currently sits at the **Planned** stage. As impleme
 No. As of this document's publication date, all endpoints are labeled **Planned**. This document specifies the target contract for integration.
 
 **Does the API let me buy or trade a CeloHT token?**
-No. CeloHT has no token. Endpoints referencing cUSD or CELO expose read access to existing Celo-network assets, never a CeloHT-issued instrument. See `LEGAL_STATUS.md` and `NO_TOKEN_POLICY.md`.
+No. CeloHT has no token. Endpoints referencing USDm or CELO expose read access to existing Celo-network assets, never a CeloHT-issued instrument. See `LEGAL_STATUS.md` and `NO_TOKEN_POLICY.md`.
 
 **Can I get a full transaction history for any wallet?**
 No. `GET /transactions` returns only the authenticated caller's own records, consistent with data protection principles in `LEGAL_STATUS.md` Section 16.

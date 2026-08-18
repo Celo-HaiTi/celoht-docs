@@ -1,6 +1,6 @@
 # Module 4: Using Valora Safely
 
-*Part of the CeloHT Education curriculum — see [../EDUCATION.md](../EDUCATION.md).*
+*Part of the CeloHT Education curriculum — see [./EDUCATION.md](./EDUCATION.md).*
 *Previous: [Module 3 →](./module-03-cusd-and-celo.md)*
 
 ## Audience
@@ -18,7 +18,7 @@ Approx. 60 minutes, hands-on (bring your own device).
 
 ## Lesson 4.1 — Choosing Your Wallet
 
-Refer participants to [../VALORA.md](../VALORA.md) for setup guidance.
+Refer participants to [./VALORA.md](./VALORA.md) for setup guidance.
 
 ## Lesson 4.2 — Setting Up Your Wallet (Hands-On)
 
@@ -30,15 +30,15 @@ Step-by-step, supervised setup. Facilitators watch for and correct common errors
 
 > "Nobody from CeloHT, an agent, or any legitimate service will ever ask for your seed phrase. Ever. If someone asks, it is a scam — even if they say they're 'from CeloHT support.'"
 
-This directly operationalizes [../SECURITY.md](../SECURITY.md#wallet-safety).
+This directly operationalizes [./SECURITY.md](./SECURITY.md#wallet-safety).
 
 ## Lesson 4.4 — Verifying a Transaction
 
-Hands-on walkthrough: what to check before approving a transaction in the wallet app — recipient address, amount, and network fee — matching what was agreed in person (relevant directly to Agent Network cash-in/cash-out, see [../AGENT_NETWORK.md](../AGENT_NETWORK.md#agent-interaction)).
+Hands-on walkthrough: what to check before approving a transaction in the wallet app — recipient address, amount, and network fee — matching what was agreed in person (relevant directly to Agent Network cash-in/cash-out, see [./AGENT_NETWORK.md](./AGENT_NETWORK.md#agent-interaction)).
 
 ## Lesson 4.5 — Recognizing Phishing
 
-Show real (redacted) examples of the difference between the legitimate CeloHT dApp URL/app and common phishing patterns (lookalike URLs, fake "urgent action required" messages, unsolicited DMs offering help). Cross-reference [../SECURITY.md](../SECURITY.md#threat-model).
+Show real (redacted) examples of the difference between the legitimate CeloHT dApp URL/app and common phishing patterns (lookalike URLs, fake "urgent action required" messages, unsolicited DMs offering help). Cross-reference [./SECURITY.md](./SECURITY.md#threat-model).
 
 ## Assessment
 

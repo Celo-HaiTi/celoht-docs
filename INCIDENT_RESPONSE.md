@@ -23,7 +23,7 @@ Engineering side of the Maintainer Council assesses severity:
 
 ### 3. Containment
 - **Smart contracts:** pause governance-controlled admin functions if applicable — see [SMART_CONTRACTS.md](./SMART_CONTRACTS.md#agentregistry--reference-specification)
-- **Agent fraud:** immediate suspension via [AgentRegistry](./SMART_CONTRACTS.md#agentregistry--reference-specification) — see [agent-network/emergency-procedures.md](./agent-network/emergency-procedures.md)
+- **Agent fraud:** immediate suspension via [AgentRegistry](./SMART_CONTRACTS.md#agentregistry--reference-specification) — see [agent-network/emergency-procedures.md](./emergency-procedures.md)
 - **Brand impersonation:** public advisory, platform takedown requests where applicable
 - **Infrastructure:** rate-limiting, temporary feature disablement, or rollback per [DEPLOYMENT.md](./DEPLOYMENT.md#rollback-procedure)
 
@@ -59,5 +59,5 @@ A public postmortem is published for any incident affecting user funds, data, or
 
 - [SECURITY.md](./SECURITY.md)
 - [THREAT_MODEL.md](./THREAT_MODEL.md)
-- [agent-network/emergency-procedures.md](./agent-network/emergency-procedures.md)
+- [agent-network/emergency-procedures.md](./emergency-procedures.md)
 - [MONITORING.md](./MONITORING.md)

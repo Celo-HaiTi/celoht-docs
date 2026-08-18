@@ -9,7 +9,7 @@ A single-page overview of everything CeloHT is built on. For depth, follow the l
 | Component | Role | Detail |
 |---|---|---|
 | Celo | Underlying blockchain | [CELO.md](./CELO.md) |
-| cUSD | Payment asset (stable value) | [CUSD.md](./CUSD.md) |
+| USDm | Payment asset (stable value) | [CUSD.md](./CUSD.md) |
 | CELO (token) | Gas only, never promoted as a holding | [CELO.md](./CELO.md#gas--fees) |
 | Valora | Recommended wallet | [VALORA.md](./VALORA.md) |
 
@@ -31,7 +31,7 @@ A single-page overview of everything CeloHT is built on. For depth, follow the l
 
 ## Why These Choices
 
-Every technology choice here traces back to one constraint: the target user often has a lower-end Android device, limited data, and no prior blockchain experience. Celo's mobile-first design and cUSD's stability address the blockchain-layer half of that; Next.js/React with an offline-tolerant design (see [DAPP.md](./DAPP.md#offline-first-concepts)) addresses the application-layer half.
+Every technology choice here traces back to one constraint: the target user often has a lower-end Android device, limited data, and no prior blockchain experience. Celo's mobile-first design and USDm's stability address the blockchain-layer half of that; Next.js/React with an offline-tolerant design (see [DAPP.md](./DAPP.md#offline-first-concepts)) addresses the application-layer half.
 
 ## What CeloHT Deliberately Doesn't Use
 

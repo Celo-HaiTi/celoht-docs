@@ -36,10 +36,10 @@
 CeloHT is a Haitian-led, open-source initiative expanding financial inclusion through three permanent pillars:
 
 1. **[Education](./EDUCATION.md)** - Web3, financial literacy, and digital security education, delivered primarily in Haitian Creole.
-2. **[Agent Network](./AGENT_NETWORK.md)** - a trained, community-rooted network of local agents providing cash ↔ cUSD conversion and digital payment support.
+2. **[Agent Network](./AGENT_NETWORK.md)** - a trained, community-rooted network of local agents providing cash ↔ USDm conversion and digital payment support.
 3. **[Reforestation](./REFORESTATION.md)** - measurable, transparently reported environmental restoration tied to community development.
 
-CeloHT uses the **Celo blockchain** as infrastructure supporting **cUSD** for payments, **CELO** for gas, and the **Valora** wallet. CeloHT is independently governed by its community and is **not officially affiliated with, endorsed by, or operated by Celo Foundation or Valora.**
+CeloHT uses the **Celo blockchain** as infrastructure supporting **USDm** for payments, **CELO** for gas, and the **Valora** wallet. CeloHT is independently governed by its community and is **not officially affiliated with, endorsed by, or operated by Celo Foundation or Valora.**
 
 **CeloHT has no native token, no ICO, no presale, and makes no investment promises.** See [NO_TOKEN_POLICY.md](./NO_TOKEN_POLICY.md).
 

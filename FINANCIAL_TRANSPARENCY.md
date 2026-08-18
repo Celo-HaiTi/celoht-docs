@@ -14,7 +14,7 @@ This document is the foundation of a broader Financial Governance suite, which i
 
 ## Scope
 
-This framework applies to all funds received, held, or disbursed in CeloHT's name, regardless of source (grants, donations, programmatic revenue) or form (fiat, cUSD, or any other asset), and to every individual with financial decision-making authority under `GOVERNANCE.md`, including the Founder, the Governance Council, the Treasury Committee, and Working Group Leads with budget responsibility.
+This framework applies to all funds received, held, or disbursed in CeloHT's name, regardless of source (grants, donations, programmatic revenue) or form (fiat, USDm, or any other asset), and to every individual with financial decision-making authority under `GOVERNANCE.md`, including the Founder, the Governance Council, the Treasury Committee, and Working Group Leads with budget responsibility.
 
 ## Responsibilities
 

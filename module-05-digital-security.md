@@ -1,6 +1,6 @@
 # Module 5: Digital Security
 
-*Part of the CeloHT Education curriculum — see [../EDUCATION.md](../EDUCATION.md).*
+*Part of the CeloHT Education curriculum — see [./EDUCATION.md](./EDUCATION.md).*
 *Previous: [Module 4 →](./module-04-wallet-safety.md)*
 
 ## Audience
@@ -22,7 +22,7 @@ Basic practical steps: device lock, avoiding unofficial app sources, keeping the
 
 ## Lesson 5.2 — Recognizing Scams Beyond Wallet Phishing
 
-Broader pattern recognition, connecting back to [Module 4](./module-04-wallet-safety.md): urgency ("act now or lose access"), authority impersonation ("this is CeloHT support"), and — specifically relevant here — any offer involving a "CeloHT token," presale, or investment opportunity, which is always fraudulent per [../NO_TOKEN_POLICY.md](../NO_TOKEN_POLICY.md#reporting-violations).
+Broader pattern recognition, connecting back to [Module 4](./module-04-wallet-safety.md): urgency ("act now or lose access"), authority impersonation ("this is CeloHT support"), and — specifically relevant here — any offer involving a "CeloHT token," presale, or investment opportunity, which is always fraudulent per [./NO_TOKEN_POLICY.md](./NO_TOKEN_POLICY.md#reporting-violations).
 
 ## Lesson 5.3 — Shared and Public Devices
 
@@ -30,7 +30,7 @@ Guidance for participants who may access the CeloHT dApp from a shared family de
 
 ## Lesson 5.4 — Reporting
 
-Clear, memorized path: if something looks wrong — a fake agent, a token scam using the CeloHT name, a suspicious message — report to a known local Agent Network member or contact@celoht.com. See [../SECURITY.md](../SECURITY.md#reporting-a-vulnerability).
+Clear, memorized path: if something looks wrong — a fake agent, a token scam using the CeloHT name, a suspicious message — report to a known local Agent Network member or contact@celoht.com. See [./SECURITY.md](./SECURITY.md#reporting-a-vulnerability).
 
 ## Assessment
 

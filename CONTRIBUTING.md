@@ -34,7 +34,7 @@ Changes to the following require two-maintainer approval, per [GOVERNANCE.md](./
 
 1. Open an issue describing the gap or correction
 2. For new documents, get initial maintainer feedback before writing the full draft — this avoids wasted effort on scope that doesn't fit
-3. Submit a PR referencing the issue, following the [PULL_REQUEST_TEMPLATE](./.github/PULL_REQUEST_TEMPLATE.md)
+3. Submit a PR referencing the issue, following the repository's standard pull-request workflow and the issue/PR guidance in this document
 4. A maintainer reviews for accuracy, completeness, and consistency with linked documents
 
 ## Documentation Structure Reference

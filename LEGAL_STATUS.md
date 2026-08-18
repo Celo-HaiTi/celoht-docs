@@ -50,7 +50,7 @@ This document is intended to be read alongside `GOVERNANCE.md` (which describes 
 CeloHT is an open-source, community-governed initiative built on the Celo blockchain, organized around three coordinated areas of work:
 
 - **Financial Inclusion and Web3 Education** — delivering financial literacy and blockchain education in Haitian Creole and other languages, so that participation in digital financial tools is informed and accessible.
-- **Community Agent Network** — supporting a network of community-based agents who facilitate access to stable-value digital payments, primarily using the cUSD stablecoin on the Celo network.
+- **Community Agent Network** — supporting a network of community-based agents who facilitate access to stable-value digital payments, primarily using the USDm stablecoin on the Celo network.
 - **Environmental Restoration (Reforestation)** — coordinating and transparently reporting on tree-planting and environmental-restoration activity carried out with and by participating communities.
 
 CeloHT pursues this mission as a public-benefit-oriented, non-commercial initiative. It does not pursue this mission through the issuance of any token, security, or investment product.
@@ -95,7 +95,7 @@ CeloHT is explicitly **not**:
 - **A cryptocurrency exchange.** CeloHT does not operate a trading platform, order book, or asset-exchange service.
 - **An investment company or investment adviser.** CeloHT does not manage investments on behalf of others and does not offer investment advice.
 - **A security issuer.** CeloHT has not issued, and does not intend to issue, any instrument that could reasonably be characterized as a security under applicable law.
-- **A token issuer.** CeloHT has no native token, has never conducted a token sale, and does not plan to create one. References to cUSD and CELO in CeloHT materials refer exclusively to existing, independently issued Celo-network assets used as payment and network infrastructure — not to any CeloHT-created instrument.
+- **A token issuer.** CeloHT has no native token, has never conducted a token sale, and does not plan to create one. References to USDm and CELO in CeloHT materials refer exclusively to existing, independently issued Celo-network assets used as payment and network infrastructure — not to any CeloHT-created instrument.
 - **A DAO with legal personality.** CeloHT does not operate on-chain token-based voting and does not claim any form of legal personality arising from decentralized governance structures.
 - **A for-profit company.** CeloHT does not distribute profits to any individual and does not operate with a profit-maximization objective.
 
@@ -157,7 +157,7 @@ CeloHT does not currently issue tax receipts of any kind, because it does not ho
 
 - Funds held in CeloHT's name are used exclusively for programmatic and operational purposes aligned with the mission described in Section 2 — never for personal enrichment of any founder, contributor, Council member, or affiliated individual.
 - No individual, including the project's founder, may unilaterally authorize a treasury disbursement above the operational thresholds defined in `GOVERNANCE.md`; disbursements above those thresholds require multi-person or Council-level approval.
-- CeloHT does not use treasury funds to purchase volatile or speculative assets for trading purposes. Stablecoin holdings (cUSD) are used as an operational settlement currency, not as an investment position.
+- CeloHT does not use treasury funds to purchase volatile or speculative assets for trading purposes. Stablecoin holdings (USDm) are used as an operational settlement currency, not as an investment position.
 - CeloHT maintains an operational reserve intended to sustain core activity during funding gaps, sized and governed according to the principles in `GOVERNANCE.md`.
 
 These are internal governance commitments, not the equivalent of a legally mandated fiduciary duty that would apply to a registered nonprofit or company. Institutions requiring the latter should refer to Section 20 regarding CeloHT's future institutional development plans and should evaluate any specific transaction accordingly.
@@ -204,7 +204,7 @@ CeloHT provides governance structures (`GOVERNANCE.md`) and this Legal Status do
 CeloHT is committed to conducting its activities in a manner consistent with applicable law in the jurisdictions where it operates, recognizing that as an early-stage, non-incorporated community initiative, its compliance obligations differ from those of a registered entity. CeloHT's compliance approach includes:
 
 - Ongoing monitoring of regulatory developments relevant to community-based payment facilitation (Agent Network activity) and blockchain-based tools, coordinated by the Legal Working Group described in `GOVERNANCE.md`.
-- A structural preference for activity that reduces regulatory ambiguity — for example, using an existing, independently issued stablecoin (cUSD) rather than issuing a CeloHT-specific asset.
+- A structural preference for activity that reduces regulatory ambiguity — for example, using an existing, independently issued stablecoin (USDm) rather than issuing a CeloHT-specific asset.
 - A commitment to pause or restructure any specific activity found, on legal review, to require licensing or registration CeloHT does not hold, rather than continuing that activity unlicensed.
 - Willingness to engage constructively with regulators, grant-making institutions, and legal counsel as the project matures and its institutional form evolves (Section 20).
 

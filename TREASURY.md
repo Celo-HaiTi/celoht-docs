@@ -12,7 +12,7 @@ This document defines how CeloHT's treasury is governed, controlled, and reporte
 
 ## Scope
 
-This policy applies to all assets held in CeloHT's name — fiat holdings, cUSD balances, and any other asset received or held for programmatic use — regardless of the account, wallet, or custody arrangement in which they are held.
+This policy applies to all assets held in CeloHT's name — fiat holdings, USDm balances, and any other asset received or held for programmatic use — regardless of the account, wallet, or custody arrangement in which they are held.
 
 ## Responsibilities
 
@@ -71,7 +71,7 @@ CeloHT's treasury custody is designed around multi-signature control, consistent
 
 ## 5. Asset Custody
 
-- CeloHT holds programmatic funds primarily in cUSD, consistent with its use as an operational settlement currency rather than a speculative asset (`LEGAL_STATUS.md` Section 9).
+- CeloHT holds programmatic funds primarily in USDm, consistent with its use as an operational settlement currency rather than a speculative asset (`LEGAL_STATUS.md` Section 9).
 - Fiat holdings, where applicable, are held in accounts consistent with CeloHT's current legal status as described in `LEGAL_STATUS.md` Section 3; specific banking or custodial relationships are disclosed as they are established, and are marked "Not Yet Available" until then.
 - Custody arrangements are reviewed periodically by the Governance Council for security and appropriateness as CeloHT's institutional form develops (`LEGAL_STATUS.md` Section 20).
 

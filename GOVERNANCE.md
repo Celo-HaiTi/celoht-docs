@@ -4,7 +4,7 @@
 
 This document defines how the CeloHT project is governed. It applies to every contributor, maintainer, working group, and community member participating in CeloHT repositories, forums, events, and communication channels.
 
-CeloHT is an open-source, community-driven, non-token initiative built on the Celo blockchain. CeloHT is **not** a DAO, **not** a cryptocurrency, **not** an investment product, and **not** a token project. CeloHT uses existing Celo-network stablecoin infrastructure (cUSD) and wallet tooling (Valora, MiniPay) strictly as **payment rails for financial-inclusion education and community operations** — never as a governance mechanism, security, or speculative instrument. Nothing in this document, and nothing CeloHT does, should be interpreted as an offer of securities, a promise of financial return, or participation in a token-based voting system.
+CeloHT is an open-source, community-driven, non-token initiative built on the Celo blockchain. CeloHT is **not** a DAO, **not** a cryptocurrency, **not** an investment product, and **not** a token project. CeloHT uses existing Celo-network stablecoin infrastructure (USDm) and wallet tooling (Valora, MiniPay) strictly as **payment rails for financial-inclusion education and community operations** — never as a governance mechanism, security, or speculative instrument. Nothing in this document, and nothing CeloHT does, should be interpreted as an offer of securities, a promise of financial return, or participation in a token-based voting system.
 
 ---
 
@@ -325,7 +325,7 @@ flowchart LR
 
 - CeloHT treasury funds are held for **operational and programmatic use only** — education production, Agent Network stipends, reforestation costs, infrastructure, and community events.
 - Funds are never distributed as speculative investment, never used to purchase volatile assets for trading purposes, and never used to create or imply a financial return for contributors.
-- cUSD is used as a **stable settlement currency** for these operational purposes because of its accessibility on Valora/MiniPay in Haiti and the Caribbean — not as an investment vehicle.
+- USDm is used as a **stable settlement currency** for these operational purposes because of its accessibility on Valora/MiniPay in Haiti and the Caribbean — not as an investment vehicle.
 
 ### 8.2 Treasury Committee
 
@@ -701,7 +701,7 @@ See Section 6, Proposal Lifecycle diagram.
 | **Absolute Majority** | More than 50% of all seated Council members, not just those participating in the vote |
 | **Ambassador** | A community representative for a specific region or institution |
 | **Council** | Short for Governance Council, CeloHT's primary strategic decision-making body |
-| **cUSD** | A Celo-network stablecoin used by CeloHT strictly as an operational payment rail |
+| **USDm** | A Celo-network stablecoin used by CeloHT strictly as an operational payment rail |
 | **Emergency Decision** | A narrowly scoped decision made to contain immediate risk, subject to mandatory ratification |
 | **Maintainer** | A contributor with repository write/merge access and review responsibilities |
 | **MOU** | Memorandum of Understanding, the standard document used to formalize a CeloHT partnership |

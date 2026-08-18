@@ -10,7 +10,7 @@ Every item on this roadmap is built on the same non-negotiable facts about what 
 
 - CeloHT is a **community-driven, open-source initiative**.
 - CeloHT is **not** a blockchain, has **no** native token, issues **no** NFTs, and provides **no** investment products.
-- CeloHT is **built on the Celo ecosystem**, using **CELO** for network transactions where appropriate and promoting **cUSD** for accessible digital payments.
+- CeloHT is **built on the Celo ecosystem**, using **CELO** for network transactions where appropriate and promoting **USDm** for accessible digital payments.
 - CeloHT develops applications **compatible with Valora** — CeloHT does not own, manage, or operate Valora.
 
 Any roadmap item that would conflict with these principles doesn't belong on this roadmap, however attractive it looks. See [NO_TOKEN_POLICY.md](./NO_TOKEN_POLICY.md) and [LEGAL_STATUS.md](./LEGAL_STATUS.md).
@@ -37,7 +37,7 @@ Any roadmap item that would conflict with these principles doesn't belong on thi
 | Milestone | Pillar | Target |
 |---|---|---|
 | First complete cash-in/cash-out cycle handled entirely by agents | Agent Network | 2026-Q4 |
-| First reforestation pilot with cUSD-based rewards | Reforestation | 2027-Q1 |
+| First reforestation pilot with USDm-based rewards | Reforestation | 2027-Q1 |
 | dApp alpha: Valora wallet connection + first education module | Official dApp | 2027-Q1 |
 | Systematic collection and public reporting of community feedback | Transparency & Impact | Ongoing |
 | Formal agent code of conduct and verification process live | Governance | 2026-Q4 |

@@ -13,7 +13,7 @@ CeloHT's on-chain footprint is intentionally minimal: only data that benefits fr
 
 ## Design Principles
 
-- **Non-custodial:** these contracts never hold user funds. Payments move directly wallet-to-wallet via native cUSD transfers.
+- **Non-custodial:** these contracts never hold user funds. Payments move directly wallet-to-wallet via native USDm transfers.
 - **Minimal on-chain data:** no personally identifiable information is stored on-chain — only hashed identifiers and status flags.
 - **Upgradeable with governance gating:** contract upgrades require multi-signature approval from addresses controlled by the Maintainer Council (see [GOVERNANCE.md](./GOVERNANCE.md)), not a single deployer key.
 - **No token logic of any kind** — these contracts contain no minting, staking, or transferable-asset logic, consistent with [NO_TOKEN_POLICY.md](./NO_TOKEN_POLICY.md).

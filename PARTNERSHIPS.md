@@ -102,7 +102,7 @@ CeloHT's partnership vision is deliberately modest in the near term and ambitiou
 All CeloHT partnership activity MUST be consistent with the following principles:
 
 1. **Truthfulness over promotion.** CeloHT MUST NOT describe a relationship as more advanced, formal, or exclusive than the underlying agreement supports.
-2. **No token, no investment framing.** No partnership MAY be used to imply that CeloHT, cUSD, CELO, or any CeloHT activity constitutes an investment product, security, or guaranteed-return opportunity.
+2. **No token, no investment framing.** No partnership MAY be used to imply that CeloHT, USDm, CELO, or any CeloHT activity constitutes an investment product, security, or guaranteed-return opportunity.
 3. **Community governance first.** No single individual, including the Foundation Director, MAY unilaterally bind CeloHT to a partnership. All partnerships flow through the [Approval Process](#22-approval-process).
 4. **Proportionate diligence.** The depth of due diligence SHOULD scale with the size, visibility, and risk of the proposed relationship, per the [Due Diligence Framework](#8-due-diligence-framework).
 5. **Radical transparency.** Every executed partnership SHOULD appear in the [Public Partnership Registry](#34-public-partnership-registry) unless confidentiality is required and documented under [Section 30](#30-confidentiality).
@@ -118,7 +118,7 @@ CeloHT's partnership program pursues the following objectives:
 | # | Objective | Primary Beneficiary |
 |---|---|---|
 | 1 | Expand access to blockchain and financial-literacy education | Students, youth, women entrepreneurs |
-| 2 | Strengthen the CeloHT Agent Network (cash ↔ cUSD conversion, wallet onboarding) | Small businesses, merchants, diaspora |
+| 2 | Strengthen the CeloHT Agent Network (cash ↔ USDm conversion, wallet onboarding) | Small businesses, merchants, diaspora |
 | 3 | Scale reforestation activity beyond the current pilot phase | Farmers, local environment |
 | 4 | Diversify funding through ecosystem grants and mission-aligned sponsorships | CeloHT organizational sustainability |
 | 5 | Build credibility with international development and open-source institutions | CeloHT long-term legitimacy |
@@ -439,7 +439,7 @@ These are target service levels, not binding deadlines; the Maintainer Council M
 1. Any partnership involving a transfer of funds to or from CeloHT MUST be recorded in CeloHT's financial records consistent with [TREASURY.md](./TREASURY.md).
 2. CeloHT MUST publish, at minimum annually, an aggregate summary of partnership-related funding received and disbursed.
 3. No partnership funds MAY be commingled with undisclosed personal accounts of any Foundation Director, Maintainer Council member, or Community Contributor.
-4. Where legally and practically feasible, CeloHT SHOULD use transparent, traceable payment rails (including on-chain cUSD transactions where appropriate) for partnership-related transfers.
+4. Where legally and practically feasible, CeloHT SHOULD use transparent, traceable payment rails (including on-chain USDm transactions where appropriate) for partnership-related transfers.
 
 ---
 

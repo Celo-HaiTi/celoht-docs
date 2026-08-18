@@ -4,15 +4,15 @@
 
 **AgentRegistry** — The on-chain smart contract recording agent verification status. See [SMART_CONTRACTS.md](./SMART_CONTRACTS.md#agentregistry--reference-specification).
 
-**Cash-in** — Converting physical cash into cUSD via an Agent Network member.
+**Cash-in** — Converting physical cash into USDm via an Agent Network member.
 
-**Cash-out** — Converting cUSD into physical cash via an Agent Network member.
+**Cash-out** — Converting USDm into physical cash via an Agent Network member.
 
 **CELO** — The native gas asset of the Celo blockchain, used exclusively by CeloHT to pay transaction fees — never promoted or held as an investment. See [NO_TOKEN_POLICY.md](./NO_TOKEN_POLICY.md).
 
 **Celo** — The blockchain network CeloHT uses as payment infrastructure. Celo is an independent project; CeloHT is not affiliated with Celo Foundation. See [LEGAL_STATUS.md](./LEGAL_STATUS.md).
 
-**cUSD (Celo Dollar)** — A stable-value digital asset on the Celo network, used by CeloHT for payments due to its price stability relative to volatile crypto assets.
+**USDm (Celo Dollar)** — A stable-value digital asset on the Celo network, used by CeloHT for payments due to its price stability relative to volatile crypto assets.
 
 **dApp** — Decentralized application; refers to the CeloHT dApp described in [DAPP.md](./DAPP.md).
 
