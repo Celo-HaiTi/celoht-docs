@@ -1,37 +1,98 @@
-# Founder
+<div align="center">
+<img width="720" height="720" alt="IMG_20260728_183027" src="https://github.com/user-attachments/assets/0750c10d-c285-4058-9544-918cdcebf421" />
 
-## Johnny Dubic
 
-Johnny Dubic founded CeloHT in Léogâne, Haiti, to address a gap he observed directly: Haitian communities with growing smartphone access but limited access to formal banking, financial education, or trustworthy digital payment tools.
+# Johnny Dubic
 
-## Founding Vision
+## Founder | CeloHT & FreClean
 
-The founding vision behind CeloHT rests on three convictions:
+Johnny Dubic was born on **April 16, 2000**, in **Léogâne, Ouest, Haiti**. He is a Haitian entrepreneur, Web3 advocate, journalist, and community builder committed to advancing financial inclusion, education, and sustainable development through technology.
 
-1. **Education must come before access.** Handing someone a financial tool they don't understand isn't inclusion — it can create new risk.
-2. **Trust is built by real people, not just apps.** This conviction directly shaped the Agent Network pillar.
-3. **Development shouldn't cost the environment.** This shaped the decision to make Reforestation a permanent, resourced pillar rather than an afterthought.
+## Biography
 
-A fourth, non-negotiable conviction shaped CeloHT's structure from day one: Web3's reputation in many communities has been damaged by token speculation. CeloHT was deliberately built without a token — see [NO_TOKEN_POLICY.md](./NO_TOKEN_POLICY.md) — because the founder's goal was financial inclusion, not a new speculative asset.
+Growing up in Léogâne, Johnny developed a passion for innovation, technology, and community service. He believes blockchain can become a powerful tool for economic empowerment and social impact, particularly in underserved communities.
 
-## Role in Governance
+His entrepreneurial journey led him to found **CeloHT**, a community-driven initiative built on the Celo blockchain to promote financial inclusion through education, local agent networks, and environmental sustainability. He also founded **FreClean**, a company specializing in professional cleaning services and locally manufactured cleaning products.
 
-The founder provides long-term vision and continuity but does not hold unilateral authority over CeloHT's funds, policies, or roadmap. Founder-proposed changes go through the same RFC process described in [GOVERNANCE.md](./GOVERNANCE.md) as any other community proposal. This is a deliberate structural choice, not a formality — see [GOVERNANCE.md#governance-philosophy](./GOVERNANCE.md#governance-philosophy).
+Today, Johnny continues building solutions that combine technology, entrepreneurship, and community development to create long-term impact in Haiti and beyond.
 
-## Public Statements
+## Education
 
-Approved founder quotes for press and partnership use are maintained in the Brand repository's `PRESS_KIT.md`. New public statements attributed to the founder go through the same review process as other official CeloHT communications.
+### Primary & Secondary Education
 
-## Other Initiatives
+- École Mixte Saint-Étienne de Buteau
+- Léogâne, Ouest, Haiti
 
-Johnny Dubic also founded FreClean, a separate cleaning-services and local-entrepreneurship business. FreClean and CeloHT operate independently, though a formal partnership between the two is part of CeloHT's long-term plan — see [BUSINESS_MODEL.md](./BUSINESS_MODEL.md#relationship-to-freclean).
+### Continuing Education
 
-## Contact
+Committed to lifelong learning through independent study, technical documentation, open-source communities, and hands-on experience in:
 
-Founder-level partnership or press inquiries: contact@celoht.com (routed appropriately by the Governance & Legal Working Group — see [GOVERNANCE.md](./GOVERNANCE.md#working-groups)).
+- Web3 Technologies
+- Blockchain
+- Celo Ecosystem
+- Decentralized Finance (DeFi)
+- Digital Marketing
+- Telecommunications
+- Open Source Development
+- Entrepreneurship
+- Community Development
 
-## References
+## Areas of Expertise
 
-- [FOUNDATION.md](./FOUNDATION.md)
-- [GOVERNANCE.md](./GOVERNANCE.md)
-- [AUTHORS.md](./AUTHORS.md)
+- Telecommunications
+- Web3 & Blockchain
+- Cryptocurrency Ecosystems
+- Digital Marketing
+- Journalism
+- Community Development
+- Entrepreneurship
+- Cleaning Product Formulation (Soaps, Liquid Detergents, Shampoos)
+- Financial Inclusion
+- Project Development
+
+## Languages
+
+- Haitian Creole - Native
+- French  - Professional Working Proficiency
+- English - Basic
+- Spanish - Professional Working Proficiency
+
+## Organizations
+
+### CeloHT
+**Founder (2022 - Present)**
+
+A community-driven Web3 initiative leveraging the Celo blockchain to advance financial inclusion through education, decentralized community agent networks, and environmental sustainability.
+
+### FreClean
+**Founder (2026 - Present)**
+
+A professional cleaning services and cleaning-products company dedicated to quality, innovation, and community empowerment.
+
+## Mission
+
+To empower communities through education, blockchain technology, entrepreneurship, and environmental sustainability.
+
+## Vision
+
+To build internationally recognized organizations that demonstrate how Web3 technology can improve lives, strengthen local economies, and create sustainable opportunities for future generations.
+
+## Core Values
+
+- Transparency
+- Community
+- Open Source
+- Financial Inclusion
+- Sustainability
+- Innovation
+- Integrity
+- Collaboration
+
+## Connect
+
+- Website: https://celoht.com | https://frecleane.com
+- GitHub: https://github.com/Celo-HT
+- LinkedIn: https://www.linkedin.com/in/johnny-dubic-590585218
+- X: https://x.com/JohnnyDubic
+
+Building Web3 solutions for financial inclusion, education, and sustainable development.
