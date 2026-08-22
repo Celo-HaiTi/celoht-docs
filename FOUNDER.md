@@ -65,7 +65,7 @@ Committed to lifelong learning through independent study, technical documentatio
 A community-driven Web3 initiative leveraging the Celo blockchain to advance financial inclusion through education, decentralized community agent networks, and environmental sustainability.
 
 ### FreClean
-**Founder (2026 - Present)**
+**Founder (2025 - Present)**
 
 A professional cleaning services and cleaning-products company dedicated to quality, innovation, and community empowerment.
 
