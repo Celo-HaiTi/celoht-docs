@@ -15,7 +15,7 @@ npm install -g @celoht/cli
 ## Configuration
 
 ```bash
-celoht config set network alfajores
+celoht config set network sepolia
 celoht config set api-url https://api.celoht.com/v1
 ```
 
@@ -57,8 +57,8 @@ celoht education list
 ## Example Session
 
 ```bash
-$ celoht config set network alfajores
-✔ Network set to alfajores
+$ celoht config set network sepolia
+✔ Network set to sepolia
 
 $ celoht agent status 0xAbC123...
 Status: Active

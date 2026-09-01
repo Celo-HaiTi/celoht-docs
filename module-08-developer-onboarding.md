@@ -23,7 +23,7 @@ Before touching code, every developer contributor is asked to read [MISSION.md](
 
 Follow [DEVELOPER_GUIDE.md](./DEVELOPER_GUIDE.md#local-setup) exactly. Common first-time issues:
 - Missing environment variables (see [DEVELOPER_GUIDE.md](./DEVELOPER_GUIDE.md#environment-variables))
-- Attempting to test against mainnet instead of Alfajores testnet (see [CELO.md](./CELO.md#network-usage))
+- Attempting to test against mainnet instead of Celo Sepolia testnet (see [CELO.md](./CELO.md#network-usage))
 
 ## Lesson 8.3 — Architecture Orientation
 

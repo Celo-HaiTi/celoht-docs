@@ -14,7 +14,7 @@ npm install @celoht/sdk
 import { CeloHT } from '@celoht/sdk';
 
 const client = new CeloHT({
-  network: 'alfajores', // or 'mainnet'
+  network: 'sepolia', // or 'mainnet'
   apiUrl: 'https://api.celoht.com/v1',
 });
 ```

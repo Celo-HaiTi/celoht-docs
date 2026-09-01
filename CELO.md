@@ -13,10 +13,12 @@ Celo is an independent, mobile-first blockchain network. CeloHT uses Celo as its
 
 ## Network Usage
 
-| Environment | Purpose |
-|---|---|
-| Alfajores (testnet) | Development, testing, and staging — see [DEVELOPER_GUIDE.md](./DEVELOPER_GUIDE.md#debugging) |
-| Mainnet | Production — only after the audit process in [SMART_CONTRACTS.md](./SMART_CONTRACTS.md#path-to-production) |
+| Environment | Purpose | Chain ID |
+|---|---|---|
+| Celo Sepolia (testnet) | Development, testing, and staging — see [DEVELOPER_GUIDE.md](./DEVELOPER_GUIDE.md#debugging) | 11142220 |
+| Celo Mainnet | Production — only after the audit process in [SMART_CONTRACTS.md](./SMART_CONTRACTS.md#path-to-production) | 42220 |
+
+> Alfajores is a legacy testnet reference and is not the current active CeloHT default for new work.
 
 ## Gas & Fees
 

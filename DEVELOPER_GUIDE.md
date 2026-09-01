@@ -29,7 +29,7 @@ npx hardhat test
 ### Environment Variables
 
 ```
-NEXT_PUBLIC_CELO_NETWORK=alfajores        # alfajores (testnet) or mainnet
+NEXT_PUBLIC_CELO_NETWORK=sepolia          # Celo Sepolia (testnet) or mainnet
 NEXT_PUBLIC_API_BASE_URL=https://api.celoht.com/v1
 WALLETCONNECT_PROJECT_ID=<your-project-id>
 ```
@@ -83,7 +83,7 @@ Every PR requires at least one maintainer approval. PRs touching smart contracts
 
 ## Debugging
 
-- Local blockchain interactions: use the Celo Alfajores testnet (`NEXT_PUBLIC_CELO_NETWORK=alfajores`) — never test against mainnet with real funds
+- Local blockchain interactions: use the Celo Sepolia testnet (`NEXT_PUBLIC_CELO_NETWORK=sepolia`) — never test against mainnet with real funds
 - Wallet connection issues: check WalletConnect project configuration and browser console for signature rejection errors
 
 ## Release Workflow
@@ -96,7 +96,7 @@ CeloHT follows [Semantic Versioning](https://semver.org/): `MAJOR.MINOR.PATCH`. 
 // Illustrative — see the celoht-sdk repository for current package status
 import { CeloHT } from '@celoht/sdk';
 
-const client = new CeloHT({ network: 'alfajores' });
+const client = new CeloHT({ network: 'sepolia' });
 const modules = await client.education.listModules();
 const nearbyAgents = await client.agents.nearby({ lat: 18.5944, lng: -72.3074, radiusKm: 10 });
 ```

@@ -118,10 +118,10 @@ validate.sh             Local validation script (mirrors CI checks)
 
 ## Related Repositories
 
-- Brand assets & visual identity: [github.com/Celo-HT/Brand](https://github.com/Celo-HT/Brand)
-- Website: [github.com/Celo-HT/Website](https://github.com/Celo-HT/Website)
-- dApp: [github.com/Celo-HT/dApp](https://github.com/Celo-HT/dApp)
-- Smart Contracts: [github.com/Celo-HT/Smart-Contracts](https://github.com/Celo-HT/Smart-Contracts)
+- Brand assets & visual identity: [github.com/Celo-HaiTi/Brand](https://github.com/Celo-HaiTi/Brand)
+- Website: [github.com/Celo-HaiTi/Website](https://github.com/Celo-HaiTi/Website)
+- dApp: [github.com/Celo-HaiTi/dApp](https://github.com/Celo-HaiTi/dApp)
+- Smart Contracts: [github.com/Celo-HaiTi/Smart-Contracts](https://github.com/Celo-HaiTi/Smart-Contracts)
 
 ## Contact
 

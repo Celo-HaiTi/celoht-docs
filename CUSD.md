@@ -1,4 +1,6 @@
-# USDm (Celo Dollar)
+# USDm (Historical naming: CUSD / Celo Dollar)
+
+> This document retains the historical `CUSD` label for continuity. Current CeloHT product language uses USDm as the operational stable-value asset; `cUSD` is not the current active payment asset name in new CeloHT implementation or documentation.
 
 ## What USDm Is
 
