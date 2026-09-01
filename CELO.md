@@ -8,7 +8,7 @@ Celo is an independent, mobile-first blockchain network. CeloHT uses Celo as its
 
 - **Mobile-first design** — Celo was built for smartphone-based access, matching CeloHT's target users
 - **Low, predictable transaction fees** — critical for everyday small-value transactions
-- **Native stable-value asset (USDm)** — see [CUSD.md](./CUSD.md) — reduces volatility exposure for payments
+- **Native stable-value asset (USDm)** — see [USDm.md](./USDm.md) — reduces volatility exposure for payments
 - **EVM compatibility** — allows CeloHT's smart contracts (see [SMART_CONTRACTS.md](./SMART_CONTRACTS.md)) to use standard, well-audited tooling (Solidity, Hardhat)
 
 ## Network Usage
@@ -34,7 +34,7 @@ Celo's low-fee, stable-value transaction model supports CeloHT's relevance to di
 
 ## References
 
-- [CUSD.md](./CUSD.md)
+- [USDm.md](./USDm.md)
 - [VALORA.md](./VALORA.md)
 - [ARCHITECTURE.md](./ARCHITECTURE.md)
 - [LEGAL_STATUS.md](./LEGAL_STATUS.md)

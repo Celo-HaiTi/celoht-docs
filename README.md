@@ -79,7 +79,7 @@ celoht-docs/
 ├── EDUCATION.md                Education pillar
 ├── AGENT_NETWORK.md            Agent Network pillar
 ├── REFORESTATION.md            Reforestation pillar
-├── CELO.md / CUSD.md / VALORA.md         Ecosystem integration docs
+├── CELO.md / USDm.md / VALORA.md         Ecosystem integration docs
 ├── GOVERNANCE.md               Decision-making, maintainers, working groups
 ├── WORKING_GROUPS.md            Working group charters
 ├── NO_TOKEN_POLICY.md          Formal no-token policy

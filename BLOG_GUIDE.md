@@ -12,7 +12,7 @@ Standards for content published on CeloHT's Medium/blog channel — technical wr
 | Technical deep-dives | As shipped | "How CeloHT's AgentRegistry works" |
 | Governance updates | As decided | "RFC-014: Approved — updated Agent Network fee schedule" |
 | Community/success stories | Ongoing | See [SUCCESS_STORIES.md](./SUCCESS_STORIES.md) |
-| Educational explainers | Ongoing | "What is USDm, really?" (public-friendly version of [CUSD.md](./CUSD.md)) |
+| Educational explainers | Ongoing | "What is USDm, really?" (public-friendly version of [USDm.md](./USDm.md)) |
 
 ## Voice & Style
 

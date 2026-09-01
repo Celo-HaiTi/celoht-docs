@@ -23,7 +23,7 @@ Approx. 45 minutes.
 | Value | Designed to track the US dollar | Fluctuates like other digital assets |
 | Used by CeloHT for | Agent Network transactions, agent pay, incentive payments | Only to pay small network fees |
 
-See [./CUSD.md](./CUSD.md) and [./CELO.md](./CELO.md) for full detail.
+See [./USDm.md](./USDm.md) and [./CELO.md](./CELO.md) for full detail.
 
 ## Lesson 3.2 — Why Stability Matters
 

@@ -1,31 +1,34 @@
-# USDm (Historical naming: CUSD / Celo Dollar)
-
-> This document retains the historical `CUSD` label for continuity. Current CeloHT product language uses USDm as the operational stable-value asset; `cUSD` is not the current active payment asset name in new CeloHT implementation or documentation.
+# USDm
 
 ## What USDm Is
 
-USDm is a stable-value digital asset on the Celo network, designed to track the value of the US dollar. USDm is issued independently by the Celo protocol — **CeloHT does not issue, control, or profit from USDm's creation.** CeloHT uses USDm purely as a payment medium.
+USDm is the stable-value digital asset CeloHT uses for payments and settlement on the Celo network. It is designed to track the value of the US dollar while remaining independent from CeloHT itself. CeloHT does not create, control, or profit from the issuance of USDm.
 
-## Why CeloHT Uses USDm (Not CELO) for Payments
+## Why CeloHT Uses USDm for Payments
 
-CELO's price fluctuates like most crypto assets; USDm does not, by design. For everyday payments — the core use case for CeloHT's Agent Network and dApp — price stability matters far more to users than potential appreciation. This is also why CeloHT's No-Token Policy (see [NO_TOKEN_POLICY.md](./NO_TOKEN_POLICY.md)) is compatible with real payment utility: USDm isn't a speculative asset, it's a digital representation of a stable currency value.
+USDm is the right fit for CeloHT's operational model because it offers price stability for everyday transactions, while CELO remains reserved for network gas and minimal operational fees. This is essential for the Agent Network, education support, and program financing workflows that need stable value without exposing users to price volatility.
 
 ## How USDm Is Used in CeloHT
 
-- **Agent Network transactions** — cash-in converts physical cash to USDm; cash-out converts USDm to cash (see [AGENT_NETWORK.md](./AGENT_NETWORK.md))
-- **Agent compensation** — published per-transaction fees paid in USDm (see [AGENT_NETWORK.md](./AGENT_NETWORK.md#revenue-model))
-- **Community/reforestation incentive payments** — see [REFORESTATION.md](./REFORESTATION.md#community-incentives)
-- **Grant/partner funding disbursement** where applicable — see [PARTNERS.md](./PARTNERS.md)
+- Agent Network transactions: physical cash in and out through local agents
+- Agent compensation: published fee structures paid in USDm
+- Community and reforestation incentives: transparent program disbursement
+- Program and partner payments where applicable, under documented governance rules
 
-## What USDm Is Not, in CeloHT's Context
+## What USDm Is Not
 
 - Not a CeloHT-issued asset
-- Not promoted or described by CeloHT as an investment or appreciating asset
-- Not used for gas fees (that's CELO's role — see [CELO.md](./CELO.md))
+- Not a token sale or investment product
+- Not a governance or speculation instrument
+- Not used for network gas fees; CELO serves that role
 
 ## User Education
 
-Understanding USDm — what it is, how it differs from CELO, and why its stability matters for everyday use — is a core module in CeloHT's curriculum. See [EDUCATION.md](./EDUCATION.md#curriculum-modules), Module 3.
+Understanding USDm is a core education module. See [EDUCATION.md](./EDUCATION.md) and [module-03-cusd-and-celo.md](./module-03-cusd-and-celo.md).
+
+## Historical Note
+
+The older `CUSD` / `Celo Dollar` naming is retained only as a historical reference in legacy documentation and older external references. CeloHT's current operational terminology is USDm. This document conserves the historical naming context without treating `cUSD` as the active product name in current CeloHT work.
 
 ## References
 

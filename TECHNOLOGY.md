@@ -9,7 +9,7 @@ A single-page overview of everything CeloHT is built on. For depth, follow the l
 | Component | Role | Detail |
 |---|---|---|
 | Celo | Underlying blockchain | [CELO.md](./CELO.md) |
-| USDm | Payment asset (stable value) | [CUSD.md](./CUSD.md) |
+| USDm | Payment asset (stable value) | [USDm.md](./USDm.md) |
 | CELO (token) | Gas only, never promoted as a holding | [CELO.md](./CELO.md#gas--fees) |
 | Valora | Recommended wallet | [VALORA.md](./VALORA.md) |
 
