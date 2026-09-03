@@ -7,7 +7,7 @@ This guide helps developers set up, understand, and contribute to CeloHT's codeb
 ## Local Setup
 
 ```bash
-git clone https://github.com/Celo-HT/dApp.git
+git clone https://github.com/Celo-HaiTi/dApp.git
 cd dApp
 npm install
 cp .env.example .env.local   # fill in required values, see below
@@ -17,7 +17,7 @@ npm run dev
 ### Smart Contract Development
 
 ```bash
-git clone https://github.com/Celo-HT/Smart-Contracts.git
+git clone https://github.com/Celo-HaiTi/Smart-Contracts.git
 cd Smart-Contracts
 npm install
 npx hardhat compile
