@@ -10,13 +10,13 @@ FAIL=0
 cd "$(dirname "$0")"
 
 echo "=== 1. Markdown code-fence balance ==="
-for f in $(find . -name "*.md"); do
+while IFS= read -r -d '' f; do
   n=$(grep -c '```' "$f")
   if [ $((n % 2)) -ne 0 ]; then
     echo "UNBALANCED: $f"
     FAIL=1
   fi
-done
+done < <(find . -name "*.md" -print0)
 [ "$FAIL" -eq 0 ] && echo "OK"
 
 echo ""

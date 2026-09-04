@@ -3,37 +3,33 @@
 ## Repository Map (Organization-Wide)
 
 ```
-github.com/Celo-HT/
+github.com/Celo-HaiTi/
 ├── CeloHT/                 Meta/wiki repository, high-level org profile
-├── Docs/                   This repository — full documentation
+├── celoht-docs/            This repository — full documentation
 ├── Brand/                  Visual identity, logo, brand guidelines
 ├── Website/                Marketing/education website (Next.js)
 ├── dApp/                   Core transactional application (Next.js/React)
 ├── Smart-Contracts/        Solidity contracts + Hardhat tooling
 ├── SDK/                    @celoht/sdk package (see SDK.md)
-├── CLI/                    @celoht/cli package (see CLI.md)
-└── .github/                Org-wide default community health files
+└── CLI/                    @celoht/cli package (see CLI.md)
 ```
 
 ## This Repository's Structure
 
 ```
-Docs/
+celoht-docs/
 ├── README.md, WHITEPAPER.md, LITEPAPER.md, ...   Top-level reference docs
-├── education/                                     Detailed curriculum modules
-│   └── module-01 ... module-08 ...md
-├── agent-network/                                 Detailed operational manuals
-│   ├── onboarding-and-verification.md
-│   ├── training-curriculum.md
-│   ├── risk-management.md
-│   ├── dashboards.md
-│   └── emergency-procedures.md
-└── .github/                                       Issue templates, PR template, CI workflow
+├── module-01 ... module-08 ...md                  Education curriculum modules
+├── onboarding-and-verification.md                Agent network operations
+├── training-curriculum.md, risk-management.md, ...
+├── *.svg, *.png                                  Brand and favicon assets
+├── *.docx, *.pptx                                Distributable source materials
+└── validate.sh                                    Local documentation validation
 ```
 
 ## Design Principle Behind This Structure
 
-Top-level `.md` files in the repository root are the **canonical reference** for each topic — kept concise and cross-linked. Deep operational detail (training syllabi, step-by-step manuals) lives in topic subfolders (`education/`, `agent-network/`) linked *from* the canonical file, so a newcomer can get oriented from the root README without being immediately overwhelmed, while depth is still fully available.
+Top-level `.md` files in the repository root are the **canonical reference** for each topic — kept concise and cross-linked. Education and operational manuals currently remain in the root so they are easy to discover and preserve stable links. New topic-specific subfolders should be introduced only when they reduce navigation cost without breaking existing links.
 
 ## Related Repository Structures
 
@@ -42,7 +38,7 @@ Top-level `.md` files in the repository root are the **canonical reference** for
 
 ## Adding New Structure
 
-New subfolders (e.g. a future `reforestation/` folder for detailed planting-methodology manuals, matching the pattern already used for `agent-network/`) are proposed via the standard RFC process — see [CONTRIBUTING.md](./CONTRIBUTING.md) — to keep the structure intentional rather than organically inconsistent.
+New subfolders (for example, a future `reforestation/` folder for detailed planting-methodology manuals) are proposed via the standard RFC process — see [CONTRIBUTING.md](./CONTRIBUTING.md) — to keep the structure intentional rather than organically inconsistent. Any move must preserve links or include redirects/documented migration guidance.
 
 ## References
 
