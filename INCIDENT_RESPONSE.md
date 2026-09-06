@@ -53,7 +53,7 @@ A public postmortem is published for any incident affecting user funds, data, or
 ## Communication Principles
 
 - Say what's known, say what's still being investigated, and don't speculate publicly beyond that
-- Never downplay user-facing risk to protect CeloHT's image — see [VOICE_AND_TONE.md](https://github.com/Celo-HT/Brand/blob/main/VOICE_AND_TONE.md) (Brand repository) for why this matters to CeloHT specifically
+- Never downplay user-facing risk to protect CeloHT's image — see [VOICE_AND_TONE.md](https://github.com/Celo-HaiTi/celoht-brand/blob/main/VOICE_AND_TONE.md) (Brand repository) for why this matters to CeloHT specifically
 
 ## References
 

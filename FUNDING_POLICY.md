@@ -12,7 +12,7 @@
 
 - Token-based or equity-based funding structures of any kind — see [NO_TOKEN_POLICY.md](./NO_TOKEN_POLICY.md)
 - Funding conditioned on suppressing negative metrics or impact findings (see [METRICS.md](./METRICS.md#corrections-policy))
-- Funding that would require CeloHT to promote a funder's product as an investment or in a way inconsistent with [VOICE_AND_TONE.md](https://github.com/Celo-HT/Brand/blob/main/VOICE_AND_TONE.md) (Brand repository)
+- Funding that would require CeloHT to promote a funder's product as an investment or in a way inconsistent with [VOICE_AND_TONE.md](https://github.com/Celo-HaiTi/celoht-brand/blob/main/VOICE_AND_TONE.md) (Brand repository)
 - Anonymous funding above a threshold set by the Governance & Legal Working Group, to maintain funding-source transparency
 
 ## Allocation Process

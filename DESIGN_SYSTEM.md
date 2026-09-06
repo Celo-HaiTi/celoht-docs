@@ -1,6 +1,6 @@
 # Design System
 
-> Visual identity (logo, color, typography) is owned by the Brand repository — see `COLOR_SYSTEM.md`, `TYPOGRAPHY.md`, `ICONOGRAPHY.md` at [github.com/Celo-HT/Brand](https://github.com/Celo-HT/Brand). This document covers the **application-level design system** — how those tokens are implemented in code across the dApp and website.
+> Visual identity (logo, color, typography) is owned by the Brand repository — see `COLOR_SYSTEM.md`, `TYPOGRAPHY.md`, `ICONOGRAPHY.md` at [github.com/Celo-HaiTi/celoht-brand](https://github.com/Celo-HaiTi/celoht-brand). This document covers the **application-level design system** — how those tokens are implemented in code across the dApp and website.
 
 ## Design Token Implementation
 

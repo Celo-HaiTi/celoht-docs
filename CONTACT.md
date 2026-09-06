@@ -9,14 +9,14 @@
 | Privacy questions | privacy@celoht.com — see [PRIVACY.md](./PRIVACY.md) |
 | Partnerships | partnerships@celoht.com — see [PARTNERS.md](./PARTNERS.md) |
 | Website | [celoht.com](https://celoht.com) |
-| GitHub | [github.com/Celo-HT](https://github.com/Celo-HT) |
-| Wiki | [github.com/Celo-HT/CeloHT/wiki](https://github.com/Celo-HT/CeloHT/wiki) |
+| GitHub | [github.com/Celo-HaiTi](https://github.com/Celo-HaiTi) |
+| Documentation issues | [github.com/Celo-HaiTi/celoht-docs/issues](https://github.com/Celo-HaiTi/celoht-docs/issues) |
 | Medium | [@celoht3](https://medium.com/@celoht3) |
 | X (Twitter) | [@CeloHtOfficial](https://x.com/CeloHtOfficial) |
 
 ## What to Send Where
 
-- **Bug or documentation issue** → [GitHub Issues](https://github.com/Celo-HT/CeloHT/issues), not email
+- **Bug or documentation issue** → [GitHub Issues](https://github.com/Celo-HaiTi/celoht-docs/issues), not email
 - **Security vulnerability or suspected fraud using the CeloHT name** → security@celoht.com directly, per [SECURITY.md](./SECURITY.md#reporting-a-vulnerability)
 - **Press/media request** → contact@celoht.com, with "[Press]" in the subject line
 - **Partnership proposal** → partnerships@celoht.com, following the format in [PARTNERS.md](./PARTNERS.md#how-to-propose-a-partnership)

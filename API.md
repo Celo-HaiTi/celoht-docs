@@ -10,7 +10,7 @@ CeloHT is an open-source, community-governed initiative built on the Celo blockc
 
 **CeloHT is not a cryptocurrency, ICO, token sale, or investment platform.** No endpoint in this specification issues, sells, or trades a token or security. Endpoints referencing USDm or CELO expose read access to existing, independently issued Celo-network assets used strictly as payment and settlement infrastructure — never a CeloHT-issued instrument.
 
-As of this document's publication date, CeloHT's backend infrastructure is in early development. Every endpoint below is explicitly labeled **Implemented**, **In Development**, or **Planned**. Endpoints marked **Planned** describe designed-but-unbuilt functionality and are published so that integrating partners and contributors can build against a stable, forward-looking contract. No endpoint's status label should be read as a claim that the underlying functionality is live unless labeled **Implemented**.
+As of this document's publication date, CeloHT has no authorized production backend in this repository or ecosystem source of truth. Every endpoint below is explicitly labeled **Implemented**, **In Development**, or **Planned**. In this documentation repository, endpoint designs are specifications only; a status of **Implemented** must be verified in the authoritative runtime repository before use. No endpoint should be treated as live, and no API base URL should be configured, without an independently published deployment and owner.
 
 ---
 
@@ -123,7 +123,7 @@ graph TD
 https://api.celoht.org/v1
 ```
 
-This URL is a placeholder consistent with CeloHT's expected production domain. As of this document's publication date, this base URL is **Planned**; no production API is confirmed live at this address. Developers should treat this base URL as the target contract for integration and confirm current availability through CeloHT's official GitHub organization before building against it in production.
+This URL is a documentation placeholder only. As of this document's publication date, this base URL is **Planned**; no production API is confirmed live at this address. Do not configure applications against it or infer that DNS, authentication, data, or an API owner exists. A future deployment must publish its official base URL, status, owner, and verification evidence before integration.
 
 A staging base URL, once available, will be published in `ARCHITECTURE.md` Section 14 and referenced from this document.
 

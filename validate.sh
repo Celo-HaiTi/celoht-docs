@@ -82,6 +82,17 @@ PYEOF
 if [ $? -ne 0 ]; then FAIL=1; fi
 
 echo ""
+echo "=== 5. Canonical organization and API reference check ==="
+STALE=0
+if grep -rniE 'https://github\.com/Celo-HT|api\.celoht\.com' --include="*.md" .; then
+  echo "FAIL: legacy organization or unapproved API URL found in documentation"
+  STALE=1
+else
+  echo "OK"
+fi
+if [ "$STALE" -ne 0 ]; then FAIL=1; fi
+
+echo ""
 if [ "$FAIL" -eq 0 ]; then
   echo "✅ All checks passed."
   exit 0

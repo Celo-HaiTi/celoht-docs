@@ -90,12 +90,14 @@ celoht-docs/
 └── supporting policy and governance documents
 ```
 
+The `module-03-cusd-and-celo.md` filename is retained for link compatibility with older materials; the current asset terminology in the module is USDm.
+
 ## Related Repositories
 
-- Brand assets and visual identity: [github.com/Celo-HaiTi/Brand](https://github.com/Celo-HaiTi/Brand)
-- Website: [github.com/Celo-HaiTi/Website](https://github.com/Celo-HaiTi/Website)
-- dApp: [github.com/Celo-HaiTi/dApp](https://github.com/Celo-HaiTi/dApp)
-- Smart Contracts: [github.com/Celo-HaiTi/Smart-Contracts](https://github.com/Celo-HaiTi/Smart-Contracts)
+- Brand assets and visual identity: [github.com/Celo-HaiTi/celoht-brand](https://github.com/Celo-HaiTi/celoht-brand)
+- Website: [github.com/Celo-HaiTi/celoht-siteweb](https://github.com/Celo-HaiTi/celoht-siteweb)
+- dApp: [github.com/Celo-HaiTi/celoht-dapp](https://github.com/Celo-HaiTi/celoht-dapp)
+- Smart Contracts: [github.com/Celo-HaiTi/celoht-smart-contracts](https://github.com/Celo-HaiTi/celoht-smart-contracts)
 
 ## Contact
 

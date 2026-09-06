@@ -1,10 +1,10 @@
 # API Reference
 
-> **Status: Under active development.** This describes the CeloHT API's intended design and currently published endpoint set. As the platform evolves, additional endpoints will be documented here — verify against the live API's `/health` response before integrating anything mission-critical.
+> **Status: PLANNED / NOT IMPLEMENTED IN THIS REPOSITORY.** This describes a proposed CeloHT API contract only. No authorized CeloHT backend or live endpoint is established by this repository. Do not call the example URLs or treat them as production services; integration requires a separately published implementation, owner, and verification evidence.
 
 ## Overview
 
-The CeloHT API lets developers integrate with community services, educational resources, impact data, and CeloHT's blockchain-powered tools.
+The planned CeloHT API is intended to support integrations with community services, educational resources, impact data, and CeloHT's blockchain-powered tools. It does not currently provide a live service from this repository.
 
 ## Design Principles
 
@@ -18,8 +18,8 @@ The CeloHT API lets developers integrate with community services, educational re
 ## Base URLs
 
 ```
-Production:  https://api.celoht.org/v1
-Development: https://dev-api.celoht.org/v1
+Production:  NOT CONFIGURED
+Development: NOT CONFIGURED
 ```
 
 ## Authentication

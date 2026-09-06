@@ -7,8 +7,8 @@ This guide helps developers set up, understand, and contribute to CeloHT's codeb
 ## Local Setup
 
 ```bash
-git clone https://github.com/Celo-HaiTi/dApp.git
-cd dApp
+git clone https://github.com/Celo-HaiTi/celoht-dapp.git
+cd celoht-dapp
 npm install
 cp .env.example .env.local   # fill in required values, see below
 npm run dev
@@ -17,8 +17,8 @@ npm run dev
 ### Smart Contract Development
 
 ```bash
-git clone https://github.com/Celo-HaiTi/Smart-Contracts.git
-cd Smart-Contracts
+git clone https://github.com/Celo-HaiTi/celoht-smart-contracts.git
+cd celoht-smart-contracts
 npm install
 npx hardhat compile
 npx hardhat test
@@ -30,7 +30,9 @@ npx hardhat test
 
 ```
 NEXT_PUBLIC_CELO_NETWORK=sepolia          # Celo Sepolia (testnet) or mainnet
-NEXT_PUBLIC_API_BASE_URL=https://api.celoht.com/v1
+# No authorized CeloHT backend is currently available; leave unset unless a
+# future deployment publishes an official base URL.
+# NEXT_PUBLIC_API_BASE_URL=
 WALLETCONNECT_PROJECT_ID=<your-project-id>
 ```
 
@@ -79,7 +81,7 @@ GitHub Actions runs on every PR: lint, typecheck, unit tests, and smart contract
 
 ## Code Review
 
-Every PR requires at least one maintainer approval. PRs touching smart contracts or the Agent Network compliance logic require two maintainer approvals — the same elevated review bar CeloHT applies to sensitive changes across all its repositories (see the [Brand repository's CONTRIBUTING.md](https://github.com/Celo-HT/Brand/blob/main/CONTRIBUTING.md) for the equivalent policy there).
+Every PR requires at least one maintainer approval. PRs touching smart contracts or the Agent Network compliance logic require two maintainer approvals — the same elevated review bar CeloHT applies to sensitive changes across all its repositories (see the [Brand repository's CONTRIBUTING.md](https://github.com/Celo-HaiTi/celoht-brand/blob/main/CONTRIBUTING.md) for the equivalent policy there).
 
 ## Debugging
 

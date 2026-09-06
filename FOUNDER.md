@@ -91,7 +91,7 @@ To build internationally recognized organizations that demonstrate how Web3 tech
 ## Connect
 
 - Website: https://celoht.com | https://frecleane.com
-- GitHub: https://github.com/Celo-HT
+- GitHub: https://github.com/Celo-HaiTi
 - LinkedIn: https://www.linkedin.com/in/johnny-dubic-590585218
 - X: https://x.com/JohnnyDubic
 

@@ -1,5 +1,96 @@
 # Repository Product Readiness Report
 
+## Audit Addendum — September 6, 2026
+
+### Repository
+
+`celoht-docs`
+
+### Role
+
+Canonical CeloHT documentation hub. This repository contains static documentation and brand assets; it is not an application, backend, indexer, wallet runtime, or smart-contract implementation.
+
+### Audit Summary
+
+- Current GitHub links were synchronized to `Celo-HaiTi` and the documented repository names.
+- Celo Sepolia (`11142220`), Celo Mainnet (`42220`), CELO, and USDm remain the current documented standards.
+- Legacy Celo-HT, Alfajores, and cUSD references were reviewed and retained only for historical, compatibility, or explanatory context.
+- API, CLI, and SDK documents now state that the backend/package is planned or unconfigured; no live API is claimed here.
+- No contract source, deployment artifact, treasury implementation, backend, database, or secret was found in this repository.
+
+### Changes Made
+
+- Corrected current GitHub links in project, support, brand, and contributor documentation.
+- Corrected external source-of-truth links to `celoht-brand`, `celoht-siteweb`, `celoht-dapp`, and `celoht-smart-contracts`.
+- Removed the unapproved legacy API setup value and marked API base URLs as not configured.
+- Added a legacy-duplicate notice to `README (1).md`; distinct suffixed files were preserved pending deliberate consolidation.
+- Extended `validate.sh` with a regression check for legacy current URLs and the unapproved API domain.
+
+### Security
+
+- Critical: none found in this static repository.
+- High: none found in this static repository.
+- Medium: external runtime, API, deployment, and Treasury claims require verification in their authoritative repositories.
+- Low: distinct suffixed duplicate documents remain and need an intentional consolidation decision.
+- No private keys, seed phrases, credentials, or secret values were exposed in the audit output.
+
+### Treasury
+
+- Treasury address: NOT VERIFIED in this repository.
+- Safe/multisig: NOT VERIFIED in this repository.
+- Authorization, withdrawals, accounting, governance, and events: not implemented here; verification belongs to `celoht-smart-contracts` and operational governance records.
+
+### Smart Contracts
+
+- Contract source, deployment, verification, ABI, authorization, Treasury tests, fuzzing, invariants, and coverage are not implemented or evidenced here.
+- The authoritative implementation belongs in `celoht-smart-contracts`.
+
+### Application
+
+- Wallet, transaction, blockchain data, mobile UX, accessibility, and performance are documentation-only references; no runtime exists here.
+- No live balances, transactions, agents, students, trees, payments, or Treasury data are presented as repository-backed live data.
+
+### Documentation
+
+- Current organization and ecosystem repository links were synchronized.
+- API documentation now distinguishes specification, planned, and unavailable states.
+- Historical Alfajores, cUSD, and legacy organization references remain explicitly classified.
+
+### Cross-Repository Synchronization
+
+- Current ownership points to `celoht-smart-contracts`, `celoht-dapp`, `celoht-admin`, `celoht-siteweb`, `celoht-brand`, and `CeloHT` according to the ecosystem model.
+- Contract addresses, API deployments, production metrics, and Treasury controls remain external facts requiring verification in their authoritative repositories.
+
+### Tests
+
+- `bash validate.sh` — PASS
+- Markdown fence balance — PASS
+- Internal Markdown links — PASS (131 files checked)
+- No-token policy language scan — PASS
+- YAML/JSON configuration validity — PASS
+- Canonical organization/API regression scan — PASS
+
+### Remaining Blockers
+
+- No authorized backend/API deployment is evidenced; API integrations are BLOCKED until an owner and deployment are published.
+- Smart-contract, Treasury, Safe, governance, and production deployment evidence is external and not verified here.
+- Suffixed duplicate documents require an intentional consolidation decision.
+
+### Production Status
+
+- Documentation scope: IMPLEMENTED
+- API/SDK/CLI runtime: PLANNED
+- Smart contracts, Treasury, and backend in this repository: BLOCKED
+- Overall production-readiness assessment: BLOCKED for runtime claims; IMPLEMENTED for this repository's documentation scope.
+
+### Files Changed
+
+See `git diff --name-only` for the exact working-tree list; changes are limited to documentation references, API status wording, historical labels, and `validate.sh`.
+
+### Final Score
+
+**7.5/10** for this repository's documentation scope. Validator coverage and current-link synchronization are in place, but external runtime evidence and duplicate-document consolidation prevent a higher score.
+
 ## Repository Purpose
 
 This repository is the CeloHT documentation hub. Its responsibility is to maintain the canonical project-level documentation for CeloHT, covering governance, education, program operations, technical architecture references, and public-facing institutional materials.
@@ -139,6 +230,6 @@ The repo includes a local validation script and it was run successfully:
 
 ## Final Product Readiness Status
 
-CONDITIONALLY READY
+IMPLEMENTED for the documentation scope; BLOCKED for claims about external runtime production readiness.
 
 This repository is ready for its defined responsibility as the CeloHT documentation hub. It is not a live product runtime and does not claim to be one. Its documented dependencies remain external and must be verified in their respective repos.

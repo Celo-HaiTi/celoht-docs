@@ -75,4 +75,4 @@ This brand repository is built incrementally, with every published file complete
 - Additional logo formats (favicon set, social avatar crops, presentation templates)
 - Merchandise, event, and print guides
 
-Community members are encouraged to pick up any of these — see open issues at [github.com/Celo-HT/CeloHT](https://github.com/Celo-HT/CeloHT).
+Community members are encouraged to pick up any of these — see open issues at [github.com/Celo-HaiTi/celoht-docs](https://github.com/Celo-HaiTi/celoht-docs).

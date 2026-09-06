@@ -2,7 +2,7 @@
 
 ## Scope
 
-This repository contains brand documentation, guidelines, and static SVG/image assets. It does not contain application code, smart contracts, or systems that process user funds or personal data. For security concerns related to CeloHT's smart contracts, dApp, or website, see the relevant repository at [github.com/Celo-HT](https://github.com/Celo-HT).
+This repository contains brand documentation, guidelines, and static SVG/image assets. It does not contain application code, smart contracts, or systems that process user funds or personal data. For security concerns related to CeloHT's smart contracts, dApp, or website, see the relevant repositories at [github.com/Celo-HaiTi](https://github.com/Celo-HaiTi).
 
 ## Reporting a Vulnerability or Brand Misuse
 

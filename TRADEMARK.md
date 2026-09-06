@@ -8,7 +8,7 @@ The "CeloHT" name and logo function as CeloHT's trademark/brand identifiers. Thi
 
 - Referencing, linking to, or discussing CeloHT factually (nominative use)
 - Using the logo per the Brand repository's `LOGO_GUIDELINES.md` for legitimate community, educational, or press purposes
-- Co-branding under a signed agreement — see [PARTNERSHIP_BRANDING.md](https://github.com/Celo-HT/Brand/blob/main/PARTNERSHIP_BRANDING.md) (Brand repository)
+- Co-branding under a signed agreement — see [PARTNERSHIP_BRANDING.md](https://github.com/Celo-HaiTi/celoht-brand/blob/main/PARTNERSHIP_BRANDING.md) (Brand repository)
 
 ## Prohibited Use
 

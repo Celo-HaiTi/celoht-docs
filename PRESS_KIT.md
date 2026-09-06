@@ -19,7 +19,7 @@ CeloHT is a Haitian-led, open-source initiative focused on financial inclusion, 
 - **Wallet:** Valora (recommended, not exclusive or affiliated)
 - **Token model:** None — no native token, no ICO, no presale, no staking token
 - **Website:** celoht.com
-- **Documentation:** github.com/Celo-HT/CeloHT
+- **Documentation:** github.com/Celo-HaiTi/celoht-docs
 - **Contact:** contact@celoht.org / celoht3@gmail.com
 
 ## Logo & Visual Assets

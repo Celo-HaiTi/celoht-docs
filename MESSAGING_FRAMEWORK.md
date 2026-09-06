@@ -27,7 +27,7 @@ CeloHT helps Haitian communities access digital financial tools that were previo
 
 ## Proof Points (always back claims with these)
 
-- Open-source repository and public documentation (github.com/Celo-HT)
+- Open-source repository and public documentation (github.com/Celo-HaiTi)
 - Named, trained agents in the Agent Network — not anonymous accounts
 - Verifiable reforestation numbers with long-term monitoring
 - Public governance discussions — no closed-door decisions

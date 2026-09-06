@@ -31,7 +31,7 @@ Ambassadors do not have governance voting authority beyond standard community pa
 
 ## Ambassador Standards
 
-Ambassadors are expected to represent CeloHT consistently with [BRAND_GUIDE.md](https://github.com/Celo-HT/Brand/blob/main/BRAND_GUIDE.md) (Brand repository) and this documentation — never implying token existence, investment returns, or unauthorized Celo/Valora affiliation.
+Ambassadors are expected to represent CeloHT consistently with [BRAND_GUIDE.md](https://github.com/Celo-HaiTi/celoht-brand/blob/main/BRAND_GUIDE.md) (Brand repository) and this documentation — never implying token existence, investment returns, or unauthorized Celo/Valora affiliation.
 
 ## References
 

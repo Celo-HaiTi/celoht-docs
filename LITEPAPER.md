@@ -42,7 +42,7 @@ CeloHT tracks and publishes: people trained, wallets created, active agents, tra
 
 ## Get Involved
 
-- Explore the code and docs: [github.com/Celo-HT](https://github.com/Celo-HT)
+- Explore the code and docs: [github.com/Celo-HaiTi](https://github.com/Celo-HaiTi)
 - Partner with CeloHT: [PARTNERS.md](./PARTNERS.md)
 - Contribute: [CONTRIBUTING.md](./CONTRIBUTING.md)
 - Contact: contact@celoht.com
