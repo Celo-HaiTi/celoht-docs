@@ -1,5 +1,20 @@
 # CeloHT Architecture
 
+> **Evidence boundary:** Current implementation facts come from [celoht-smart-contracts](https://github.com/Celo-HaiTi/celoht-smart-contracts), [celoht-indexer](https://github.com/Celo-HaiTi/celoht-indexer), [celoht-backend](https://github.com/Celo-HaiTi/celoht-backend), [celoht-admin](https://github.com/Celo-HaiTi/celoht-admin), [celoht-dapp](https://github.com/Celo-HaiTi/celoht-dapp), and [celoht-research](https://github.com/Celo-HaiTi/celoht-research). Planned behavior is labeled `PLANNED`; unavailable runtime integrations are labeled `UNAVAILABLE`.
+
+## Canonical data flow
+
+```text
+Celo blockchain
+    -> CeloHT smart contracts: on-chain state and events
+    -> celoht-indexer: validated, chain-specific indexed records and checkpoints
+    -> Supabase/data layer: indexed tables plus backend-owned application tables
+    -> celoht-backend: authentication, authorization, KYC, application workflows
+    -> celoht-dapp / celoht-admin: user-facing and administrative presentation
+```
+
+On-chain data is authoritative for contract state and transactions. Indexed data is a synchronized interpretation of verified events. Database data includes indexed records and backend-owned application records. Derived metrics must retain labeled source records. User data includes profiles, progress, KYC, and evidence; administrative data includes roles, audit logs, and operational actions. The admin dashboard must show `UNAVAILABLE` or mock state rather than inventing live values.
+
 **Version 1.0 · August 2026**
 
 This document describes the technical architecture of CeloHT, an open-source Web3 impact ecosystem built on the Celo blockchain. It is intended for developers contributing to the codebase, grant reviewers and partners evaluating technical maturity, and community members who want to understand how CeloHT's systems fit together.
@@ -212,7 +227,7 @@ Smart contracts are used selectively, only where on-chain logic provides a genui
 - **Agent verification registries** — an on-chain record that a given wallet address has completed CeloHT's agent verification process, queryable by anyone.
 - **Reforestation impact attestations** — lightweight on-chain records anchoring off-chain reforestation reports to an immutable timestamp and hash, so reported impact cannot be silently altered after publication.
 
-CeloHT deliberately avoids unnecessary on-chain complexity: contracts are kept minimal, audited (Section 12), and used only where they measurably improve verifiability over a purely off-chain approach.
+CeloHT deliberately avoids unnecessary on-chain complexity. The current contracts are IMPLEMENTED, DEPLOYED, and VERIFIED on Celo Sepolia, but not AUDITED and not PRODUCTION READY. Mainnet deployment is unavailable.
 
 ### 6.5 Blockchain Verification
 
@@ -237,15 +252,15 @@ graph TD
 
 ### 7.1 Valora Integration
 
-Valora is CeloHT's primary recommended wallet for learners and agents who want full wallet functionality: phone-number-based address resolution, in-app USDm balance visibility, and a mature, audited mobile application.
+Valora is the primary documented wallet compatibility target for the dApp. The dApp source also supports injected browser wallets and WalletConnect-compatible wallets when configured. Wallet compatibility is not evidence of a CeloHT production deployment, and CeloHT does not operate or control any wallet provider.
 
 ### 7.2 MiniPay Integration
 
-MiniPay's lightweight, embedded design makes it well suited for the lower end of the device spectrum common among CeloHT's target communities, minimizing onboarding friction for first-time crypto-wallet users.
+MiniPay is not established as a supported wallet by the current dApp source; treat it as experimental or planned, not supported.
 
 ### 7.3 WalletConnect Support
 
-WalletConnect provides a standards-based fallback, ensuring CeloHT remains interoperable with the broader Celo and EVM wallet ecosystem rather than locking users into a single provider — an explicit architectural commitment to openness.
+WalletConnect is supported when the dApp has a configured WalletConnect project ID. Without that configuration, only available injected wallet connections can be offered.
 
 ---
 

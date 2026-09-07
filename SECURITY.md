@@ -24,10 +24,19 @@ We ask researchers to give CeloHT a reasonable window to address a reported issu
 
 CeloHT never asks users for their seed phrase, private key, or wallet password, under any circumstance, through any channel. Any communication requesting this is fraudulent — see [Reporting Violations](./NO_TOKEN_POLICY.md#reporting-violations).
 
+## Data and service boundaries
+
+- **Authentication:** the backend uses wallet nonce/signature authentication for wallet-linked sessions; server-side session handling is owned by `celoht-backend`. A public dApp connection alone is not an authenticated application session.
+- **Authorization:** roles are re-read server-side and enforced by the backend; client-side role labels and dashboard visibility are not authorization.
+- **KYC privacy:** KYC and identity evidence are user data, not on-chain data and not public impact metrics. Store and review them only through the provisioned backend/Supabase controls.
+- **Secrets:** service-role keys, RPC credentials, signing keys, and deployment secrets remain server-side and outside the dApp/admin browser bundle. Never commit them.
+- **Database security:** Supabase RLS, ownership boundaries, migrations, backups, and immutable audit logs are required. The indexer writes only indexer-owned tables; the backend must not rewrite indexed provenance.
+- **Derived metrics:** dashboards must label whether a value is on-chain, indexed, database-owned, user-submitted, or derived. Missing data is `UNAVAILABLE`, not zero.
+
 ## Smart Contract Security
 
-- No contract handles user funds directly (non-custodial design — see [SMART_CONTRACTS.md](./SMART_CONTRACTS.md#design-principles))
-- Governance-gated administrative functions only, via multisig
+- Contract-specific custody, roles, and administrative controls must be checked against the canonical deployed source and manifest; this documentation does not certify a multisig or pause mechanism.
+- No CeloHT native token exists. USDm is the settlement asset and CELO is the gas/network asset.
 - Mandatory third-party audit before any mainnet deployment beyond testnet
 - Public audit reports and remediation tracking
 
@@ -35,7 +44,7 @@ CeloHT never asks users for their seed phrase, private key, or wallet password, 
 
 1. **Detection** — via monitoring, bug bounty reports, or community reports
 2. **Triage** — Engineering Working Group assesses severity within 24 hours for critical reports
-3. **Containment** — for smart contracts, this may mean pausing governance-controlled functions; for the dApp/API, this may mean rate-limiting or temporary feature disablement
+3. **Containment** — for smart contracts, use only controls actually exposed by the deployed contract; for the dApp/API, this may mean rate-limiting or temporary feature disablement
 4. **Remediation** — fix developed, tested, and reviewed
 5. **Disclosure** — public post-mortem published for any incident affecting user funds, data, or trust, regardless of severity
 
@@ -69,3 +78,5 @@ Before requesting an external audit, the Engineering Working Group ensures: comp
 - [NO_TOKEN_POLICY.md](./NO_TOKEN_POLICY.md)
 - [AGENT_NETWORK.md](./AGENT_NETWORK.md#risk-management)
 - [GOVERNANCE.md](./GOVERNANCE.md)
+- [PRODUCTION_READINESS.md](./PRODUCTION_READINESS.md)
+- [OPERATIONS_RUNBOOKS.md](./OPERATIONS_RUNBOOKS.md)
