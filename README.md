@@ -1,3 +1,6 @@
+<div align="center">
+
+<img width="260" height="260" alt="celoht-logo" src="https://github.com/user-attachments/assets/37c69587-139b-4ecd-b5a7-c73f22ec144f" />
 # CeloHT Documentation
 
 The complete documentation for CeloHT, a Haitian-led, open-source, community-governed initiative advancing financial inclusion, blockchain education, and environmental sustainability from Léogâne, Haiti.
