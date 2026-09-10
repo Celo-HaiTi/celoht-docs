@@ -1,4 +1,24 @@
-# Production Readiness
+# CeloHT Production Readiness
+
+## Repository
+
+Name: `celoht-docs`
+
+Purpose: CeloHT documentation and governance hub for the broader CeloHT ecosystem.
+
+## Repository Type
+
+Documentation
+
+## Status
+
+READY FOR TESTING
+
+This repository is a documentation-only repository and is not itself a live application, service, wallet runtime, indexer, Supabase project, or smart-contract deployment target. The repository’s verified status is therefore limited to documentation integrity, consistency, and local validation.
+
+The remainder of this file preserves the canonical readiness matrix for the CeloHT implementation repositories. For this repo specifically, the current evidence supports documentation readiness only, not runtime or production deployment readiness.
+
+## Canonical Readiness Matrix
 
 This is the canonical readiness matrix for the CeloHT implementation repositories. Status is evidence-based and applies to the repository revisions checked on 2026-09-07. `IMPLEMENTED` means code or documentation exists; it does not mean deployed. `DEPLOYED` means a deployment manifest or environment evidence exists. `VERIFIED` means the deployment or artifact was independently checked by the named source. `AUDITED` is reserved for an independent security audit. `PRODUCTION READY` requires the relevant operational, security, and governance evidence.
 
