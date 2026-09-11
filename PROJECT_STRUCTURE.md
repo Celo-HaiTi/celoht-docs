@@ -24,6 +24,7 @@ celoht-docs/
 ├── training-curriculum.md, risk-management.md, ...
 ├── *.svg, *.png                                  Brand and favicon assets
 ├── *.docx, *.pptx                                Distributable source materials
+├── archive/brand-repository-snapshot/             Archived cross-repository snapshot
 └── validate.sh                                    Local documentation validation
 ```
 
@@ -35,6 +36,10 @@ Top-level `.md` files in the repository root are the **canonical reference** for
 
 - **dApp repository structure:** [DEVELOPER_GUIDE.md](./DEVELOPER_GUIDE.md#project-structure)
 - **Brand repository structure:** see that repository's own `README.md`
+
+The `archive/brand-repository-snapshot/` directory contains historical files from
+a separate brand-repository snapshot. It is excluded from canonical internal-link
+validation because its original relative links belong to that repository.
 
 ## Adding New Structure
 

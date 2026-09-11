@@ -127,7 +127,7 @@ Documentation gaps:
 
 ### P2 — Improvement
 
-- Different suffixed files such as `README (1).md`, `SECURITY (1).md`, `CONTRIBUTING (1).md`, and similar duplicates should be intentionally consolidated or clearly documented to avoid confusion.
+- Historical suffixed files such as `README (1).md`, `SECURITY (1).md`, and `CONTRIBUTING (1).md` are now preserved under `archive/brand-repository-snapshot/`, with compatibility stubs retained at their former paths.
 - More explicit cross-repository dependency mapping could reduce ambiguity about source-of-truth locations.
 
 ## Current Status

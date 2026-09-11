@@ -23,7 +23,7 @@ Canonical CeloHT documentation hub. This repository contains static documentatio
 - Corrected current GitHub links in project, support, brand, and contributor documentation.
 - Corrected external source-of-truth links to `celoht-brand`, `celoht-siteweb`, `celoht-dapp`, and `celoht-smart-contracts`.
 - Removed the unapproved legacy API setup value and marked API base URLs as not configured.
-- Added a legacy-duplicate notice to `README (1).md`; distinct suffixed files were preserved pending deliberate consolidation.
+- Consolidated the unrelated suffixed brand-repository snapshot under `archive/brand-repository-snapshot/` and retained compatibility stubs at the former paths.
 - Extended `validate.sh` with a regression check for legacy current URLs and the unapproved API domain.
 
 ### Security
@@ -31,7 +31,7 @@ Canonical CeloHT documentation hub. This repository contains static documentatio
 - Critical: none found in this static repository.
 - High: none found in this static repository.
 - Medium: external runtime, API, deployment, and Treasury claims require verification in their authoritative repositories.
-- Low: distinct suffixed duplicate documents remain and need an intentional consolidation decision.
+- Low: archived snapshot links are intentionally outside the canonical documentation link check.
 - No private keys, seed phrases, credentials, or secret values were exposed in the audit output.
 
 ### Treasury

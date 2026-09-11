@@ -26,6 +26,8 @@ import re, os, glob, sys
 files = glob.glob('**/*.md', recursive=True)
 broken = []
 for f in files:
+    if f.startswith('archive/'):
+        continue
     content = open(f, encoding='utf-8').read()
     for link in re.findall(r'\]\(([^)]+)\)', content):
         if link.startswith('http') or link.startswith('mailto:'):
