@@ -82,7 +82,7 @@ celoht-docs/
 ├── validate.sh                  # Local validation script
 ├── module-01-financial-literacy-foundations.md
 ├── module-02-web3-and-blockchain.md
-├── module-03-cusd-and-celo.md
+├── module-03-usdm-and-celo.md
 ├── module-04-wallet-safety.md
 ├── module-05-digital-security.md
 ├── module-06-responsible-digital-finance.md
@@ -92,7 +92,7 @@ celoht-docs/
 └── supporting policy and governance documents
 ```
 
-The `module-03-cusd-and-celo.md` filename is retained for link compatibility with older materials; the current asset terminology in the module is USDm.
+The `module-03-usdm-and-celo.md` filename is retained for link compatibility with older materials; the current asset terminology in the module is USDm.
 
 ## Related Repositories
 
