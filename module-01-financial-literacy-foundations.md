@@ -46,7 +46,7 @@ By the end of this module, a participant should be able to:
 
 ## Lesson 1.4 — Introduction to Saving Digitally
 
-**Key concept:** Holding value digitally (e.g. in USDm) can reduce the risks of holding physical cash (theft, loss, spoilage) — introduces the idea developed fully in [Module 3](./module-03-cusd-and-celo.md).
+**Key concept:** Holding value digitally (e.g. in USDm) can reduce the risks of holding physical cash (theft, loss, spoilage) — introduces the idea developed fully in [Module 3](./module-03-usdm-and-celo.md).
 
 ## Assessment
 

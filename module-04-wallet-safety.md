@@ -1,7 +1,7 @@
 # Module 4: Using Valora Safely
 
 *Part of the CeloHT Education curriculum — see [./EDUCATION.md](./EDUCATION.md).*
-*Previous: [Module 3 →](./module-03-cusd-and-celo.md)*
+*Previous: [Module 3 →](./module-03-usdm-and-celo.md)*
 
 ## Audience
 Individuals who have completed Module 3, immediately before their first real wallet setup.

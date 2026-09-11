@@ -24,7 +24,7 @@ USDm is the right fit for CeloHT's operational model because it offers price sta
 
 ## User Education
 
-Understanding USDm is a core education module. See [EDUCATION.md](./EDUCATION.md) and [module-03-cusd-and-celo.md](./module-03-cusd-and-celo.md).
+Understanding USDm is a core education module. See [EDUCATION.md](./EDUCATION.md) and [module-03-usdm-and-celo.md](./module-03-usdm-and-celo.md).
 
 ## Historical Note
 

@@ -50,4 +50,4 @@ Participant should be able to explain blockchain using their own analogy (not me
 
 ## Next Module
 
-[Module 3: Understanding USDm and CELO →](./module-03-cusd-and-celo.md)
+[Module 3: Understanding USDm and CELO →](./module-03-usdm-and-celo.md)
