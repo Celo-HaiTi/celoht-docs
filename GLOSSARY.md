@@ -27,7 +27,7 @@
 
 **Maintainer Council** — The community body responsible for final review of major governance decisions. See [GOVERNANCE.md](./GOVERNANCE.md#steering-committee).
 
-**Valora** — A mobile wallet application for the Celo network supported by CeloHT; not officially affiliated with CeloHT.
+**Valora** **MiniPay** **WalletConnect** — A mobile wallet application for the Celo network supported by CeloHT; not officially affiliated with CeloHT.
 
 **Working Group** — A standing community group with delegated authority over a specific domain (e.g. Education, Reforestation). See [GOVERNANCE.md](./GOVERNANCE.md#working-groups).
 
