@@ -11,7 +11,7 @@ Turning that idea into an active initiative took time. CeloHT started in Léogâ
 ## Key Milestones
 
 - **2022 — Idea and early exploration.** Initial research into blockchain as a financial-inclusion tool for Haiti, alongside early groundwork for FreClean, the founder's parallel initiative. See [FOUNDER.md](./FOUNDER.md).
-- **Public presence established** — CeloHT built a presence on Medium (@celoht3), X (@CeloHtOfficial), the Celo Forum, and GitHub under the legacy Celo-HT organization.
+- **Public presence established** — CeloHT built a presence on Medium (@celoht3), X (@CeloHtOfficial), the Celo Forum, and GitHub under the Celo-HaiTi organization.
 - **2025 — Community recognition.** CeloHT was featured in a "Founders" post on the Celo Forum, a notable moment of recognition within the broader Celo ecosystem.
 - **Educational output** — development of a full library of Haitian Creole training material, ranging from a professional trading encyclopedia to a Web3/developer training book, built with open-source tools including Node.js and Python.
 - **2026 — Flagship repository published.** This documentation repository went live as the central governance and documentation hub for the entire ecosystem, marking the formal start of [Phase 1 on the roadmap](./ROADMAP.md#phase-1--foundation-2026-q2q3).

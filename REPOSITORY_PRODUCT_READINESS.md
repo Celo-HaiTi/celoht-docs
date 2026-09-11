@@ -14,7 +14,7 @@ Canonical CeloHT documentation hub. This repository contains static documentatio
 
 - Current GitHub links were synchronized to `Celo-HaiTi` and the documented repository names.
 - Celo Sepolia (`11142220`), Celo Mainnet (`42220`), CELO, and USDm remain the current documented standards.
-- Legacy Celo-HT, Alfajores, and cUSD references were reviewed and retained only for historical, compatibility, or explanatory context.
+- Legacy Alfajores and cUSD references were reviewed and retained only for historical, compatibility, or explanatory context.
 - API, CLI, and SDK documents now state that the backend/package is planned or unconfigured; no live API is claimed here.
 - No contract source, deployment artifact, treasury implementation, backend, database, or secret was found in this repository.
 
@@ -145,7 +145,7 @@ These references are documentation links only. No runtime integration is impleme
 
 ## Contradictions Found
 
-- The repository used outdated active references to the legacy Celo-HT organization.
+- The repository used outdated active references to the GitHub organization.
 - The repository documented Alfajores as the current default network in active developer guidance, even though the current canonical CeloHT active testnet is Celo Sepolia.
 - Legacy CUSD naming still appeared in active guidance without clearly marking it as historical terminology.
 - This repository is documentation-only; it did not contain application code or runtime integration logic, so product-readiness had to be assessed as documentation integrity rather than app functionality.
