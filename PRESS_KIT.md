@@ -6,7 +6,7 @@
 CeloHT is a Haitian-led, open-source, community-governed initiative expanding financial inclusion through education, a local agent network, and environmental sustainability.
 
 **Medium (short paragraph):**
-CeloHT is a Haitian-led, open-source initiative focused on financial inclusion, blockchain education, and environmental sustainability in Haiti. Built on the Celo blockchain as an infrastructure choice, CeloHT operates through three permanent pillars — Education, Agent Network, and Reforestation — and is governed by its community rather than a single organization. CeloHT has no token, no ICO, and makes no investment promises; it is not officially affiliated with Celo Foundation or Valora.
+CeloHT is a Haitian-led, open-source initiative focused on financial inclusion, blockchain education, and environmental sustainability in Haiti. Built on the Celo blockchain as an infrastructure choice, CeloHT operates through three permanent pillars — Education, Agent Network, and Reforestation — and is governed by its community rather than a single organization. CeloHT has no token, no ICO, and makes no investment promises; it is not officially affiliated with Celo Foundation.
 
 **Long (full boilerplate):** see [BRAND_STORY.md](./BRAND_STORY.md) and [MISSION.md](./MISSION.md) for full narrative and mission detail suitable for feature articles.
 
@@ -16,7 +16,7 @@ CeloHT is a Haitian-led, open-source initiative focused on financial inclusion, 
 - **Governance:** Community-governed, open source
 - **Focus areas:** Financial inclusion, Web3/financial education, environmental sustainability
 - **Blockchain infrastructure:** Celo (USDm for payments, CELO for gas)
-- **Wallet:** Valora (recommended, not exclusive or affiliated)
+- **Wallet support:** CeloHT supports Valora, MiniPay, and WalletConnect.
 - **Token model:** None — no native token, no ICO, no presale, no staking token
 - **Website:** celoht.com
 - **Documentation:** github.com/Celo-HaiTi/celoht-docs
@@ -35,7 +35,7 @@ All logo files are available in the repository root as SVG and PNG assets, with 
 ## What Journalists Should Know
 
 - CeloHT is **not** a cryptocurrency, token, or investment platform — please do not characterize it as one
-- CeloHT's relationship to Celo and Valora is a technology choice, not a formal partnership or endorsement
+- CeloHT supports wallet connectivity through Valora, MiniPay, and WalletConnect. Valora is recommended for users seeking a full-featured Celo wallet experience, while MiniPay provides an integrated mobile wallet experience and WalletConnect enables compatible wallets to connect to the CeloHT dApp.
 - Impact claims should reference CeloHT's published metrics (people trained, wallets created, active agents, USDm transaction volume, trees planted) — request current figures at contact@celoht.org
 - Interviews and comments from CeloHT should be attributed to named community maintainers or the founder, not to "the CeloHT team" anonymously, wherever possible
 
