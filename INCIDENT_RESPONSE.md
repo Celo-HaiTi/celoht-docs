@@ -12,7 +12,7 @@ Any event that compromises user funds, personal data, service availability, or t
 Via monitoring (see [MONITORING.md](./MONITORING.md)), a security report (see [SECURITY.md](./SECURITY.md#reporting-a-vulnerability)), or community report.
 
 ### 2. Triage (within 24 hours for critical reports)
-Engineering side of the Maintainer Council assesses severity:
+The Technology Working Group or designated Maintainers assess severity within their technical scope:
 
 | Severity | Example |
 |---|---|

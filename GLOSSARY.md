@@ -25,7 +25,6 @@
 
 **RFC (Request for Comment)** — CeloHT's formal proposal process for governance and policy changes. See [GOVERNANCE.md](./GOVERNANCE.md#decision-making-process).
 
-**Maintainer Council** — The community body responsible for final review of major governance decisions. See [GOVERNANCE.md](./GOVERNANCE.md#steering-committee).
 
 **Valora** **MiniPay** **WalletConnect** — A mobile wallet application for the Celo network supported by CeloHT; not officially affiliated with CeloHT.
 

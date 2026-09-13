@@ -17,7 +17,7 @@ Covered in full in [REFORESTATION.md](./REFORESTATION.md). Core principle: refor
 CeloHT's funding model (see [GOVERNANCE.md](./GOVERNANCE.md#funding-governance) and [WHITEPAPER.md](./WHITEPAPER.md#6-economic-model--sustainability)) deliberately spans grants, partnerships, and transparent Agent Network fees rather than depending on a single funder — reducing the risk that losing one funding source halts the entire initiative.
 
 ### Governance Continuity
-CeloHT's community governance structure (see [GOVERNANCE.md](./GOVERNANCE.md)) with staggered Maintainer Council terms and distributed Working Group leadership is designed so the project doesn't depend on any single individual, including the founder, to continue functioning.
+CeloHT's community governance structure (see [GOVERNANCE.md](./GOVERNANCE.md)) and distributed Working Group leadership are intended to prevent dependence on any single individual, including the Founder. Council formation and terms remain To Be Established through the documented collective process.
 
 ### Knowledge Continuity
 This documentation repository itself is a sustainability mechanism — comprehensive, versioned documentation (see [CHANGELOG.md](./CHANGELOG.md)) ensures institutional knowledge survives contributor and maintainer turnover, a common failure point for open-source and NGO projects alike.

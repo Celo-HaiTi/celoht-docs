@@ -16,7 +16,7 @@ If your interest is in collaborating on our Education, Agent Network, or Refores
 2. Which pillar(s) this connects to — [EDUCATION.md](./EDUCATION.md), [AGENT_NETWORK.md](./AGENT_NETWORK.md), or [REFORESTATION.md](./REFORESTATION.md)
 3. Whether funding is involved, and if so, roughly what scope
 
-We'll route this to the relevant area of our Maintainer Council for review — see [GOVERNANCE.md](./GOVERNANCE.md#how-the-maintainer-council-organizes-its-work). Initial response time is typically within two weeks.
+We'll route this to the relevant community or Working Group process for review — see [GOVERNANCE.md](./GOVERNANCE.md). Any approval requires the documented collective governance process. Initial response time is typically within two weeks.
 
 In the meantime, [WHITEPAPER.md](./WHITEPAPER.md) and [BUSINESS_MODEL.md](./BUSINESS_MODEL.md) give a fuller picture of how we operate.
 

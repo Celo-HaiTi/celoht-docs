@@ -635,7 +635,7 @@ graph TD
 
 | Role | Core Responsibility | Authority Limit |
 |---|---|---|
-| Founder | Mission continuity, narrow emergency safeguard | One vote among several on Council; no unilateral treasury or governance authority |
+| Founder | Founding history, mission continuity, institutional context | No automatic Council seat or vote, veto, emergency power, or unilateral governance authority |
 | Governance Council | Strategic, treasury, and governance decisions | Bound by quorum, majority thresholds, and this document's own amendment process |
 | Maintainers | Code review, releases, security triage | No governance or treasury authority beyond their repository scope |
 | Working Groups | Operational execution within a published charter | Report to and are appointed by the Governance Council |
@@ -662,7 +662,7 @@ flowchart LR
 
 | Risk | Mitigation |
 |---|---|
-| Concentration of authority in the Founder role | Council-based governance, term limits, narrow and auto-expiring emergency safeguard (`GOVERNANCE.md` Section 3.1) |
+| Concentration of authority in the Founder role | Founder status is separate from governance authority; collective proposal and decision records (`GOVERNANCE.md` Section 3.1) |
 | Governance paralysis | Defined quorum and majority thresholds calibrated per decision category (`GOVERNANCE.md` Section 5) |
 | Governance decisions made without community visibility | Mandatory public comment periods within the Proposal Lifecycle |
 
@@ -672,7 +672,7 @@ CeloHT's governance model treats accountability as a structural property, not a 
 
 ### 14.8 Future Outlook
 
-See Section 15 for how this governance model is designed to evolve toward broader community participation through the CeloHT DAO.
+See Section 15 for how this governance model is designed to evolve toward broader community participation through documented, non-token collective governance. CeloHT does not plan to use a native governance token or token-weighted voting.
 
 ---
 
@@ -1308,7 +1308,7 @@ No. CeloHT has no token, has never conducted a token sale, and is not an investm
 Not as of this document's date. CeloHT does not hold nonprofit, charitable, or tax-exempt status in any jurisdiction. See `LEGAL_STATUS.md` Section 3.
 
 **Who controls CeloHT?**
-No individual. CeloHT is governed by a Governance Council, Working Groups, and a public proposal process. The Founder holds one vote among several and no unilateral treasury or governance authority. See `GOVERNANCE.md` Section 3 and Section 14 of this whitepaper.
+No individual. CeloHT is governed through transparent, documented, community-driven proposals and collective decision-making. Johnny Dubic is permanently recognized as Founder, but Founder status does not confer a Council seat or vote, veto, emergency power, or unilateral governance authority. See `GOVERNANCE.md`.
 
 **Does CeloHT plan to launch a token in the future?**
 No. The non-token design is foundational to CeloHT's mission and legal posture, not a temporary phase. See Section 5.5 and `NO_TOKEN_POLICY.md`.

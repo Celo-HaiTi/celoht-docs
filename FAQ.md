@@ -50,10 +50,10 @@ Yes, denominated in fiat or USDm, earmarked to specific pillars. See [GOVERNANCE
 ## Governance
 
 **Who controls CeloHT's decisions?**
-No single individual. Decisions go through a community RFC process reviewed by Working Groups and, for major changes, the Maintainer Council. See [GOVERNANCE.md](./GOVERNANCE.md).
+No single individual. Decisions go through the documented community proposal and collective decision process, with Working Group and Council roles used only when formally constituted. See [GOVERNANCE.md](./GOVERNANCE.md).
 
 **Can the No-Token Policy ever change?**
-In principle yes, through governance — but the process is deliberately difficult (60-day minimum public comment period, Maintainer Council supermajority) because this policy is foundational to community trust. See [NO_TOKEN_POLICY.md](./NO_TOKEN_POLICY.md#policy-amendment-process).
+In principle, any amendment must follow the documented collective governance process, with the applicable review period and threshold established before the process begins. See [NO_TOKEN_POLICY.md](./NO_TOKEN_POLICY.md#policy-amendment-process).
 
 ## Trust & Safety
 

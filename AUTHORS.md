@@ -23,6 +23,8 @@ This document recognizes individuals who have authored code, documentation, educ
 
 The Founder's authorship is recognized here in the same factual, non-biographical format applied to every other entry in this document. Additional detail is not included beyond what is necessary to record authorship, consistent with `TEAM.md` and `VERIFICATION_POLICY.md`.
 
+Founder status is permanently recognized as a founding and historical designation, but does not confer automatic executive authority, Council membership, voting rights, veto power, emergency powers, or unilateral governance authority.
+
 ---
 
 ## 2. Contributors

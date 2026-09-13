@@ -27,7 +27,7 @@ Follows the mandatory process in [SMART_CONTRACTS.md](./SMART_CONTRACTS.md#path-
 # Testnet deployment (Celo Sepolia)
 npx hardhat run scripts/deploy.js --network sepolia
 
-# Mainnet deployment — requires Maintainer Council sign-off per GOVERNANCE.md
+# Mainnet deployment — requires the applicable documented review and collective approval per GOVERNANCE.md
 npx hardhat run scripts/deploy.js --network celo
 ```
 

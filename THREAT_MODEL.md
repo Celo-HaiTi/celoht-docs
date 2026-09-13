@@ -52,7 +52,7 @@ Threats specific to a live mainnet smart contract deployment (MEV, complex econo
 
 ## Review Cadence
 
-This threat model is reviewed whenever a new major feature ships (especially anything touching funds or agent verification) and at minimum annually, coordinated by the Engineering side of the Maintainer Council (see [WORKING_GROUPS.md](./WORKING_GROUPS.md)).
+This threat model is reviewed whenever a new major feature ships (especially anything touching funds or agent verification) and at minimum annually, coordinated by the Technology Working Group or designated Maintainers under the documented governance process (see [WORKING_GROUPS.md](./WORKING_GROUPS.md)).
 
 ## References
 

@@ -2,7 +2,7 @@
 
 ## Purpose
 
-Working Groups carry out CeloHT's day-to-day direction within their domain, reporting to the Maintainer Council — see [GOVERNANCE.md](./GOVERNANCE.md#working-groups) for their place in the overall governance structure.
+Working Groups carry out CeloHT's day-to-day work within their domain under published charters and the documented governance process — see [GOVERNANCE.md](./GOVERNANCE.md#working-groups).
 
 ## Active Working Groups
 
@@ -28,7 +28,7 @@ Working Groups carry out CeloHT's day-to-day direction within their domain, repo
 
 ## How Working Groups Operate
 
-- Each Working Group has a lead, appointed/rotated by the Maintainer Council
+- Each Working Group has a lead, appointed or rotated through the applicable documented collective process
 - Working Groups meet on a regular cadence (published internally) and post public summary notes
 - Working Groups have delegated authority over standard decisions in their domain; foundational changes still require the full RFC process in [GOVERNANCE.md](./GOVERNANCE.md#decision-making-process)
 

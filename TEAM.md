@@ -36,7 +36,7 @@ This document exists because a project's credibility depends in part on the veri
 |---|---|
 | **Name** | Johnny Dubic |
 | **Role** | Founder |
-| **Authority** | Founding role with defined, limited safeguard authority under `GOVERNANCE.md` Section 3.1; one seat and one vote on the Governance Council; subject to the same Conflict of Interest, Ethics, and Recusal rules as every other role |
+| **Authority** | Founding and institutional role only; no automatic executive or governance authority. The Founder follows the same proposal, deliberation, conflict-of-interest, and decision rules as every other participant. |
 | **Public profile** | To Be Announced (TBA) — pending publication of verified public profile links (see Section 7) |
 | **Verification status** | Pending Verification (see `VERIFICATION_POLICY.md`) |
 
@@ -87,7 +87,7 @@ A vacancy in this table does not indicate an absence of activity — it indicate
 
 | Role | Core Responsibilities |
 |---|---|
-| **Founder** | Mission continuity, limited emergency safeguard, one Governance Council vote |
+| **Founder** | Founding history, mission origins, institutional continuity, historical context, and participation in the community governance process |
 | **Governance Council Member** | Strategic and treasury decisions, governance amendments, oversight of Working Groups |
 | **Maintainer** | Code review, release management, security triage within assigned repository scope (see `MAINTAINERS.md`) |
 | **Working Group Lead** | Operational execution within a published charter; reports to the Governance Council |
@@ -129,7 +129,7 @@ Public profile links are not fabricated, estimated, or placeholder-filled by Cel
 - **No fabricated team members.** CeloHT will never list a name, biography, credential, or affiliation that has not been confirmed directly by the individual concerned.
 - **Open vacancies over invented appointments.** An unfilled role is marked "Open" or "Vacant" rather than implied to be filled.
 - **Authority is role-based, not person-based.** Responsibilities attach to governance roles defined in `GOVERNANCE.md`, not to informal influence.
-- **No unilateral control.** The Founder's authority is explicitly bounded by `GOVERNANCE.md` and does not extend to overriding Governance Council decisions outside the narrow emergency-safeguard process.
+- **No unilateral control.** Founder status does not create a Council seat or vote, veto, Founder safeguard, emergency override, executive authority, or power to make a proposal an official CeloHT decision without the documented collective process.
 - **Verification before publicity.** Biographical claims are published only after the process in `VERIFICATION_POLICY.md` has been completed or explicitly marked as pending.
 
 ---

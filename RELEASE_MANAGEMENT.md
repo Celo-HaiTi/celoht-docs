@@ -29,7 +29,7 @@ All CeloHT repositories follow [Semantic Versioning](https://semver.org/): `MAJO
 Breaking changes (API, SDK, or contract interface changes) require:
 - A deprecation notice at least 90 days before the old version is retired (see [API_REFERENCE.md](./API_REFERENCE.md#versioning))
 - Clear migration documentation published alongside the new version
-- Maintainer Council awareness for changes with significant ecosystem impact (see [GOVERNANCE.md](./GOVERNANCE.md))
+- Documented collective governance review for changes with significant ecosystem impact (see [GOVERNANCE.md](./GOVERNANCE.md))
 
 ## Hotfix Process
 

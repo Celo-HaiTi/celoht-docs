@@ -45,6 +45,8 @@ CeloHT uses the **Celo blockchain** as infrastructure supporting **USDm** for pa
 
 **CeloHT has no native token, no ICO, no presale, and makes no investment promises.** See [NO_TOKEN_POLICY.md](./NO_TOKEN_POLICY.md).
 
+**Founder and governance:** Johnny Dubic is permanently recognized as Founder of CeloHT. Founder status is separate from governance authority: any individual may propose an idea, but a proposal becomes an official CeloHT decision only through the documented collective process in [GOVERNANCE.md](./GOVERNANCE.md). No single individual, including the Founder, has unilateral governance authority.
+
 ## Language Policy
 
 This repository is maintained primarily in **English** as the reference language for technical and governance documentation to support a global community. Education materials distributed directly to communities are developed separately and are primarily in Haitian Creole. See [EDUCATION.md](./EDUCATION.md#localization).

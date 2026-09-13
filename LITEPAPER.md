@@ -24,7 +24,7 @@ CeloHT is **not affiliated with Celo Foundation or Valora** beyond this technica
 
 ## Governance
 
-CeloHT is community-governed. Founded by Johnny Dubic, the project is directed through open discussion, a Maintainer Council, and working groups rather than centralized or token-weighted control. See [GOVERNANCE.md](./GOVERNANCE.md).
+CeloHT is community-governed. Founded by Johnny Dubic, the project is directed through transparent proposals, collective decision-making, and working groups rather than centralized or token-weighted control. Council formation is pending under the documented process. See [GOVERNANCE.md](./GOVERNANCE.md).
 
 ## Impact Measurement
 

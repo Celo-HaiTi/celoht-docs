@@ -51,7 +51,7 @@ Wallet compatibility does not imply that backend, KYC, indexed data, or Mainnet 
 | Tree Dashboard | All users, public | Reforestation map, planting events, survival rates |
 | Impact Dashboard | All users, public | Aggregated CeloHT-wide metrics (see [METRICS.md](./METRICS.md)) |
 | Treasury Dashboard | Public | Funding sources and utilization per [GOVERNANCE.md](./GOVERNANCE.md#funding-governance) |
-| Governance Dashboard | Public | Open RFCs, Maintainer Council composition, recent decisions |
+| Governance Dashboard | Public | Open proposals, any formally constituted governance body, and documented collective outcomes |
 
 ## Notifications
 

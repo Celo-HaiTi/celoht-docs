@@ -6,7 +6,7 @@
 **Status:** Active
 **Version:** 1.0.0
 **Effective Date:** 2026
-**Maintained By:** CeloHT Maintainer Council, under the authority of the Foundation Director
+**Maintained By:** CeloHT community contributors under the documented collective governance process
 **Contact:** contact@celoht.com | partnerships@celoht.com
 
 > **Compliance Note:** The key words **MUST**, **MUST NOT**, **SHOULD**, **SHOULD NOT**, and **MAY** are used per [RFC 2119](https://www.ietf.org/rfc/rfc2119.txt) where obligations are stated. This document is a strategic and educational reference. It is **not** an investment prospectus, offering memorandum, or solicitation of securities. See [Compliance & Legal Framing](#29-compliance--legal-framing).
@@ -151,7 +151,7 @@ flowchart LR
 |---|---|
 | **Key Partners** | Celo Foundation & ecosystem grant programs; local NGOs and cooperatives; educational institutions; development agencies; strategic collaborators (e.g., FreClean, subject to formal agreement per CeloHT's Partnerships Policy) |
 | **Key Activities** | Curriculum development; agent recruitment & certification; open-source software development; reforestation program design; community governance facilitation |
-| **Key Resources** | Open-source codebase (Apache 2.0); brand and documentation assets; trained agent network; Maintainer Council governance capacity; Celo blockchain infrastructure |
+| **Key Resources** | Open-source codebase (Apache 2.0); brand and documentation assets; trained agent network; documented community governance capacity; Celo blockchain infrastructure |
 | **Value Propositions** | Free, trustworthy Web3/financial education in Haitian Creole; accessible cash↔USDm conversion via local agents; transparent, non-speculative blockchain adoption; measurable environmental impact |
 | **Customer Relationships** | Community-based trust via local agents; self-service education content; direct enterprise engagement for consulting/reporting services |
 | **Channels** | celoht.com; GitHub organization; local agent network; community workshops; social media (@CeloHT / celohtofficial); partner institutions |
@@ -181,7 +181,7 @@ flowchart TD
     Reforest --> Farmers[Farmers / Landholders]
     Reforest --> ImpactReports[Impact & ESG Reporting Clients]
 
-    CeloHT --> Governance[Foundation Director / Maintainer Council / Community Contributors]
+    CeloHT --> Governance[Collective Governance / Community Contributors]
     CeloHT --> Funding[Grants, Sponsorships, Donations, Service Revenue]
     Funding --> CeloHT
 ```
@@ -203,7 +203,7 @@ flowchart TD
 | Enterprises | Practical blockchain/stablecoin integration expertise | Non-speculative consulting grounded in the No Token Policy |
 | Grant-making foundations | Responsible stewardship of funds | Financial transparency per governance documentation |
 | Open-source community | Genuine public-goods contribution | Apache 2.0 licensing, public repositories, CI-verified quality |
-| Maintainer Council / contributors | Sustainable, well-governed organization | Diversified funding reducing single-point dependency |
+| Community contributors | Sustainable, well-governed organization | Diversified funding reducing single-point dependency |
 
 ---
 
@@ -262,7 +262,7 @@ flowchart LR
     CeloHT --- OSSCommunity[Open-Source Community]
 ```
 
-Illustrative partner category (prospective, unconfirmed): environmental/community-services initiatives such as FreClean MAY, subject to formal due diligence and Maintainer Council approval, become Strategic Collaborators on reforestation-adjacent programming. No such agreement is asserted as active by this document.
+Illustrative partner category (prospective, unconfirmed): environmental/community-services initiatives such as FreClean MAY, subject to formal due diligence and documented collective approval, become Strategic Collaborators on reforestation-adjacent programming. No such agreement is asserted as active by this document.
 
 ---
 
@@ -495,7 +495,7 @@ Go-to-market execution MUST remain consistent with the No Token Policy at every 
 1. **Agent-led scaling:** The Agent Network is CeloHT's primary physical-world scaling mechanism; growth SHOULD prioritize agent density and quality over raw headcount.
 2. **Curriculum modularity:** Education content SHOULD be built as reusable, translatable modules to reduce marginal cost of geographic expansion.
 3. **Open-source leverage:** Because CeloHT's code and documentation are Apache 2.0 licensed, other communities or organizations MAY fork and adapt CeloHT's model, extending impact without proportional CeloHT operating cost — a deliberate public-goods scaling lever.
-4. **Governance scaling:** As activity grows, the Maintainer Council SHOULD expand deliberately (see `GOVERNANCE.md`) to avoid concentration of decision-making even as the organization grows.
+4. **Governance scaling:** As activity grows, the community SHOULD establish any needed governance bodies deliberately through `GOVERNANCE.md` to avoid concentration of decision-making.
 
 ---
 
@@ -507,7 +507,7 @@ Go-to-market execution MUST remain consistent with the No Token Policy at every 
 | Regulatory uncertainty around stablecoins in target markets | Medium | High | Strict No Token Policy; ongoing compliance monitoring; legal review before new financial products |
 | Agent network fraud or misconduct | Low–Medium | High (reputational) | Agent certification, monitoring, Partnerships/Ethics policies |
 | Reforestation program underperformance | Medium | Medium | Pilot-phase scoping before scaling; transparent outcome reporting |
-| Key-person dependency (Foundation Director / core contributors) | Medium | High | Community governance structure; documented processes; succession planning in `GOVERNANCE.md` |
+| Key-person dependency (Founder / core contributors) | Medium | High | Community governance structure; documented processes; succession planning in `GOVERNANCE.md` |
 | Currency/FX volatility affecting local operations | Medium | Medium | USDm settlement where practical; conservative reserve management |
 | Reputational risk from misrepresented partnerships | Low | High | Partnerships Policy due diligence and category discipline |
 | Technology risk (smart contract bugs, infra downtime) | Low–Medium | Medium | Standard engineering practices, CI/CD, security disclosure process (`SECURITY.md`) |
@@ -571,7 +571,7 @@ CeloHT's differentiated position is the **combination** of local trust infrastru
 1. CeloHT MUST maintain financial records consistent with `PARTNERSHIPS.md` Section 23 (Financial Transparency) and any future `TREASURY.md`.
 2. CeloHT MUST NOT present projected, illustrative, or placeholder figures as actual results in any external communication.
 3. Revenue-generating activities MUST maintain pricing that is fair, transparent, and proportionate to the value delivered — not designed to extract maximum willingness-to-pay from vulnerable populations.
-4. CeloHT SHOULD maintain a prudent operating reserve (target to be set by the Maintainer Council once Phase 2 financial data exists) sufficient to sustain core mission activities through short-term funding gaps.
+4. CeloHT SHOULD maintain a prudent operating reserve (target To Be Established through the documented collective process) sufficient to sustain core mission activities through short-term funding gaps.
 5. All monetized services MUST be clearly distinguished from CeloHT's free core offerings in every public-facing description.
 
 ---
@@ -597,16 +597,15 @@ This Business Model operates under, and must remain consistent with, CeloHT's go
 
 ```mermaid
 flowchart TD
-    FD[Foundation Director] --> MC[Maintainer Council]
-    MC --> CC[Community Contributors]
-    MC --> BizReview[Business Model & Revenue Proposal Review]
+    CG[Documented Collective Governance] --> CC[Community Contributors]
+    CG --> BizReview[Business Model & Revenue Proposal Review]
     BizReview --> MissionCheck{Consistent with Mission, No Token Policy, and Guiding Principles?}
     MissionCheck -- Yes --> Approved[Proceed to Pilot / Launch]
     MissionCheck -- No --> Rejected[Revise or Decline]
 ```
 
-1. Any new revenue stream or material pricing change MUST be reviewed by the Maintainer Council before launch.
-2. The Foundation Director MUST NOT unilaterally approve new commercial offerings; approval follows the same community-governance logic as partnerships (see `PARTNERSHIPS.md` Section 22).
+1. Any new revenue stream or material pricing change MUST be reviewed through the documented collective governance process before launch.
+2. No individual, including the Founder, may unilaterally approve new commercial offerings; approval follows the same community-governance logic as partnerships (see `PARTNERSHIPS.md` Section 22).
 3. Financial outcomes SHOULD be reported to the community on a regular cadence (recommended: at least annually, aligned with the Annual Partnership Review cycle).
 
 ---
@@ -626,7 +625,7 @@ This vision is aspirational and directional. It does not constitute a forecast, 
 
 ## 32. References to Related Governance Documents
 
-- [`GOVERNANCE.md`](./GOVERNANCE.md) — Foundation Director, Maintainer Council, and Community Contributor structure
+- [`GOVERNANCE.md`](./GOVERNANCE.md) — Collective governance and Community Contributor structure
 - [`PARTNERSHIPS.md`](./PARTNERSHIPS.md) — Partnership categories, due diligence, and approval process
 - [`SECURITY.md`](./SECURITY.md) — Security disclosure process
 - [`WHITEPAPER.md`](./WHITEPAPER.md) — Technical and mission overview

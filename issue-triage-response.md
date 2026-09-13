@@ -14,7 +14,7 @@ Good catch — this isn't covered clearly. Labeling as `documentation`. If you'r
 
 ## For a Feature Request
 
-Thanks for the suggestion. Before we scope this: does it fit within CeloHT's current pillars ([EDUCATION.md](./EDUCATION.md), [AGENT_NETWORK.md](./AGENT_NETWORK.md), [REFORESTATION.md](./REFORESTATION.md)) and does it avoid anything in [NO_TOKEN_POLICY.md](./NO_TOKEN_POLICY.md)? If yes, labeling as `enhancement` for Maintainer Council discussion per [GOVERNANCE.md](./GOVERNANCE.md#decision-making).
+Thanks for the suggestion. Before we scope this: does it fit within CeloHT's current pillars ([EDUCATION.md](./EDUCATION.md), [AGENT_NETWORK.md](./AGENT_NETWORK.md), [REFORESTATION.md](./REFORESTATION.md)) and does it avoid anything in [NO_TOKEN_POLICY.md](./NO_TOKEN_POLICY.md)? If yes, labeling as `enhancement` for community and Maintainer review per [GOVERNANCE.md](./GOVERNANCE.md).
 
 ## For a Security-Sensitive Report Filed Publicly by Mistake
 

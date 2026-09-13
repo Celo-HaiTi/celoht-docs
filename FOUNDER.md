@@ -4,9 +4,15 @@
 
 # Johnny Dubic
 
-## Founder | CeloHT & FreClean
+## Founder | CeloHT
 
-Johnny Dubic was born on **April 16, 2000**, in **Léogâne, Ouest, Haiti**. He is a Haitian entrepreneur, Web3 advocate, journalist, and community builder committed to advancing financial inclusion, education, and sustainable development through technology.
+**Johnny Dubic — Founder of CeloHT**
+
+Founder status is permanently recognized as CeloHT's founding and institutional designation. It reflects founding history, mission origins, and institutional continuity; it is separate from executive and ongoing governance authority.
+
+The Founder may submit proposals, participate in public deliberation, provide historical context, and contribute technical or institutional knowledge under the same documented governance process as any other participant. Founder status does not automatically confer a Governance Council seat or vote, veto, Founder safeguard, emergency override, executive authority, or unilateral control. A proposal submitted by the Founder remains a proposal until the required collective process is completed and the outcome is documented. See [GOVERNANCE.md](./GOVERNANCE.md).
+
+Johnny Dubic is recognized in CeloHT documentation as the Founder of CeloHT. Additional biographical claims remain subject to the evidence-based verification process in [VERIFICATION_POLICY.md](./VERIFICATION_POLICY.md).
 
 ## Biography
 
@@ -68,6 +74,8 @@ A community-driven Web3 initiative leveraging the Celo blockchain to advance fin
 **Founder (2025 - Present)**
 
 A professional cleaning services and cleaning-products company dedicated to quality, innovation, and community empowerment.
+
+FreClean is separate from CeloHT governance and is not a CeloHT governing body, Council, department, or legal entity.
 
 ## Mission
 

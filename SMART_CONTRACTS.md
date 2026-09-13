@@ -15,7 +15,7 @@ CeloHT's on-chain footprint is intentionally minimal: only data that benefits fr
 
 - **Non-custodial:** these contracts never hold user funds. Payments move directly wallet-to-wallet via native USDm transfers.
 - **Minimal on-chain data:** no personally identifiable information is stored on-chain — only hashed identifiers and status flags.
-- **Upgradeable with governance gating:** contract upgrades require multi-signature approval from addresses controlled by the Maintainer Council (see [GOVERNANCE.md](./GOVERNANCE.md)), not a single deployer key.
+- **Upgradeable with governance gating:** contract upgrades require the documented multi-person review and collective approval process (see [GOVERNANCE.md](./GOVERNANCE.md)), not a single deployer key.
 - **No token logic of any kind** — these contracts contain no minting, staking, or transferable-asset logic, consistent with [NO_TOKEN_POLICY.md](./NO_TOKEN_POLICY.md).
 
 ## AgentRegistry — Reference Specification
@@ -155,7 +155,7 @@ Before any deployment beyond a public testnet, CeloHT requires:
 2. Public testnet deployment with a minimum 90-day monitored trial period
 3. Governance multisig fully configured per [GOVERNANCE.md](./GOVERNANCE.md) — no single-key deployer control on mainnet
 4. Published audit report and remediation record
-5. Maintainer Council sign-off per the RFC process in [GOVERNANCE.md](./GOVERNANCE.md)
+5. Documented Maintainer review and collective approval per the RFC process in [GOVERNANCE.md](./GOVERNANCE.md)
 
 ## References
 

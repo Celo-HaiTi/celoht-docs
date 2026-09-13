@@ -47,7 +47,7 @@ If you encounter any material — a website, social account, or app — claiming
 Because this policy is foundational to community trust, changing it requires:
 
 1. A public RFC (request for comment) open for a minimum of 60 days
-2. Supermajority approval from the Maintainer Council (see [GOVERNANCE.md](./GOVERNANCE.md))
+2. Approval through the applicable documented collective governance process (see [GOVERNANCE.md](./GOVERNANCE.md)); any decision threshold is To Be Established before the process begins
 3. Public community comment period with documented responses to all substantive objections
 
 In practice, this policy is intended to never be reversed — the process above exists to make that structurally difficult, not to suggest reversal is likely or planned.
