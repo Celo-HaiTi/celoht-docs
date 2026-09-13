@@ -12,7 +12,7 @@ CeloHT is a Haitian-led, open-source initiative focused on financial inclusion, 
 
 ## Key Facts
 
-- **Founded by:** Johnny Dubic
+- **Founded by:** Johnny Dubic - Permanently Recognized Founder of CeloHT
 - **Governance:** Community-governed, open source
 - **Focus areas:** Financial inclusion, Web3/financial education, environmental sustainability
 - **Blockchain infrastructure:** Celo (USDm for payments, CELO for gas)

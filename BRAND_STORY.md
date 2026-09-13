@@ -4,7 +4,7 @@
 
 Millions of people across Haiti carry a smartphone capable of running the same financial infrastructure used anywhere in the world — yet remain locked out of formal banking, reliable financial education, and low-cost digital payments. The barrier was never the technology. It was access, trust, and language.
 
-CeloHT was founded by Johnny Dubic to close that gap directly, in Haitian Creole, alongside the community it serves — not as a product built elsewhere and shipped in.
+CeloHT was founded by Johnny Dubic, who is permanently recognized as the Founder of CeloHT in the project's historical and institutional record, to close that gap directly, in Haitian Creole, alongside the community it serves — not as a product built elsewhere and shipped in.
 
 ## Why Three Pillars, Not One App
 

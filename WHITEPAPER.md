@@ -133,7 +133,7 @@ For a grant reviewer, these values translate into a predictable governance and r
 
 ### 3.1 Founding Context
 
-CeloHT was founded by Johnny Dubic, based in Léogâne, Haiti, out of a conviction that financial-inclusion technology delivers the most value to underserved communities when paired with genuine literacy and a trustworthy human network — not when deployed as a purely technical intervention. The project's founding design choices — a non-token architecture, Haitian Creole as a first-class documentation language, and a three-pillar structure spanning education, human agent infrastructure, and environmental work — trace directly to that founding conviction.
+CeloHT was founded by Johnny Dubic, who is permanently recognized as the Founder of CeloHT in the project's historical and institutional record, based in Léogâne, Haiti, out of a conviction that financial-inclusion technology delivers the most value to underserved communities when paired with genuine literacy and a trustworthy human network — not when deployed as a purely technical intervention. The project's founding design choices — a non-token architecture, Haitian Creole as a first-class documentation language, and a three-pillar structure spanning education, human agent infrastructure, and environmental work — trace directly to that founding conviction.
 
 ### 3.2 Early Development
 

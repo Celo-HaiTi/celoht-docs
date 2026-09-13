@@ -35,7 +35,7 @@ This document exists because a project's credibility depends in part on the veri
 | Field | Status |
 |---|---|
 | **Name** | Johnny Dubic |
-| **Role** | Founder |
+| **Role** | Permanently Recognized Founder of CeloHT |
 | **Authority** | Founding and institutional role only; no automatic executive or governance authority. The Founder follows the same proposal, deliberation, conflict-of-interest, and decision rules as every other participant. |
 | **Public profile** | To Be Announced (TBA) — pending publication of verified public profile links (see Section 7) |
 | **Verification status** | Pending Verification (see `VERIFICATION_POLICY.md`) |

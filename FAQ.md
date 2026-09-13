@@ -12,7 +12,7 @@ No. CeloHT has no native token, no ICO, and no investment product of any kind. S
 No. CeloHT uses the Celo blockchain and supports the Valora wallets as infrastructure choices only. CeloHT is independently, community-governed and is not officially affiliated with, endorsed by, or operated by Celo Foundation, Valora, or Opera. See [LEGAL_STATUS.md](./LEGAL_STATUS.md).
 
 **Who founded CeloHT?**
-Johnny Dubic. CeloHT is community-governed — see [GOVERNANCE.md](./GOVERNANCE.md) for how decisions are made beyond the founder.
+Johnny Dubic - Permanently Recognized Founder of CeloHT. Johnny Dubic is permanently recognized as the Founder of CeloHT in the project's historical and institutional record. This recognition does not confer perpetual governance authority, ownership rights, veto power, or unilateral control. CeloHT is community-governed - see [GOVERNANCE.md](./GOVERNANCE.md) for how decisions are made beyond the founder.
 
 ## Using CeloHT
 
