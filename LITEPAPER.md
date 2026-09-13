@@ -18,7 +18,7 @@ CeloHT addresses this through three permanent, interdependent pillars:
 
 ## The Technology
 
-CeloHT is built on the **Celo blockchain**, chosen for its mobile-first design, low transaction fees, and stable-value **USDm** asset — well suited to everyday payments in contexts where currency volatility is a real concern. CeloHT supports the **Valora** wallet. CELO is used exclusively for gas.
+CeloHT is built on the **Celo blockchain**, chosen for its mobile-first design, low transaction fees, and stable-value **USDm** asset — well suited to everyday payments in contexts where currency volatility is a real concern. CeloHT supports wallet connectivity through MiniPay, Valora via WalletConnect, and other compatible wallets through WalletConnect or another supported integration. CELO is used exclusively for gas.
 
 CeloHT is **not affiliated with Celo Foundation or Valora** beyond this technical infrastructure choice, and has **no native token, no ICO, and no investment model** — see [NO_TOKEN_POLICY.md](./NO_TOKEN_POLICY.md).
 

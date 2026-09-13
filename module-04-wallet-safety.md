@@ -1,4 +1,4 @@
-# Module 4: Using Valora Safely
+# Module 4: Wallet Safety
 
 *Part of the CeloHT Education curriculum — see [./EDUCATION.md](./EDUCATION.md).*
 *Previous: [Module 3 →](./module-03-usdm-and-celo.md)*
@@ -11,14 +11,14 @@ Approx. 60 minutes, hands-on (bring your own device).
 
 ## Learning Objectives
 
-1. Set up a Valora wallet correctly
+1. Set up a compatible wallet correctly
 2. Understand what a seed phrase is and why it must never be shared
 3. Verify a transaction before confirming it
 4. Recognize the difference between the legitimate CeloHT dApp and a phishing imitation
 
 ## Lesson 4.1 — Choosing Your Wallet
 
-Refer participants to [./VALORA.md](./VALORA.md) for setup guidance.
+Refer participants to the relevant wallet provider's setup guidance. [./VALORA.md](./VALORA.md) is available as an optional Valora-specific guide.
 
 ## Lesson 4.2 — Setting Up Your Wallet (Hands-On)
 

@@ -43,4 +43,4 @@ Participant correctly matches "USDm" and "CELO" to their respective purposes, an
 
 ## Next Module
 
-[Module 4: Using Valora Safely →](./module-04-wallet-safety.md)
+[Module 4: Wallet Safety →](./module-04-wallet-safety.md)

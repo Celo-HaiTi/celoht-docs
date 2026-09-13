@@ -38,7 +38,7 @@ Any roadmap item that would conflict with these principles doesn't belong on thi
 |---|---|---|
 | First complete cash-in/cash-out cycle handled entirely by agents | Agent Network | 2026-Q4 |
 | First reforestation pilot with USDm-based rewards | Reforestation | 2027-Q1 |
-| dApp alpha: Valora wallet connection + first education module | Official dApp | 2027-Q1 |
+| dApp alpha: wallet connectivity + first education module | Official dApp | 2027-Q1 |
 | Systematic collection and public reporting of community feedback | Transparency & Impact | Ongoing |
 | Formal agent code of conduct and verification process live | Governance | 2026-Q4 |
 

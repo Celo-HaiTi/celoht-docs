@@ -139,9 +139,9 @@ Given that the overwhelming majority of CeloHT's target users access the interne
 
 The frontend integrates wallet connectivity through a unified connection abstraction that supports:
 
-- **Valora** — deep-link and QR-based connection for full-featured mobile users.
+- **Valora** — WalletConnect connection for full-featured mobile users.
 - **MiniPay** — lightweight, embedded-wallet connection optimized for feature-constrained devices and data-light regions.
-- **WalletConnect** — a fallback standard protocol enabling any compatible wallet to connect.
+- **Other compatible mobile wallets** — WalletConnect or another supported integration.
 
 This abstraction means new wallet providers can be added without rewriting core application logic (see Section 7).
 
@@ -252,11 +252,11 @@ graph TD
 
 ### 7.1 Valora Integration
 
-Valora is the primary documented wallet compatibility target for the dApp. The dApp source also supports injected browser wallets and WalletConnect-compatible wallets when configured. Wallet compatibility is not evidence of a CeloHT production deployment, and CeloHT does not operate or control any wallet provider.
+Valora is a compatible wallet option for the dApp through WalletConnect. The dApp also supports MiniPay when opened inside MiniPay with its injected provider available, along with other compatible wallets through WalletConnect or another supported integration. Wallet compatibility is not evidence of a CeloHT production deployment, and CeloHT does not operate or control any wallet provider.
 
 ### 7.2 MiniPay Integration
 
-MiniPay is not established as a supported wallet by the current dApp source; treat it as experimental or planned, not supported.
+MiniPay is supported when the dApp is opened inside MiniPay and its injected provider is available.
 
 ### 7.3 WalletConnect Support
 

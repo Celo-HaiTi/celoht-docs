@@ -219,7 +219,7 @@ CeloHT's Education pillar delivers Web3, blockchain, financial-literacy, and dig
 ```mermaid
 flowchart LR
     A[Learner Enrolls] --> B[Module Delivered<br/>dApp or In-Person Workshop]
-    B --> C[Hands-On Practice<br/>e.g., Valora Wallet Setup]
+    B --> C[Hands-On Practice<br/>e.g., Wallet Setup]
     C --> D[Progress Tracked]
     D --> E[Module Completion]
     E --> F[Community Recognition]
@@ -514,7 +514,7 @@ CeloHT does not implement custodial wallet infrastructure. All value custody and
 
 | Wallet | Role in CeloHT |
 |---|---|
-| **Valora** | Primary recommended wallet for learners and agents wanting full functionality |
+| **Valora** | Recommended compatible wallet option for learners and agents wanting full functionality |
 | **MiniPay** | Lightweight, embedded wallet suited to lower-end devices and first-time users |
 | **WalletConnect-compatible wallets** | Standards-based fallback ensuring broader ecosystem interoperability |
 

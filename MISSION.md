@@ -21,7 +21,7 @@ CeloHT has no native token, no ICO, no presale, no staking token, no speculation
 
 - **Open source by default.** Code, documentation, and brand assets are public and reusable under clear licenses.
 - **Community governance.** No single person controls CeloHT's direction unilaterally.
-- **Infrastructure, not affiliation.** Celo blockchain and Valora wallet are used as technical infrastructure. CeloHT is independent and not officially affiliated with Celo Foundation or Valora.
+- **Infrastructure, not affiliation.** Celo blockchain and supported wallet infrastructure are used as technical infrastructure. CeloHT is independent and not officially affiliated with Celo Foundation or Valora.
 - **Not a financial product.** CeloHT does not offer tokens, investment products, or promises of financial return.
 
 ## Who This Mission Serves

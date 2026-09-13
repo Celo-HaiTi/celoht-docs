@@ -10,7 +10,7 @@ The CeloHT dApp is the core transactional interface connecting users, agents, an
 
 ### New User Onboarding
 1. Landing screen with plain-language explanation of what CeloHT is (and the No-Token Policy)
-2. Wallet connection (Valora) — see [Wallet Connection](#wallet-connection)
+2. Wallet connection — see [Wallet Connection](#wallet-connection)
 3. Optional guided education mini-module before first transaction
 4. Nearest verified agent lookup (for cash-in) or direct payment flow
 
@@ -34,10 +34,9 @@ The CeloHT dApp is the core transactional interface connecting users, agents, an
 
 | Wallet or method | State | Evidence / constraint |
 |---|---|---|
-| Valora | SUPPORTED | WalletConnect-based flow documented by the dApp source. CeloHT does not operate Valora. |
-| Injected browser wallets (for example MetaMask or Rabby) | SUPPORTED | Supported when configured for Celo Sepolia or Celo Mainnet; Mainnet CeloHT features remain unavailable. |
-| WalletConnect-compatible wallets | SUPPORTED when configured | Requires `NEXT_PUBLIC_WALLETCONNECT_PROJECT_ID`. |
-| MiniPay | EXPERIMENTAL / UNVERIFIED | No current dApp source evidence establishes a dedicated MiniPay integration. |
+| MiniPay | SUPPORTED when available | Supported when the dApp is opened inside MiniPay and its injected provider is available. |
+| Valora | SUPPORTED | Supported through WalletConnect. CeloHT does not operate Valora. |
+| Other compatible wallets | SUPPORTED when configured | Supported through WalletConnect or another supported wallet integration. |
 | Custodial CeloHT wallet | UNSUPPORTED | CeloHT does not custody keys or request seed phrases/private keys. |
 
 Wallet compatibility does not imply that backend, KYC, indexed data, or Mainnet workflows are available.

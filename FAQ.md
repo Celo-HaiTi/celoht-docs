@@ -23,7 +23,7 @@ No. The Education pillar exists specifically to teach these concepts from the gr
 Through a verified Agent Network member near you, via the dApp's agent directory. See [AGENT_NETWORK.md](./AGENT_NETWORK.md).
 
 **Which wallets does CeloHT support?**
-Valora. See [DAPP.md](./DAPP.md#wallet-connection).
+CeloHT supports MiniPay when the dApp is opened inside MiniPay and its injected provider is available, Valora through WalletConnect, and other compatible wallets through WalletConnect or another supported wallet integration. See [DAPP.md](./DAPP.md#wallet-connection).
 
 **Will CeloHT ever ask for my seed phrase or private key?**
 Never, under any circumstance. Any message asking for this is fraudulent. See [SECURITY.md](./SECURITY.md#wallet-safety).

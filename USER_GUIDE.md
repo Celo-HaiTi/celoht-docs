@@ -3,7 +3,7 @@
 ## Getting Started
 
 ### 1. Get a Wallet
-Install **Valora** (see [VALORA.md](./VALORA.md)) — the wallet CeloHT's education and Agent Network materials are built around.
+Choose a compatible wallet. CeloHT supports MiniPay, Valora through WalletConnect, and other compatible wallets through WalletConnect or another supported integration. See [VALORA.md](./VALORA.md) for an optional Valora-specific guide.
 
 ### 2. Learn the Basics (Optional but Recommended)
 Complete the first CeloHT education module before your first transaction — it takes about 15 minutes and covers what USDm is, how CeloHT works, and how to stay safe. See [EDUCATION.md](./EDUCATION.md).

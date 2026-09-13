@@ -24,7 +24,7 @@ This is the master reference for CeloHT's identity. It summarizes and links to t
 
 ## Core Pillars — Full Detail
 
-**Education:** blockchain fundamentals, Web3, the Celo ecosystem, USDm, CELO, the Valora wallet, digital security, financial literacy, and responsible digital finance — taught primarily in Haitian Creole.
+**Education:** blockchain fundamentals, Web3, the Celo ecosystem, USDm, CELO, wallets and wallet security, digital security, financial literacy, and responsible digital finance — taught primarily in Haitian Creole.
 
 **Agent Network:** trained community agents provide cash ↔ USDm conversion, cash-in/cash-out services, digital payment assistance, wallet onboarding, and community liquidity — bridging traditional cash with digital money through real local relationships.
 

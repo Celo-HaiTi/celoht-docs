@@ -39,7 +39,7 @@ User & Agent meet, agree amount → both confirm in-app
 Agent initiates USDm transfer from their wallet to user's wallet
       │
       ▼
-User's wallet (Valora) prompts transaction signature
+User's connected wallet prompts transaction signature
       │
       ▼
 Transaction confirmed on Celo network → both apps show confirmation
