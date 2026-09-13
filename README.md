@@ -94,8 +94,6 @@ celoht-docs/
 └── supporting policy and governance documents
 ```
 
-The `module-03-usdm-and-celo.md` filename is retained for link compatibility with older materials; the current asset terminology in the module is USDm.
-
 ## Related Repositories
 
 - Brand assets and visual identity: [github.com/Celo-HaiTi/celoht-brand](https://github.com/Celo-HaiTi/celoht-brand)
