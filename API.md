@@ -1019,7 +1019,7 @@ curl -s "https://api.celoht.org/v1/donations?scope=aggregate"
 
 | Field | Type | Required | Description |
 |---|---|---|---|
-| `amount_cusd` | string (decimal) | Yes | Intended donation amount in USDm (Note: field name is legacy; reflects `cusd` historical naming before terminology standardized to USDm) |
+| `amount_cusd` | string (decimal) | Yes | Intended donation amount in USDm. The field name is a legacy API contract identifier and must remain unchanged for compatibility. |
 | `restriction` | string \| null | No | One of the categories in `TREASURY.md` Section 6, or `null` for unrestricted |
 | `anonymous` | boolean | No | Whether the donor requests anonymity per `DONATION_POLICY.md` Section 6 |
 

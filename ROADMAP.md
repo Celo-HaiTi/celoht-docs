@@ -11,7 +11,7 @@ Every item on this roadmap is built on the same non-negotiable facts about what 
 - CeloHT is a **community-driven, open-source initiative**.
 - CeloHT is **not** a blockchain, has **no** native token, issues **no** NFTs, and provides **no** investment products.
 - CeloHT is **built on the Celo ecosystem**, using **CELO** for network transactions where appropriate and promoting **USDm** for accessible digital payments.
-- CeloHT develops applications **compatible with Valora** — CeloHT does not own, manage, or operate Valora.
+- CeloHT supports wallet connectivity through **Valora, MiniPay, and WalletConnect**, subject to the availability and configuration of each integration. CeloHT does not own, manage, or operate these wallets.
 
 Any roadmap item that would conflict with these principles doesn't belong on this roadmap, however attractive it looks. See [NO_TOKEN_POLICY.md](./NO_TOKEN_POLICY.md) and [LEGAL_STATUS.md](./LEGAL_STATUS.md).
 

@@ -14,7 +14,7 @@ Canonical CeloHT documentation hub. This repository contains static documentatio
 
 - Current GitHub links were synchronized to `Celo-HaiTi` and the documented repository names.
 - Celo Sepolia (`11142220`), Celo Mainnet (`42220`), CELO, and USDm remain the current documented standards.
-- Legacy Alfajores and cUSD references were reviewed and retained only for historical, compatibility, or explanatory context.
+- Legacy Alfajores and earlier payment-asset references were reviewed and retained only where compatibility or explanatory context requires them.
 - API, CLI, and SDK documents now state that the backend/package is planned or unconfigured; no live API is claimed here.
 - No contract source, deployment artifact, treasury implementation, backend, database, or secret was found in this repository.
 
@@ -54,7 +54,7 @@ Canonical CeloHT documentation hub. This repository contains static documentatio
 
 - Current organization and ecosystem repository links were synchronized.
 - API documentation now distinguishes specification, planned, and unavailable states.
-- Historical Alfajores, cUSD, and legacy organization references remain explicitly classified.
+- Historical Alfajores, earlier payment-asset terminology, and legacy organization references remain explicitly classified.
 
 ### Cross-Repository Synchronization
 
@@ -140,14 +140,14 @@ These references are documentation links only. No runtime integration is impleme
 
 - Corrected the active canonical GitHub organization references to Celo-HaiTi where the repository is explicitly documenting current active project references.
 - Updated the active test network references from the legacy Alfajores guidance to Celo Sepolia where the repository described current network use.
-- Clarified legacy documentation language for historical CUSD naming to preserve accuracy without implying that cUSD is the active payment asset in new CeloHT work.
+- Clarified legacy documentation language so earlier payment-asset terminology is not mistaken for the active USDm standard in new CeloHT work.
 - Added the required product-readiness report documentation required by the repository audit workflow.
 
 ## Contradictions Found
 
 - The repository used outdated active references to the GitHub organization.
 - The repository documented Alfajores as the current default network in active developer guidance, even though the current canonical CeloHT active testnet is Celo Sepolia.
-- Legacy CUSD naming still appeared in active guidance without clearly marking it as historical terminology.
+- Earlier payment-asset naming still appeared in active guidance without clearly marking the current USDm terminology.
 - This repository is documentation-only; it did not contain application code or runtime integration logic, so product-readiness had to be assessed as documentation integrity rather than app functionality.
 
 ## Contradictions Resolved
@@ -166,7 +166,7 @@ These references are documentation links only. No runtime integration is impleme
 ## USDm Status
 
 - Current operational stable asset in CeloHT documentation: USDm
-- Historical naming retained only for continuity: CUSD / Celo Dollar
+- Historical payment-asset naming is retained only where continuity requires it; current terminology is USDm.
 - USDm addresses are not configured in this repository, and no production address is claimed here.
 - Status: NOT CONFIGURED in this repository; no fabricated addresses included.
 

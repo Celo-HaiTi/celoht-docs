@@ -26,9 +26,9 @@ USDm is the right fit for CeloHT's operational model because it offers price sta
 
 Understanding USDm is a core education module. See [EDUCATION.md](./EDUCATION.md) and [module-03-usdm-and-celo.md](./module-03-usdm-and-celo.md).
 
-## Historical Note
+## Migration Note
 
-The older `CUSD` / `Celo Dollar` naming is retained only as a historical reference in legacy documentation and older external references. CeloHT's current operational terminology is USDm. This document conserves the historical naming context without treating `cUSD` as the active product name in current CeloHT work.
+CeloHT's earlier payment-asset configuration has been migrated to the current USDm-based configuration. Current CeloHT documentation and operations use USDm for supported payment and settlement use cases.
 
 ## References
 
