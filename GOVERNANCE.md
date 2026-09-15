@@ -117,15 +117,12 @@ All participants are expected to engage in good faith, assume good intent, and t
 
 ```mermaid
 graph TD
-    A[Founder] --> B[Governance Council]
-    B --> C[Maintainers]
-    B --> D[Working Groups]
-    C --> E[Contributors]
-    D --> E
-    E --> F[Volunteers]
-    E --> G[Ambassadors]
-    F --> H[Community Members]
-    G --> H
+    A[Governance Council]
+    B[Founder] -. historical and institutional role .-> A
+    C[Maintainers] -. technical and project scope .-> A
+    D[Working Groups] -. documented mandates .-> A
+    E[Contributors] -. contribution and governance framework .-> A
+    F[Community Members] -. participation and feedback .-> A
 ```
 
 ### 3.1 Founder
@@ -135,6 +132,8 @@ Johnny Dubic is permanently recognized as **Founder of CeloHT** in the project's
 The Founder may submit proposals, participate in public deliberation, provide historical context, and contribute technical or institutional knowledge under the same documented rules as any other participant. Founder status does not automatically confer executive authority, Governance Council membership, a Council seat or vote, veto power, emergency powers, a Founder safeguard, permanent governance power, or control over proposals or community decisions. The Founder cannot unilaterally make, approve, reject, override, or impose an official CeloHT governance decision.
 
 ### 3.2 Governance Council
+
+The Governance Council is CeloHT's highest ongoing collective decision-making body. Its authority is collective and limited to the responsibilities granted by this framework; operational, technical, partnership, and representative roles do not supersede it or create unilateral governance authority.
 
 If formally constituted, the Governance Council will exercise only the authority granted by this framework and recorded collective decisions. Until a public formation record identifies its members and effective authority, the Council is **pending formation** and no Council member or other individual may claim Council authority.
 
@@ -687,7 +686,7 @@ See Section 6, Proposal Lifecycle diagram.
 | Term | Definition |
 |---|---|
 | **Ambassador** | A community representative for a specific region or institution |
-| **Council** | Short for Governance Council, CeloHT's primary strategic decision-making body |
+| **Council** | Short for Governance Council, CeloHT's highest ongoing collective decision-making body |
 | **USDm** | A Celo-network stablecoin used by CeloHT strictly as an operational payment rail |
 | **Emergency Decision** | A narrowly scoped decision made to contain immediate risk, subject to mandatory ratification |
 | **Maintainer** | A contributor with repository write/merge access and review responsibilities |

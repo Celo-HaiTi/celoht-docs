@@ -13,6 +13,10 @@ CeloHT is wallet-agnostic and does not operate or custody user wallets. Wallets 
 - **Governance** | Community-governed and open source
 - **Infrastructure** | Celo blockchain
 
+### Governance Model
+
+CeloHT's Governance Council is its highest ongoing collective decision-making body. Maintainers provide technical and project stewardship within their repository scope, Working Groups carry out work within documented mandates, and Contributors participate through the contribution and governance framework. Founder status and partnership or representative responsibilities do not create authority above the Governance Council or permit unilateral governance decisions.
+
 ## FAQ
 
 ### What wallet does CeloHT support?

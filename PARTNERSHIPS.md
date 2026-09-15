@@ -367,6 +367,8 @@ Every stage of the lifecycle MUST be recorded in the CeloHT governance repositor
 
 CeloHT partnerships follow the documented proposal and collective decision process:
 
+The Governance Council is CeloHT's highest ongoing collective decision-making body. Partnership activities are carried out within CeloHT's governance and operational framework: the Partnerships Lead and designated reviewers coordinate representation, diligence, and agreement preparation, while the applicable documented collective process determines approval, suspension, or termination. Partnership responsibility is not governance authority, and no individual may act above or override the Governance Council.
+
 ```mermaid
 flowchart TD
     CG[Documented Collective Governance] --> CC[Community Contributors]

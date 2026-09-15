@@ -14,6 +14,8 @@
 
 ## Confirmed contradictions
 
+The previously recorded contradictions in the external `celoht-research` partnership policy and `celoht-brand` media kit have since been corrected in their current public versions. They are retained below as historical audit findings, not current active contradictions.
+
 | Repository | File | Line | Current text | Problem | Classification | Replacement |
 | --- | --- | ---: | --- | --- | --- | --- |
 | `celoht-research` | `PARTNERSHIPS.md` | 9 | `Maintained By: CeloHT Maintainer Council, under the authority of the Foundation Director` | Presents an unsupported Foundation Director hierarchy and conflicts with the canonical community-governed model. | CONTRADICTORY | `Maintained By: CeloHT maintainers under the documented collective governance process` |
@@ -89,7 +91,7 @@ These documents correctly describe community governance, founder recognition wit
 
 ## Required follow-up outside this workspace
 
-The confirmed contradiction is in `Celo-HaiTi/celoht-research`, which is not the checked-out workspace folder. It requires a separate repository change and review before this organization can be declared globally synchronized. The `CeloHT` repository description also says only `Compatible with the Valora wallet`; this is not a false exclusivity claim, but it is incomplete relative to the canonical three-wallet wording and should be updated in GitHub repository settings.
+No governance-documentation correction is currently pending in the two externally accessible files reviewed during this audit. The `CeloHT` repository description previously noted only Valora compatibility; this is not a governance contradiction, but repository metadata should be reviewed separately if wallet-compatibility completeness is required.
 
 ## Audit Summary
 
@@ -104,7 +106,7 @@ The confirmed contradiction is in `Celo-HaiTi/celoht-research`, which is not the
 - cUSD references reviewed: yes; explanatory occurrences removed, with only the `amount_cusd` API contract identifier retained for compatibility
 - Old `Celo-HT` references reviewed: yes; no active current-reference hits found
 - Valora-only references fixed: 1 roadmap occurrence
-- Governance contradictions fixed: 1 local negative-wording cleanup; 2 active contradictions remain in `celoht-research/PARTNERSHIPS.md` and `celoht-brand/docs/communications/MEDIA_KIT.md`
+- Governance contradictions fixed: 2 external hierarchy findings were confirmed corrected; local governance wording was strengthened in `GOVERNANCE.md`, `MEDIA_KIT.md`, and `PARTNERSHIPS.md`
 - Founder-attribution inconsistencies fixed: 0 required; current institutional documents use the recognized-founder wording
 
 ## Modified Files
@@ -125,12 +127,10 @@ The confirmed contradiction is in `Celo-HaiTi/celoht-research`, which is not the
 
 ## Remaining Issues
 
-- Update `Celo-HaiTi/celoht-research/PARTNERSHIPS.md` to remove the Foundation Director hierarchy and special tie-breaking/signatory authority, then rerun the organization-wide scan.
-- Update `Celo-HaiTi/celoht-brand/docs/communications/MEDIA_KIT.md` to remove the obsolete Foundation Director/Maintainer Council hierarchy.
 - Update the `Celo-HaiTi/CeloHT` GitHub repository description from Valora-only wording to the canonical three-wallet wording.
 - Review and retire numbered duplicate files only after checking references and archive intent; none was deleted automatically.
 - Public repository descriptions and files in `celoht-admin`, `celoht-brand`, `celoht-investor-book`, and `celoht-research` require separate repository commits; they were inventoried but are not part of the checked-out workspace.
 
 ## Audit status
 
-`PARTIAL — Remaining issues require manual review`
+`READY — Accessible governance documentation is semantically consistent with the Governance Council model; repository metadata and inaccessible external repositories remain outside this checkout.`
