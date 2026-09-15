@@ -41,7 +41,7 @@ CeloHT is a Haitian-led, open-source initiative expanding financial inclusion th
 2. **[Agent Network](./AGENT_NETWORK.md)** — a trained, community-rooted network of local agents providing cash-to-USDm conversion and digital payment support.
 3. **[Reforestation](./REFORESTATION.md)** — measurable, transparently reported environmental restoration linked to community development.
 
-CeloHT uses the **Celo blockchain** as infrastructure supporting **USDm** for payments, **CELO** for gas, and the wallet **Valora** **MiniPay** and  **WalletConnect**. The initiative is independently governed by its community and is **not officially affiliated with, endorsed by, or operated by the Celo Foundation or Valora**.
+CeloHT uses the **Celo blockchain** as infrastructure supporting **USDm** for payments and **CELO** for gas. The initiative supports wallet connectivity through **Valora**, **MiniPay**, and **WalletConnect-compatible wallets**, subject to the availability and configuration of each integration. CeloHT is independently governed by its community and is **not officially affiliated with, endorsed by, or operated by the Celo Foundation, Valora, MiniPay, or WalletConnect**.
 
 **CeloHT has no native token, no ICO, no presale, and makes no investment promises.** See [NO_TOKEN_POLICY.md](./NO_TOKEN_POLICY.md).
 

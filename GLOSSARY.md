@@ -12,7 +12,7 @@
 
 **Celo** — The blockchain network CeloHT uses as payment infrastructure. Celo is an independent project; CeloHT is not affiliated with Celo Foundation. See [LEGAL_STATUS.md](./LEGAL_STATUS.md).
 
-**USDm (Celo Dollar)** — A stable-value digital asset on the Celo network, used by CeloHT for payments due to its price stability relative to volatile crypto assets.
+**USDm** — The current stable-value digital asset on the Celo network used by CeloHT for payments and settlement. Historical materials may refer to this as the "Celo Dollar" naming, but current CeloHT documentation uses **USDm** as the canonical term.
 
 **dApp** — Decentralized application; refers to the CeloHT dApp described in [DAPP.md](./DAPP.md).
 

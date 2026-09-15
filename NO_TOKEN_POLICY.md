@@ -19,7 +19,7 @@ Specifically, CeloHT has:
 
 CeloHT operates entirely on **existing, independently-issued Celo network assets**:
 
-- **USDm** (Celo Dollar) — used for payments, education stipends where applicable, and Agent Network transactions
+- **USDm** — the current stable-value payment asset used for payments, education stipends where applicable, and Agent Network transactions. Historical materials may still mention the older "Celo Dollar" naming.
 - **CELO** — used exclusively for network gas fees, never held or promoted as an investment asset by CeloHT
 
 CeloHT did not create, does not control, and does not profit from the issuance of USDm or CELO. These are pre-existing assets on the Celo network that CeloHT uses as payment infrastructure, in the same way a merchant uses an existing national currency.
