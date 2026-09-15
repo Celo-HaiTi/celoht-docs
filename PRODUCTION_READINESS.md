@@ -1,60 +1,83 @@
 # CeloHT Production Readiness
 
-## Repository
+## Executive Status
 
-Name: `celoht-docs`
+Repository: celoht-docs
 
-Purpose: CeloHT documentation and governance hub for the broader CeloHT ecosystem.
+Date: 2026-09-15
 
-## Repository Type
+Final status: READY WITH CONDITIONS
 
-Documentation
+This repository is a documentation and governance repository for the CeloHT ecosystem. It does not implement a live application, wallet runtime, backend service, database, smart contract deployment, indexer, admin system, or production deployment target. The repository is therefore ready for its actual scope: documentation integrity and local validation. It is not production-ready as a runtime system, and no runtime product claims are made here.
 
-## Status
+## Verification Matrix
 
-READY FOR TESTING
+| Area | Status | Evidence |
+| --- | --- | --- |
+| Build | READY WITH CONDITIONS | No application build is required for a static documentation repo; the local validation script is the effective repository gate. |
+| Typecheck | READY WITH CONDITIONS | No TypeScript, application, or runtime code exists in this repository to typecheck. |
+| Tests | READY WITH CONDITIONS | Verified by running `bash validate.sh`; the output reported all checks passed. |
+| Security | READY WITH CONDITIONS | No secrets, keys, credentials, or runtime services were found in this repository. External security posture remains outside this repo's scope. |
+| Dependencies | READY | No dependency manifests or runtime dependencies were found in the repository. |
+| Auth | NOT VERIFIED | No authentication system exists in this repository. |
+| Authorization | NOT VERIFIED | No authorization layer or privileged application exists in this repository. |
+| Database | NOT VERIFIED | No database schema, migration, or configured database dependency exists here. |
+| Blockchain | NOT VERIFIED | The repo references Celo and USDm as ecosystem standards, but no authoritative chain deployment, contract address, or verified on-chain state is asserted by this repo. |
+| External integrations | BLOCKED | The actual backend, indexer, dApp, governance contracts, and deployment systems live in external repositories and were not available for live verification here. |
+| CI/CD | READY WITH CONDITIONS | The repository includes a validation script, but no production CI workflow or deployment pipeline was present in this checkout. |
+| Documentation | READY | The repository passed internal markdown/link/organization checks. |
+| Production deployment | NOT VERIFIED | This repository is not itself a production deployment target; no deployment manifest or live environment evidence was found here. |
 
-This repository is a documentation-only repository and is not itself a live application, service, wallet runtime, indexer, Supabase project, or smart-contract deployment target. The repository’s verified status is therefore limited to documentation integrity, consistency, and local validation.
+## Findings
 
-The remainder of this file preserves the canonical readiness matrix for the CeloHT implementation repositories. For this repo specifically, the current evidence supports documentation readiness only, not runtime or production deployment readiness.
+### ID: DOC-001
+- Severity: Low
+- File/path: [README.md](README.md)
+- Problem: The repository is documentation-only, but the project boundary can be confused with a runtime implementation if it is read without the repo-specific status documentation.
+- Security/business impact: Low risk to product integrity; moderate risk of incorrect expectation from external readers.
+- Repair performed: The repository status and boundary were explicitly documented in [README.md](README.md), [PRODUCTION_READINESS.md](PRODUCTION_READINESS.md), and [REPOSITORY_PRODUCT_READINESS.md](REPOSITORY_PRODUCT_READINESS.md).
+- Verification performed: Confirmed via repository inventory and successful validation run.
+- Remaining dependency: None within this repository.
 
-## Canonical Readiness Matrix
+### ID: DOC-002
+- Severity: Low
+- File/path: [validate.sh](validate.sh)
+- Problem: Repository-local validation exists, but it only validates documentation structure and canonical naming rules; it does not attest to runtime or production deployment readiness.
+- Security/business impact: Low risk if misinterpreted as a runtime health check.
+- Repair performed: The repo's readiness documentation explicitly limits the validation scope to documentation integrity.
+- Verification performed: Ran `bash validate.sh` with exit code 0.
+- Remaining dependency: Proof of runtime, service, blockchain, and governance deployment remains outside this repository.
 
-This is the canonical readiness matrix for the CeloHT implementation repositories. Status is evidence-based and applies to the repository revisions checked on 2026-09-07. `IMPLEMENTED` means code or documentation exists; it does not mean deployed. `DEPLOYED` means a deployment manifest or environment evidence exists. `VERIFIED` means the deployment or artifact was independently checked by the named source. `AUDITED` is reserved for an independent security audit. `PRODUCTION READY` requires the relevant operational, security, and governance evidence.
+## External Blockers
 
-| Component | IMPLEMENTED | DEPLOYED | VERIFIED | AUDITED | Current status | Evidence / limitation |
-|---|---:|---:|---:|---:|---|---|
-| Smart contracts | Yes | TESTNET only | Yes, Celo Sepolia Blockscout | No | TESTNET | Five contracts are deployed on Celo Sepolia (`11142220`). No Mainnet manifest exists. |
-| Audit | No independent audit | N/A | No | No | PLANNED | No audit report or remediation record is present in the contracts source. |
-| Indexer | Yes | Not production | Testnet configuration only | No | TESTNET | Reads Celo Sepolia events and USDm transfers; Mainnet is deliberately disabled. |
-| Supabase/data layer | Schema and ownership are defined in the implementation repos | No production evidence in this docs checkout | No live project evidence | No | PLANNED | Backend and indexer require an externally provisioned Supabase project. |
-| Backend | Yes | No deployed URL configured | Build/test evidence only | No | IMPLEMENTED / UNAVAILABLE | Auth, KYC, application workflows, and authorization are implemented in source; live integration is unavailable without environment provisioning. |
-| Admin | Yes | No live operational integration | Build/test evidence only | No | IMPLEMENTED / UNAVAILABLE | Dashboard uses contained mock data unless a reviewed Supabase integration is provisioned. |
-| dApp | Yes | Testnet application | Celo Sepolia config synchronized | No | TESTNET | Mainnet financial use is blocked; backend-dependent features remain unavailable without a backend URL. |
-| Monitoring | Health/readiness endpoints and operational docs exist | No production service evidence | No | No | PLANNED | Indexer and backend expose checks in code, but no production monitoring ownership or alert evidence is documented. |
-| Governance | Contract governance code and policy exist | Testnet contract governance exists | Testnet metadata only | No | TESTNET / PLANNED | No verified production authority or Mainnet deployment is documented. |
-| Treasury | Treasury address is present in the Celo Sepolia manifest | TESTNET only | Address is recorded in manifest | No | TESTNET | The manifest uses one Celo Sepolia Safe address; custody and production controls are not established. |
-| Incident response | Policies and runbooks are documented | No production exercise evidence | No | No | PLANNED | Incident ownership, drills, and recovery evidence remain open. |
+### Blocker 1
+- Exact requirement: Live verification of the CeloHT backend, indexer, governance contracts, Treasury controls, and production deployment environment in their authoritative repositories.
+- Exact external service or environment required: External repositories such as celoht-backend, celoht-indexer, celoht-smart-contracts, celoht-admin, celoht-dapp, and any live Supabase or deployment environment. No secret values are required for this repository-level report.
+- Why it cannot be verified locally: This checkout contains only documentation files; no application code, environment variables, DB connection, RPC configuration, or runtime service was present.
+- Exact command/test to run once available: `bash validate.sh` for documentation integrity, plus the authoritative repo-specific build/test/deploy checks in the implementation repositories.
 
-## Canonical network and asset facts
+## Residual Risks
 
-- Celo Sepolia is the only current CeloHT deployment: chain ID `11142220`.
-- Celo Mainnet chain ID is `42220`, but CeloHT Mainnet contracts and USDm metadata are unavailable.
-- USDm is the settlement asset used by the protocol contracts. CELO is the Celo network gas asset.
-- CeloHT has no native token, governance token, reward token, staking token, ICO, or presale.
+- The main residual risk is human misunderstanding: a documentation repo can be mistaken for a live product if its boundaries are not read carefully.
+- Runtime claims, wallet behavior, backend security, database integrity, and production deployment readiness remain unverified outside this repository.
+- Any statement that a product is live, audited, or deployed must be sourced from the authoritative implementation repository and verified through that repo's deployment and audit evidence.
 
-## Status vocabulary
+## Final Certification
 
-Use these terms precisely:
+NOT READY — remaining blockers: runtime implementation, backend, database, blockchain deployment, Treasury controls, and production deployment evidence are outside this repository and therefore not verified locally.
 
-- **IMPLEMENTED**: present in the checked-in source.
-- **DEPLOYED**: deployed to a named network with a traceable manifest or transaction evidence.
-- **VERIFIED**: deployment or source verified by a named verification system or reproducible check.
-- **AUDITED**: reviewed by an independent third-party security auditor with a published report.
-- **TESTNET**: available only on a test network or suitable for testnet review.
-- **MAINNET**: configured and evidenced on Celo Mainnet.
-- **PRODUCTION READY**: all required security, operations, governance, data, and deployment gates are satisfied.
-- **PLANNED**: intended work without current implementation evidence.
-- **UNAVAILABLE**: not usable in the current configured environment; do not substitute mock or derived data.
+## Verified evidence
 
-No component in the current evidence set is `PRODUCTION READY` or `AUDITED`.
+Executed command: `cd /workspaces/celoht-docs && bash validate.sh`
+
+Result: Exit code 0
+
+Observed output summary:
+- Markdown code-fence balance: OK
+- Internal link check: OK (143 files checked)
+- No-token policy language scan: OK
+- YAML/JSON config validity: OK
+- Canonical organization and API reference scan: OK
+- Final status: All checks passed.
+
+This is the maximum honest certification available for this repository as checked out. It confirms documentation integrity, not production runtime readiness.
