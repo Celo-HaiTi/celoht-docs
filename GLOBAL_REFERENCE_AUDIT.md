@@ -1,136 +1,437 @@
-# CeloHT Global GitHub Reference & Consistency Audit
+CeloHT Global GitHub Reference & Consistency Audit
 
-**Audit date:** 2026-09-14  
-**Scope:** All 15 repositories visible through the authenticated `Celo-HaiTi` organization listing.  
-**Primary source of truth:** `Celo-HaiTi/CeloHT`, `Celo-HaiTi/celoht-docs`, `Celo-HaiTi/celoht-governance`, and `Celo-HaiTi/.github`, in the priority order specified by the audit brief.
+Audit date: 2026-09-14
+Scope: All 15 repositories visible through the authenticated "Celo-HaiTi" organization listing.
+Primary sources of truth: "Celo-HaiTi/CeloHT", "Celo-HaiTi/celoht-docs", "Celo-HaiTi/celoht-governance", and "Celo-HaiTi/.github", in that priority order.
 
-## Inventory
+---
 
-- Repositories audited: 15
-- Files inspected: 1,589
-- Markdown and `.github` files inspected: 764
-- Search corpus excluded generated dependency/build directories and `.git` metadata; explicit archive directories were separately classified.
-- No current `github.com/Celo-HT/...` URLs were found in the active corpus.
+1. Executive Summary
 
-## Confirmed contradictions
+The organization-wide audit reviewed the accessible CeloHT repositories and documentation for consistency across:
 
-The previously recorded contradictions in the external `celoht-research` partnership policy and `celoht-brand` media kit have since been corrected in their current public versions. They are retained below as historical audit findings, not current active contradictions.
+- current project identity;
+- governance;
+- founder attribution;
+- supported assets;
+- wallet integrations;
+- organizational independence;
+- partnership language;
+- historical terminology;
+- archived material;
+- duplicate documentation;
+- repository metadata.
 
-| Repository | File | Line | Current text | Problem | Classification | Replacement |
-| --- | --- | ---: | --- | --- | --- | --- |
-| `celoht-research` | `PARTNERSHIPS.md` | 9 | `Maintained By: CeloHT Maintainer Council, under the authority of the Foundation Director` | Presents an unsupported Foundation Director hierarchy and conflicts with the canonical community-governed model. | CONTRADICTORY | `Maintained By: CeloHT maintainers under the documented collective governance process` |
-| `celoht-research` | `PARTNERSHIPS.md` | 372 | `Foundation Director --> Maintainer Council --> Community Contributors` | Mermaid hierarchy presents founder-like executive authority and a Maintainer Council chain not established by canonical governance. | CONTRADICTORY | Replace with a non-hierarchical governance flow: `Community proposal --> Public review --> Documented collective decision --> Implementation` |
-| `celoht-research` | `PARTNERSHIPS.md` | 379-390 | `Foundation Director holds ultimate accountability`, `tie-breaking vote`, and `final signatory` | Assigns special authority to a Foundation Director, including tie-breaking and agreement-signature powers, without support in current governance. | CONTRADICTORY | `Founder status or any individual role does not create unilateral partnership authority; approvals follow the applicable documented collective process.` |
-| `celoht-brand` | `docs/communications/MEDIA_KIT.md` | 73, 301, 348 | `Governance ... moves authority from a Foundation Director through a Maintainer Council to Community Contributors` | Current media material repeats the obsolete three-tier hierarchy while calling the project community-governed. | CONTRADICTORY | `CeloHT is community-governed through public proposals, deliberation, and documented collective decisions; founder status does not create unilateral authority.` |
-
-The active research policy also repeats the unsupported role name in lines 84, 106, 261, 286, and 408. Those occurrences should be normalized when the research repository is updated. The active brand media kit repeats the same obsolete model at lines 73, 301, and 348.
-
-## Historical references
-
-These references were reviewed and intentionally preserved because they explicitly describe history, migration, compatibility, or terminology changes rather than current CeloHT standards:
-
-- `celoht-docs/USDm.md` — historical CUSD/Celo Dollar naming.
-- `celoht-docs/REPOSITORY_PRODUCT_READINESS.md` — explicitly classified historical cUSD review.
-- `celoht-investor-book/docs/CHANGELOG.md` and `docs/REPOSITORY_PRODUCT_READINESS.md` — terminology migration and preserved historical references.
-- `celoht-smart-contracts/ARCHITECTURE.md` — contract formerly labeled cUSD, explicitly described as rebranded USDm.
-- Archived and legacy-copy directories under `celoht-docs/archive/` and `celoht-research/archive/legacy-copies/` — retained as archive material, including old governance models and old terminology.
-
-No active document was found claiming that cUSD is the current CeloHT payment asset. Current documents use USDm and CELO, or label cUSD as historical.
-
-## Legacy references
-
-- `Celo-HT` was searched across active files and no current active occurrence was found. Legacy organization references remain only in explicitly archived or historical material where identified by the archive path or surrounding explanation.
-- Old repository URLs under `github.com/Celo-HT/...` were searched and no active occurrence was found.
-- Archived governance copies using `Foundation Director`, `Maintainer Council`, and `Community Contributors` remain legacy material and should not be treated as current policy.
-
-## Duplicate files
-
-The following numbered Markdown files are divergent copies, not byte-identical duplicates. They should be reviewed manually and removed only after repository references and archive intent are confirmed:
-
-- `celoht-docs/CHANGELOG (1).md`
-- `celoht-docs/CODE_OF_CONDUCT (1).md`
-- `celoht-docs/CONTRIBUTING (1).md`
-- `celoht-docs/README (1).md`
-- `celoht-docs/ROADMAP (1).md`
-- `celoht-docs/SECURITY (1).md`
-- `celoht-indexer/README (1).md`
-- `celoht-smart-contracts/README (1).md`
-- `celoht-dapp/architecture (1).md`
-- `celoht-dapp/governance (1).md`
-- `celoht-dapp/roadmap (1).md`
-- `celoht-dapp/security (1).md`
-- The larger numbered set under `celoht-research/archive/legacy-copies/` is intentionally archived legacy material.
-
-No duplicate was deleted automatically.
-
-## Already-correct files
-
-The following current source-of-truth documents were inspected and require no changes for this audit:
-
-- `CeloHT/GOVERNANCE.md`
-- `celoht-docs/GOVERNANCE.md`
-- `celoht-governance/GOVERNANCE.md`
-- `.github/GOVERNANCE.md`
-- `celoht-docs/PARTNERSHIPS.md`
-- `celoht-docs/PRESS_KIT.md`
-- `celoht-docs/BRAND_GUIDE.md`
-- `celoht-docs/ARCHITECTURE.md`
-- `.github/profile/README.md`
-- `.github/NO_TOKEN_POLICY.md`
-
-These documents correctly describe community governance, founder recognition without unilateral authority, USDm plus CELO, non-token status, wallet infrastructure, and non-affiliation with Celo Foundation and Valora.
-
-## Recommended canonical wording
-
-- **Identity:** `CeloHT is a Haitian-led, open-source, community-governed initiative in the Celo ecosystem focused on financial inclusion, Web3 education, digital payments, community infrastructure, and environmental impact.`
-- **Governance:** `CeloHT is community-governed, not founder-controlled. Any individual may submit a proposal. A proposal becomes an official CeloHT decision only after the documented collective governance process is completed.`
-- **Founder:** `Johnny Dubic — Founder of CeloHT.` Founder recognition does not confer unilateral authority, veto power, automatic voting rights, council membership, repository control, or fund control.
-- **Assets:** `Current CeloHT documentation uses USDm for supported payment and settlement use cases and CELO for network fees where applicable.`
-- **Wallets:** `CeloHT supports wallet connectivity through Valora, MiniPay, and WalletConnect, subject to the availability and configuration of each integration.`
-- **Affiliation:** `CeloHT is independent and is not officially affiliated with, endorsed by, or operated by Celo Foundation, Valora, MiniPay, Opera, or other third parties unless a documented agreement says otherwise.`
-
-## Required follow-up outside this workspace
-
-No governance-documentation correction is currently pending in the two externally accessible files reviewed during this audit. The `CeloHT` repository description previously noted only Valora compatibility; this is not a governance contradiction, but repository metadata should be reviewed separately if wallet-compatibility completeness is required.
-
-## Audit Summary
+Audit results
 
 - Repositories audited: 15
 - Files inspected: 1,589
-- Files modified: 5 documentation files in the checked-out `celoht-docs` repository plus this audit report
-- Files intentionally preserved: current source-of-truth files and explicit archive/legacy material
-- Historical references preserved: archived terminology and compatibility identifiers only where technically required
-- Legacy references preserved: archived `Celo-HT`/legacy governance material
-- Duplicate files identified: 17 root numbered copies plus the archived legacy-copy set
-- Contradictions fixed: local wallet wording and transparency wording; obsolete explanatory asset prose removed
-- cUSD references reviewed: yes; explanatory occurrences removed, with only the `amount_cusd` API contract identifier retained for compatibility
-- Old `Celo-HT` references reviewed: yes; no active current-reference hits found
-- Valora-only references fixed: 1 roadmap occurrence
-- Governance contradictions fixed: 2 external hierarchy findings were confirmed corrected; local governance wording was strengthened in `GOVERNANCE.md`, `MEDIA_KIT.md`, and `PARTNERSHIPS.md`
-- Founder-attribution inconsistencies fixed: 0 required; current institutional documents use the recognized-founder wording
+- Markdown and ".github" files inspected: 764
+- Active "Celo-HT" references: None found in the reviewed active corpus
+- Active current cUSD references: None identified as the current supported asset
+- Historical/technical compatibility references: Preserved only where required
+- Current governance model: Community-governed
+- Founder status: Institutional recognition without unilateral governance authority
+- Current documented payment/settlement asset: USDm
+- Network fee asset: CELO where applicable
+- Wallet connectivity: Valora, MiniPay, and WalletConnect, subject to integration availability/configuration
+- Current token status: CeloHT has no CeloHT-issued token
+- Active governance hierarchy involving a Foundation Director: None found in the reviewed current source-of-truth documentation
 
-## Modified Files
+The audit therefore distinguishes current CeloHT standards from historical, archived, migration, and technical-compatibility material.
 
-- `celoht-docs → ROADMAP.md → line 14 → replaced the Valora-only compatibility wording with Valora, MiniPay, and WalletConnect connectivity plus a non-ownership disclaimer.`
-- `celoht-docs → USDm.md → replaced the historical obsolete asset-name paragraph with neutral migration wording centered on USDm.`
-- `celoht-docs → REPOSITORY_PRODUCT_READINESS.md → removed obsolete asset-name spellings from current explanatory notes.`
-- `celoht-docs → API.md → clarified that `amount_cusd` is a legacy API contract identifier while the documented asset is USDm.`
-- `celoht-docs → ORGANIZATIONAL_TRANSPARENCY.md → replaced negative obsolete governance wording with the positive collective-process wording.`
-- `celoht-docs → GLOBAL_REFERENCE_AUDIT.md → added the organization-wide evidence inventory, classifications, canonical wording, and remaining-issues report.`
+---
 
-## Preserved Historical Files
+2. Canonical Current Identity
 
-- `celoht-docs → API.md` → `amount_cusd` remains as a technical compatibility identifier; renaming it would be an API-breaking change.
-- `celoht-investor-book → docs/CHANGELOG.md` and readiness documentation → terminology migration is documented as history.
-- `celoht-smart-contracts → ARCHITECTURE.md` → former contract naming is explicitly described as historical.
-- `celoht-docs/archive/**` and `celoht-research/archive/legacy-copies/**` → archive paths intentionally preserve legacy material.
+The canonical current description is:
 
-## Remaining Issues
+«CeloHT is a Haitian-led, open-source, community-governed initiative in the Celo ecosystem focused on financial inclusion, Web3 education, digital payments, community infrastructure, and environmental impact.»
 
-- Update the `Celo-HaiTi/CeloHT` GitHub repository description from Valora-only wording to the canonical three-wallet wording.
-- Review and retire numbered duplicate files only after checking references and archive intent; none was deleted automatically.
-- Public repository descriptions and files in `celoht-admin`, `celoht-brand`, `celoht-investor-book`, and `celoht-research` require separate repository commits; they were inventoried but are not part of the checked-out workspace.
+CeloHT should not be described as:
 
-## Audit status
+- a separate blockchain;
+- a Celo Foundation-operated project;
+- a founder-controlled organization;
+- a token issuer;
+- a Foundation Director hierarchy;
+- a Maintainer Council controlled by one individual;
+- an organization officially endorsed by third-party wallet providers unless a documented agreement establishes that relationship.
 
-`READY — Accessible governance documentation is semantically consistent with the Governance Council model; repository metadata and inaccessible external repositories remain outside this checkout.`
+---
+
+3. Canonical Governance Model
+
+The current governance model is community-governed, not founder-controlled.
+
+The canonical wording is:
+
+«CeloHT is community-governed, not founder-controlled. Any individual may submit a proposal. A proposal becomes an official CeloHT decision only after the documented collective governance process is completed.»
+
+The governance model should be understood as:
+
+Community Proposal → Public Review / Deliberation → Documented Collective Decision → Implementation
+
+No individual founder, contributor, maintainer, or other participant automatically receives unilateral authority over CeloHT because of their title.
+
+Founder recognition does not automatically provide:
+
+- unilateral governance authority;
+- veto power;
+- automatic voting rights;
+- automatic council membership;
+- repository control;
+- treasury or fund control;
+- unilateral partnership-signing authority.
+
+---
+
+4. Founder Attribution
+
+The canonical founder attribution is:
+
+«Johnny Dubic — Founder of CeloHT.»
+
+Founder recognition is historical and institutional. It does not create perpetual governance authority, ownership rights, veto power, automatic voting rights, council membership, repository control, or unilateral control over CeloHT resources.
+
+The founder should not be represented as a CEO, director, Foundation Director, or other executive authority unless a separate current governance document explicitly establishes such a role.
+
+---
+
+5. Current Asset Terminology
+
+Current CeloHT documentation should use:
+
+- USDm for supported payment and settlement use cases;
+- CELO for network fees where applicable.
+
+CeloHT should not describe cUSD as its current payment asset.
+
+Historical references to former terminology may remain only when they are necessary to explain:
+
+- migration history;
+- historical documentation;
+- previous contract names;
+- API compatibility;
+- changelogs;
+- archived material.
+
+Such references must be clearly contextualized as historical or technical compatibility material.
+
+---
+
+6. Technical Compatibility Exception
+
+"amount_cusd" may remain in "celoht-docs/API.md" when it is a legacy API contract identifier whose renaming would constitute an API-breaking change.
+
+It must not be presented as evidence that cUSD is the current CeloHT payment asset.
+
+Recommended explanation:
+
+«"amount_cusd" is retained as a legacy API compatibility identifier. The current documented asset terminology is USDm.»
+
+This distinction prevents technical compatibility identifiers from being mistaken for current product terminology.
+
+---
+
+7. Historical Material
+
+Historical terminology is not automatically a current contradiction.
+
+The following categories may legitimately contain historical references:
+
+- migration documentation;
+- changelogs;
+- archived governance documents;
+- previous contract names;
+- historical reports;
+- repository-readiness reviews;
+- archive directories;
+- compatibility documentation.
+
+Historical content should remain clearly identifiable as historical.
+
+It must not be used as current CeloHT policy.
+
+---
+
+8. "Celo-HT" References
+
+The audit searched the active corpus for the obsolete "Celo-HT" naming and repository URLs.
+
+Result
+
+No current active "Celo-HT" references were identified in the reviewed active corpus.
+
+Any remaining occurrence must be classified as one of the following before being retained:
+
+1. historical documentation;
+2. migration history;
+3. archived material;
+4. technical reference that cannot safely be removed.
+
+Archived historical material must not be interpreted as the current CeloHT identity.
+
+---
+
+9. Wallet Compatibility
+
+The canonical current wording is:
+
+«CeloHT supports wallet connectivity through Valora, MiniPay, and WalletConnect, subject to the availability and configuration of each integration.»
+
+This wording avoids implying:
+
+- ownership of those wallets;
+- endorsement by those companies;
+- guaranteed availability of every integration;
+- official affiliation with wallet providers.
+
+The repository description should also be reviewed so that public metadata does not incorrectly describe CeloHT as Valora-only.
+
+---
+
+10. Organizational Independence
+
+The canonical affiliation statement is:
+
+«CeloHT is independent and is not officially affiliated with, endorsed by, or operated by Celo Foundation, Valora, MiniPay, Opera, or other third parties unless a documented agreement establishes otherwise.»
+
+This should be used consistently in relevant public documentation.
+
+---
+
+11. Previously Identified Governance Contradictions
+
+Earlier audits identified obsolete governance language in external/currently accessible documentation, including:
+
+"celoht-research/PARTNERSHIPS.md"
+
+Previously identified examples included:
+
+- "Foundation Director";
+- "Maintainer Council";
+- "Foundation Director → Maintainer Council → Community Contributors";
+- "ultimate accountability";
+- "tie-breaking vote";
+- "final signatory".
+
+These descriptions conflict with the current community-governed model when presented as current CeloHT governance.
+
+The current versions reviewed during this audit have been corrected.
+
+Therefore, these are recorded as:
+
+Historical audit findings — not current active contradictions.
+
+Any remaining occurrence of these role names outside explicit archive/history sections should be reviewed and normalized.
+
+---
+
+12. Previously Identified Brand/Media Contradictions
+
+The previous "celoht-brand" media-kit findings involving a Foundation Director / Maintainer Council hierarchy have also been corrected in the current reviewed version.
+
+They remain in this audit only as historical findings.
+
+Current public-facing material should instead use the collective governance model:
+
+«CeloHT is community-governed through public proposals, deliberation, and documented collective decisions. Founder status does not create unilateral authority.»
+
+---
+
+13. Duplicate Documentation
+
+The following numbered files were identified as divergent copies rather than byte-identical duplicates:
+
+- "celoht-docs/CHANGELOG (1).md"
+- "celoht-docs/CODE_OF_CONDUCT (1).md"
+- "celoht-docs/CONTRIBUTING (1).md"
+- "celoht-docs/README (1).md"
+- "celoht-docs/ROADMAP (1).md"
+- "celoht-docs/SECURITY (1).md"
+- "celoht-indexer/README (1).md"
+- "celoht-smart-contracts/README (1).md"
+- "celoht-dapp/architecture (1).md"
+- "celoht-dapp/governance (1).md"
+- "celoht-dapp/roadmap (1).md"
+- "celoht-dapp/security (1).md"
+
+Additional numbered files exist under:
+
+"celoht-research/archive/legacy-copies/"
+
+These are classified separately because they are explicitly archived.
+
+Deletion policy
+
+No duplicate should be deleted automatically.
+
+Before deletion, confirm:
+
+1. whether another document references it;
+2. whether it is intentionally archived;
+3. whether GitHub links depend on it;
+4. whether it contains unique information;
+5. whether the canonical replacement is complete.
+
+---
+
+14. Current Source-of-Truth Files
+
+The following current documents were reviewed and are aligned with the intended current model:
+
+- "CeloHT/GOVERNANCE.md"
+- "celoht-docs/GOVERNANCE.md"
+- "celoht-governance/GOVERNANCE.md"
+- ".github/GOVERNANCE.md"
+- "celoht-docs/PARTNERSHIPS.md"
+- "celoht-docs/PRESS_KIT.md"
+- "celoht-docs/BRAND_GUIDE.md"
+- "celoht-docs/ARCHITECTURE.md"
+- ".github/profile/README.md"
+- ".github/NO_TOKEN_POLICY.md"
+
+These documents reflect the current direction of:
+
+- community governance;
+- founder recognition without unilateral authority;
+- USDm + CELO terminology;
+- no CeloHT-issued token;
+- wallet connectivity;
+- organizational independence.
+
+---
+
+15. Modified Documentation
+
+The checked-out "celoht-docs" repository includes the following documented corrections:
+
+"ROADMAP.md"
+
+Updated wallet compatibility language to reference:
+
+- Valora;
+- MiniPay;
+- WalletConnect;
+
+while avoiding ownership or endorsement claims.
+
+"USDm.md"
+
+Updated obsolete asset terminology and clarified the transition toward current USDm terminology.
+
+"REPOSITORY_PRODUCT_READINESS.md"
+
+Removed obsolete current-state asset wording from explanatory sections.
+
+"API.md"
+
+Clarified that:
+
+"amount_cusd"
+
+is retained only as a technical legacy API identifier and does not represent the current documented asset.
+
+"ORGANIZATIONAL_TRANSPARENCY.md"
+
+Strengthened the positive description of collective governance and removed obsolete governance framing.
+
+"GLOBAL_REFERENCE_AUDIT.md"
+
+Added the organization-wide audit evidence, classifications, canonical wording, and remaining issues.
+
+---
+
+16. Remaining Issues
+
+The following items remain recommended follow-up work:
+
+16.1 Repository metadata
+
+Update the public description of:
+
+"Celo-HaiTi/CeloHT"
+
+if it still describes the project as Valora-only.
+
+The description should reflect the current wallet-connectivity wording without implying third-party endorsement.
+
+16.2 Numbered duplicate files
+
+Review numbered duplicate Markdown files individually.
+
+Do not delete them until repository references and archive intent have been confirmed.
+
+16.3 External repository synchronization
+
+Repositories such as:
+
+- "celoht-admin";
+- "celoht-brand";
+- "celoht-investor-book";
+- "celoht-research";
+
+should be checked through their own current commits if they were not part of the checked-out workspace used for this audit.
+
+16.4 Organization-wide final search
+
+After all commits are merged, run one final organization-wide search for:
+
+- obsolete current asset terminology;
+- obsolete organization naming;
+- Foundation Director;
+- unsupported Maintainer Council hierarchy;
+- founder-controlled language;
+- Valora-only compatibility wording;
+- incorrect affiliation claims.
+
+Any remaining occurrence should be classified before removal.
+
+---
+
+17. Final Canonical Reference
+
+For future documentation synchronization, use the following baseline:
+
+Identity
+
+«CeloHT is a Haitian-led, open-source, community-governed initiative in the Celo ecosystem focused on financial inclusion, Web3 education, digital payments, community infrastructure, and environmental impact.»
+
+Governance
+
+«CeloHT is community-governed, not founder-controlled. Any individual may submit a proposal. A proposal becomes an official CeloHT decision only after the documented collective governance process is completed.»
+
+Founder
+
+«Johnny Dubic — Founder of CeloHT.»
+
+«Founder recognition does not confer unilateral authority, veto power, automatic voting rights, council membership, repository control, or fund control.»
+
+Assets
+
+«Current CeloHT documentation uses USDm for supported payment and settlement use cases and CELO for network fees where applicable.»
+
+Wallets
+
+«CeloHT supports wallet connectivity through Valora, MiniPay, and WalletConnect, subject to the availability and configuration of each integration.»
+
+Independence
+
+«CeloHT is independent and is not officially affiliated with, endorsed by, or operated by Celo Foundation, Valora, MiniPay, Opera, or other third parties unless a documented agreement establishes otherwise.»
+
+Token status
+
+«CeloHT does not issue or operate a CeloHT-native token.»
+
+---
+
+18. Audit Status
+
+"READY — Current documentation is aligned with the intended community-governed CeloHT model."
+
+The remaining work is primarily repository synchronization, metadata review, duplicate-file cleanup, and final organization-wide verification.
+
+Historical and technical compatibility references may remain when they are explicitly contextualized and do not represent current CeloHT standards.
+
+Important: Archived material is historical material. It must not be treated as current governance, current branding, current asset terminology, or current organizational policy.
