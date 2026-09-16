@@ -95,6 +95,61 @@ fi
 if [ "$STALE" -ne 0 ]; then FAIL=1; fi
 
 echo ""
+echo "=== 6. Canonical vocabulary check ==="
+python3 - <<'PYEOF'
+import pathlib
+import re
+import sys
+import zipfile
+
+# Build prohibited spellings without placing them literally in this current file.
+patterns = {
+  "obsolete currency terminology": re.compile(r"c[uU][sS][dD]"),
+  "obsolete project name": re.compile(r"Celo[-]HT"),
+  "obsolete organization URL": re.compile(r"github[.]com/Celo[-]HT(?:/|$)"),
+}
+excluded_parts = {".git"}
+violations = []
+
+for path in pathlib.Path(".").rglob("*"):
+  if not path.is_file() or excluded_parts.intersection(path.parts):
+    continue
+  try:
+    content = path.read_text(encoding="utf-8")
+  except (UnicodeDecodeError, OSError):
+    continue
+  for label, pattern in patterns.items():
+    for match in pattern.finditer(content):
+      line = content.count("\n", 0, match.start()) + 1
+      violations.append((str(path), line, label, match.group(0)))
+
+for path in pathlib.Path(".").rglob("*.pptx"):
+  if excluded_parts.intersection(path.parts):
+    continue
+  try:
+    archive = zipfile.ZipFile(path)
+  except (OSError, zipfile.BadZipFile):
+    continue
+  with archive:
+    for member in archive.namelist():
+      try:
+        content = archive.read(member).decode("utf-8")
+      except (UnicodeDecodeError, OSError, KeyError):
+        continue
+      for label, pattern in patterns.items():
+        for match in pattern.finditer(content):
+          line = content.count("\n", 0, match.start()) + 1
+          violations.append((f"{path}:{member}", line, label, match.group(0)))
+
+if violations:
+  for path, line, label, match in violations:
+    print(f"FAIL: {path}:{line}: {label}: {match}")
+  sys.exit(1)
+print("OK: current editable corpus uses canonical vocabulary")
+PYEOF
+if [ $? -ne 0 ]; then FAIL=1; fi
+
+echo ""
 if [ "$FAIL" -eq 0 ]; then
   echo "✅ All checks passed."
   exit 0

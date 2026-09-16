@@ -14,7 +14,7 @@ Canonical CeloHT documentation hub. This repository contains static documentatio
 
 - Current GitHub links were synchronized to `Celo-HaiTi` and the documented repository names.
 - Celo Sepolia (`11142220`), Celo Mainnet (`42220`), CELO, and USDm remain the current documented standards.
-- Legacy Alfajores and earlier payment-asset references were reviewed and retained only where compatibility or explanatory context requires them.
+- Alfajores and earlier payment-asset wording were reviewed; current editable documentation uses USDm.
 - API, CLI, and SDK documents now state that the backend/package is planned or unconfigured; no live API is claimed here.
 - No contract source, deployment artifact, treasury implementation, backend, database, or secret was found in this repository.
 
@@ -54,7 +54,7 @@ Canonical CeloHT documentation hub. This repository contains static documentatio
 
 - Current organization and ecosystem repository links were synchronized.
 - API documentation now distinguishes specification, planned, and unavailable states.
-- Historical Alfajores, earlier payment-asset terminology, and legacy organization references remain explicitly classified.
+- Historical network context is separated from current terminology; current editable documentation uses canonical organization and asset names.
 
 ### Cross-Repository Synchronization
 

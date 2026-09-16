@@ -926,7 +926,7 @@ curl -s https://api.celoht.org/v1/news
     {
       "transaction_id": "txn_01HXAMPLE",
       "type": "cash_in",
-      "amount_cusd": "0.00",
+      "amount_usdm": "0.00",
       "on_chain_tx_hash": null,
       "status": "pending"
     }
@@ -1011,7 +1011,7 @@ curl -s "https://api.celoht.org/v1/donations?scope=aggregate"
 **Request Body**
 ```json
 {
-  "amount_cusd": "10.00",
+  "amount_usdm": "10.00",
   "restriction": "reforestation",
   "anonymous": false
 }
@@ -1019,7 +1019,7 @@ curl -s "https://api.celoht.org/v1/donations?scope=aggregate"
 
 | Field | Type | Required | Description |
 |---|---|---|---|
-| `amount_cusd` | string (decimal) | Yes | Intended donation amount in USDm. The field name is a legacy API contract identifier and must remain unchanged for compatibility. |
+| `amount_usdm` | string (decimal) | Yes | Intended donation amount denominated in USDm. |
 | `restriction` | string \| null | No | One of the categories in `TREASURY.md` Section 6, or `null` for unrestricted |
 | `anonymous` | boolean | No | Whether the donor requests anonymity per `DONATION_POLICY.md` Section 6 |
 
@@ -1029,7 +1029,7 @@ curl -s "https://api.celoht.org/v1/donations?scope=aggregate"
   "data": {
     "donation_id": "don_01HXAMPLE",
     "status": "pending_on_chain_confirmation",
-    "amount_cusd": "10.00",
+    "amount_usdm": "10.00",
     "restriction": "reforestation",
     "created_at": "2026-08-04T12:00:00Z"
   }
@@ -1052,7 +1052,7 @@ curl -s "https://api.celoht.org/v1/donations?scope=aggregate"
 curl -s -X POST https://api.celoht.org/v1/donations \
   -H "Authorization: Bearer <jwt_token>" \
   -H "Content-Type: application/json" \
-  -d '{"amount_cusd": "10.00", "restriction": "reforestation", "anonymous": false}'
+  -d '{"amount_usdm": "10.00", "restriction": "reforestation", "anonymous": false}'
 ```
 
 **JavaScript (Fetch)**
@@ -1064,7 +1064,7 @@ const res = await fetch("https://api.celoht.org/v1/donations", {
     "Content-Type": "application/json",
   },
   body: JSON.stringify({
-    amount_cusd: "10.00",
+    amount_usdm: "10.00",
     restriction: "reforestation",
     anonymous: false,
   }),
@@ -1075,7 +1075,7 @@ const { data } = await res.json();
 **TypeScript**
 ```typescript
 interface DonationRequest {
-  amount_cusd: string;
+  amount_usdm: string;
   restriction?: string | null;
   anonymous?: boolean;
 }
@@ -1083,7 +1083,7 @@ interface DonationRequest {
 interface DonationResponse {
   donation_id: string;
   status: string;
-  amount_cusd: string;
+  amount_usdm: string;
   restriction: string | null;
   created_at: string;
 }
@@ -1112,7 +1112,7 @@ import requests
 response = requests.post(
     "https://api.celoht.org/v1/donations",
     headers={"Authorization": f"Bearer {jwt_token}"},
-    json={"amount_cusd": "10.00", "restriction": "reforestation", "anonymous": False},
+    json={"amount_usdm": "10.00", "restriction": "reforestation", "anonymous": False},
 )
 donation = response.json()["data"]
 ```
@@ -1126,7 +1126,7 @@ final response = await http.post(
     'Content-Type': 'application/json',
   },
   body: jsonEncode({
-    'amount_cusd': '10.00',
+    'amount_usdm': '10.00',
     'restriction': 'reforestation',
     'anonymous': false,
   }),
@@ -1391,7 +1391,7 @@ All error responses use a consistent envelope:
     "code": "validation_failed",
     "message": "One or more fields failed validation.",
     "details": {
-      "amount_cusd": "Must be a positive decimal value."
+      "amount_usdm": "Must be a positive decimal value."
     },
     "request_id": "b3f1e2a4-...-007"
   }
@@ -1580,9 +1580,9 @@ components:
             has_more: { type: boolean }
     DonationRequest:
       type: object
-      required: [amount_cusd]
+      required: [amount_usdm]
       properties:
-        amount_cusd: { type: string }
+        amount_usdm: { type: string }
         restriction: { type: [string, "null"] }
         anonymous: { type: boolean, default: false }
     DonationResponse:
@@ -1593,7 +1593,7 @@ components:
           properties:
             donation_id: { type: string }
             status: { type: string }
-            amount_cusd: { type: string }
+            amount_usdm: { type: string }
             restriction: { type: [string, "null"] }
             created_at: { type: string, format: date-time }
     ErrorResponse:
