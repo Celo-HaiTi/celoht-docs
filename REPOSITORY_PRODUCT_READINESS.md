@@ -22,9 +22,9 @@ Canonical CeloHT documentation hub. This repository contains static documentatio
 
 - Corrected current GitHub links in project, support, brand, and contributor documentation.
 - Corrected external source-of-truth links to `celoht-brand`, `celoht-siteweb`, `celoht-dapp`, and `celoht-smart-contracts`.
-- Removed the unapproved legacy API setup value and marked API base URLs as not configured.
+- Removed the unapproved obsolete API setup value and marked API base URLs as not configured.
 - Consolidated the unrelated suffixed brand-repository snapshot under `archive/brand-repository-snapshot/` and retained compatibility stubs at the former paths.
-- Extended `validate.sh` with a regression check for legacy current URLs and the unapproved API domain.
+- Extended `validate.sh` with a regression check for obsolete current URLs and the unapproved API domain.
 
 ### Security
 
@@ -139,8 +139,8 @@ These references are documentation links only. No runtime integration is impleme
 ## Changes Made
 
 - Corrected the active canonical GitHub organization references to Celo-HaiTi where the repository is explicitly documenting current active project references.
-- Updated the active test network references from the legacy Alfajores guidance to Celo Sepolia where the repository described current network use.
-- Clarified legacy documentation language so earlier payment-asset terminology is not mistaken for the active USDm standard in new CeloHT work.
+- Updated the active test network references from the earlier Alfajores guidance to Celo Sepolia where the repository described current network use.
+- Clarified historical documentation language so earlier payment-asset terminology is not mistaken for the active USDm standard in new CeloHT work.
 - Added the required product-readiness report documentation required by the repository audit workflow.
 
 ## Contradictions Found
@@ -154,14 +154,14 @@ These references are documentation links only. No runtime integration is impleme
 
 - Updated active org references to the current canonical organization where appropriate.
 - Corrected active network guidance to the current Celo Sepolia network and chain ID 11142220.
-- Kept historical naming context explicitly labeled as legacy rather than treating it as current product naming.
+- Kept historical naming context explicitly separated from current product naming.
 
 ## Network Status
 
 - Active CeloHT testnet: Celo Sepolia
 - Chain ID: 11142220
 - Celo Mainnet: 42220
-- Legacy Alfajores: historical/legacy; not the current default for new CeloHT work
+- Alfajores: historical network; not the current default for new CeloHT work
 
 ## USDm Status
 

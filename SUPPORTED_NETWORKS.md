@@ -11,7 +11,7 @@ CeloHT operates exclusively on the Celo blockchain and its standard network tier
 | Celo Sepolia (testnet) | 11142220 | Development, staging, agent training simulations | Active |
 | Celo Mainnet | 42220 | Production | Live only after audit process (see [SMART_CONTRACTS.md](./SMART_CONTRACTS.md#path-to-production)) |
 
-> Alfajores (44787) is legacy/historical and is not the current CeloHT active default.
+> Alfajores (44787) is a historical network and is not the current CeloHT active default.
 
 ## RPC Endpoints
 

@@ -56,7 +56,7 @@ CeloHT-Brand/
     └── light/                      → Versions optimized for light backgrounds
 ```
 
-> **Note on scope:** This legacy duplicate document is retained for compatibility. The canonical entry point is [README.md](./README.md); do not treat this copy as a separate source of truth or as evidence that external runtimes are production-ready.
+> **Note on scope:** This archived duplicate document is retained for compatibility. The canonical entry point is [README.md](./README.md); do not treat this copy as a separate source of truth or as evidence that external runtimes are production-ready.
 
 ---
 

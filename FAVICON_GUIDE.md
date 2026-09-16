@@ -8,7 +8,7 @@ All favicons are generated from `logos/favicons/celoht-favicon-source.svg` — a
 
 | File | Size | Usage |
 |---|---|---|
-| `favicon.ico` | 16×16, 32×32, 48×48 (multi-res ICO) | Legacy browser tab icon |
+| `favicon.ico` | 16×16, 32×32, 48×48 (multi-res ICO) | Browser tab icon for broad compatibility |
 | `favicon-16x16.png` | 16×16 | Browser tab (modern) |
 | `favicon-32x32.png` | 32×32 | Browser tab (retina) |
 | `apple-touch-icon.png` | 180×180 | iOS home screen |
