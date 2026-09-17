@@ -1,34 +1,79 @@
-**CeloHT Canonical Truth**
+CeloHT Canonical Truth
 
 «Status: Canonical
 Scope: CeloHT ecosystem
+Official Project Name: Celo-HaiTi
+Project Short Name: CeloHT
 Organization: Celo-HaiTi
-Project: CeloHT
-Last reviewed: September 16, 2026»
+Main Repository: CeloHT
+Repository Path: Celo-HaiTi/CeloHT
+Last reviewed: September 17, 2026»
 
 This document defines the canonical current-state facts for the CeloHT ecosystem.
 
-All active CeloHT repositories, applications, documentation, websites, configuration references, and public materials should remain consistent with this document.
+All active CeloHT repositories, applications, documentation, websites, configuration references, and public materials must remain consistent with this document.
 
 ---
 
 1. Identity
 
-Organization: Celo-HaiTi
+Official project name: Celo-HaiTi
 
-Project: CeloHT
+Project short name / shorthand: CeloHT
 
-Official GitHub organization:
+GitHub organization: Celo-HaiTi
 
-https://github.com/Celo-HaiTi
+Main repository: CeloHT
 
-Official website:
+Repository path: Celo-HaiTi/CeloHT
 
-https://celoht.com/
+Official website: celoht.com
 
-Production dApp target:
+Production dApp target: app.celoht.com
 
-https://app.celoht.com/
+Naming Rule
+
+Celo-HaiTi is the official project name. CeloHT is the project's short name and universal working shorthand.
+
+CeloHT must be used by default throughout current project text and technical/operational materials, including:
+
+- Documentation
+- README files
+- Website copy
+- dApp UI
+- Product terminology
+- APIs
+- Code identifiers
+- Architecture references
+- Repository descriptions
+- Governance terminology
+- Education terminology
+- Agent terminology
+- Reforestation terminology
+- Technical specifications
+- Developer documentation
+- Examples
+- Operational materials
+
+Celo-HaiTi should be used when the formal, official, organizational, legal, or brand identity of the project must be stated, including:
+
+- Formal project identification
+- Official organization identity
+- Legal documentation
+- Organizational documentation
+- Brand identity
+- Formal partnerships
+- Official attribution
+
+Celo-HaiTi and CeloHT refer to the same current project.
+
+CeloHT is not a separate project, organization, fork, successor, or independent entity.
+
+The ecosystem must not alternate between the two names without following this naming rule.
+
+---
+
+2. Project Definition
 
 CeloHT is an open-source Haitian Web3 initiative focused on:
 
@@ -40,25 +85,38 @@ CeloHT is an open-source Haitian Web3 initiative focused on:
 
 CeloHT operates within the Celo ecosystem.
 
+CeloHT combines open-source software, blockchain infrastructure, education, digital finance, agent participation, entrepreneurship, and environmental initiatives.
+
 ---
 
-2. Founder
+3. Founder
 
 Founder: Johnny Dubic
 
 Role: Founder
 
-Founder status does not create unilateral control over CeloHT governance.
+The Founder role does not create unilateral control over CeloHT governance.
 
-The Founder role must not be represented as an automatic executive, governance, treasury, or voting authority unless such authority is explicitly defined by the current governance system.
+The Founder role must not be represented as an automatic:
+
+- Executive authority
+- Governance authority
+- Treasury authority
+- Voting authority
+- Governance Council membership
+- Administrative authority
+
+unless such authority is explicitly defined by the current governance system and implementation.
+
+Documentation must not invent Founder powers.
 
 ---
 
-3. Governance
+4. Governance
 
 CeloHT uses a documented collective governance model.
 
-Governance should prioritize:
+The current governance model must prioritize:
 
 - Transparent decision-making
 - Defined roles and permissions
@@ -67,7 +125,8 @@ Governance should prioritize:
 - Protection against unilateral control
 - Community participation
 - Treasury accountability
-- Security and operational controls
+- Security controls
+- Operational accountability
 
 CeloHT does not have a native governance token.
 
@@ -75,11 +134,13 @@ Governance must not be described as token-weighted governance.
 
 The Founder does not automatically possess unilateral governance authority.
 
+The Governance Council is the highest ongoing collective decision-making body of the current CeloHT governance model.
+
 All governance documentation must remain consistent with the current implementation and approved governance specification.
 
 ---
 
-4. Token Policy
+5. Token Policy
 
 CeloHT does not issue or operate a native CeloHT token.
 
@@ -89,34 +150,36 @@ CeloHT is:
 - Not a blockchain
 - Not an investment product
 - Not an investment vehicle
+- Not a cryptocurrency
 
-References to a hypothetical or proposed CeloHT token must not be presented as a current product or asset.
+CeloHT must not be presented as an issuer of a native project token.
+
+References to hypothetical or proposed project tokens must not be presented as current products or assets.
 
 ---
 
-5. Blockchain
+6. Blockchain
 
 CeloHT operates within the Celo blockchain ecosystem.
 
-Current network references
+Current Network
 
-Testnet: Celo Sepolia
+Primary development/test network: Celo Sepolia
 
-Celo Sepolia Chain ID:
-
-"11142220"
+Celo Sepolia Chain ID: "11142220"
 
 Network configuration must always distinguish between:
 
 - Development
 - Testnet
+- Staging
 - Production/Mainnet
 
-No deployment should be described as production/mainnet unless it has been independently verified.
+No deployment should be described as production/mainnet unless it has been independently verified through authoritative deployment information and corresponding infrastructure validation.
 
 ---
 
-6. Assets
+7. Assets
 
 CELO
 
@@ -125,22 +188,22 @@ CELO is the native Celo network asset.
 Within CeloHT, CELO may be used for:
 
 - Network gas
-- Governance-related blockchain transactions where applicable
+- Applicable governance-related blockchain transactions
 - Other explicitly documented Celo network operations
 
 USDm
 
-USDm is the current stable-value payment asset referenced by CeloHT.
+USDm is the canonical stable-value payment asset referenced by CeloHT.
 
-CeloHT documentation should use USDm for current payment/stable-value functionality.
+Current CeloHT documentation must use USDm for supported stable-value payment functionality.
 
-Asset addresses must never be invented or copied into configuration without verification against an authoritative deployment source.
+Asset addresses must never be invented, guessed, or copied into production configuration without verification against an authoritative deployment source.
 
 ---
 
-7. Wallet Support
+8. Wallet Support
 
-CeloHT supports the following wallet connection paths:
+CeloHT's canonical wallet connection targets are:
 
 - MiniPay
 - Valora
@@ -162,11 +225,13 @@ WalletConnect
 
 WalletConnect-compatible wallets may connect through the CeloHT wallet connection layer.
 
-The dApp should not expose unsupported or misleading wallet options.
+The dApp must not expose unsupported or misleading wallet options.
+
+Wallet support must only be described as operational when the corresponding integration has been technically verified.
 
 ---
 
-8. dApp
+9. dApp
 
 The CeloHT dApp is an application, not a marketing landing page.
 
@@ -178,9 +243,18 @@ Primary product areas include:
 - Reforestation
 - Activity/history where applicable
 
-The dApp must not present simulated data, fake transactions, fake balances, fake impact metrics, or mock production activity as real user activity.
+The dApp must not present:
 
-Current product scope
+- Simulated data as real data
+- Fake transactions
+- Fake balances
+- Fake impact metrics
+- Mock production activity
+- Unverified production integrations
+
+as real user activity or production functionality.
+
+Current Product Scope
 
 CeloHT's dApp focuses on:
 
@@ -188,13 +262,15 @@ Education • Agents • Reforestation
 
 with financial and wallet functionality supporting the broader ecosystem.
 
-An Impact Dashboard is not part of the current dApp product scope.
+Impact Dashboard
 
-Documentation should not describe an Impact Dashboard as an active dApp product unless the product scope is formally changed.
+An Impact Dashboard is not part of the current CeloHT dApp product scope.
+
+Documentation must not describe an Impact Dashboard as an active dApp product unless the product scope is formally changed.
 
 ---
 
-9. Education
+10. Education
 
 Education is a core CeloHT pillar.
 
@@ -202,11 +278,13 @@ The Education experience should support structured learning rather than function
 
 Where implemented, educational progress and completion records must be based on real application state.
 
-No fabricated completion statistics should be presented as real user data.
+No fabricated completion statistics may be presented as real user data.
+
+Education functionality must be labeled accurately according to its implementation status.
 
 ---
 
-10. Agent Ecosystem
+11. Agent Ecosystem
 
 Agents are a core CeloHT pillar.
 
@@ -217,15 +295,18 @@ The agent ecosystem may include:
 - Agent verification
 - Agent-assisted transactions
 - Agent activity
-- Agent-related governance or ecosystem functionality
+- Agent-related governance functionality
+- Agent ecosystem participation
 
-Agent identity and verification must use real verification data where verification is claimed.
+Agent identity and verification must use real verification data when verification is claimed.
 
-External identity/verification references must not be presented as verified unless the underlying verification state can actually be validated.
+External identity or verification references must not be presented as verified unless the underlying verification state can actually be validated.
+
+Development, mock, or placeholder identity records must be clearly distinguished from verified identities.
 
 ---
 
-11. Reforestation
+12. Reforestation
 
 Reforestation is a core CeloHT pillar.
 
@@ -236,33 +317,45 @@ The reforestation system may support:
 - Planting records
 - Certificates
 - Reforestation-related activity
-- Verification and recordkeeping
+- Verification
+- Recordkeeping
 
-Impact figures must only be presented as official current metrics when they have a defined source and verification methodology.
+Impact figures must only be presented as official current metrics when they have:
+
+- A defined source
+- A clear measurement period
+- A verification methodology
+- An identifiable data owner or source
 
 The dApp must not fabricate environmental impact.
 
 ---
 
-12. Backend
+13. Backend
 
-The CeloHT backend provides application services required by the ecosystem.
+The CeloHT Backend provides application services required by the ecosystem.
 
 Backend functionality must distinguish between:
 
 - Local development
-- Test/staging infrastructure
+- Test infrastructure
+- Staging infrastructure
 - Production infrastructure
 
 Production claims require actual production infrastructure and successful runtime verification.
 
-Environment variables must not contain invented credentials, fake URLs, placeholder production secrets, or unverified service endpoints.
+Environment variables must not contain:
+
+- Invented credentials
+- Fake production URLs
+- Placeholder production secrets
+- Unverified production endpoints
 
 ---
 
-13. Indexer
+14. Indexer
 
-The CeloHT indexer is responsible for processing relevant blockchain events and making blockchain activity available to application services.
+The CeloHT Indexer is responsible for processing relevant blockchain events and making blockchain activity available to application services.
 
 The indexer must support appropriate:
 
@@ -275,13 +368,15 @@ The indexer must support appropriate:
 - Restart recovery
 - Reorganization/reorg handling
 
-An indexer being able to build successfully does not by itself establish production readiness.
+A successful build does not establish production readiness.
 
-Live infrastructure verification is required.
+Unit tests and mocks do not replace live RPC and PostgreSQL integration validation.
+
+Live infrastructure verification is required before production-readiness claims are made.
 
 ---
 
-14. Database
+15. Database
 
 Supabase is part of the CeloHT application infrastructure.
 
@@ -298,9 +393,11 @@ Database migrations must:
 
 Repositories must not create competing migration histories.
 
+Database ownership and migration documentation must remain synchronized across repositories.
+
 ---
 
-15. Authentication and Security
+16. Authentication and Security
 
 Security-sensitive configuration must use environment variables or secure secret management.
 
@@ -317,70 +414,80 @@ Authentication and authorization must fail closed when required security configu
 
 Administrative operations must require appropriate authorization.
 
+Security-sensitive functionality must not rely on client-side trust alone.
+
 ---
 
-16. Smart Contracts
+17. Smart Contracts
 
 CeloHT smart contracts must be treated as security-critical infrastructure.
 
 Testnet deployment does not equal production readiness.
 
-Before production/mainnet deployment, the required security gates include:
+Before production/mainnet deployment, required security gates include:
 
 1. Independent security review/audit
 2. Remediation of identified findings
 3. Public audit/remediation record where appropriate
 4. Secure treasury/governance controls
 5. Testnet validation
-6. Extended monitored testnet operation
+6. Extended monitored testnet operation where appropriate
 7. Governance/operational sign-off
 8. Final deployment verification
 
 Contract addresses must always come from verified deployment manifests or authoritative deployment records.
 
+No placeholder contract address may be represented as a production address.
+
 ---
 
-17. Production Readiness
+18. Production Readiness
 
 A repository passing:
 
-- lint
-- typecheck
-- tests
-- build
+- Lint
+- Typecheck
+- Tests
+- Build
 
 does not automatically mean the CeloHT ecosystem is production-ready.
 
-Production readiness requires both:
+Production readiness requires both local verification and external infrastructure verification.
 
-Local verification
+Local Verification
+
+This may include:
 
 - Tests
 - Typecheck
 - Lint
 - Build
-- Dependency/security checks
+- Dependency checks
+- Static analysis
+- Security checks
 
-External verification
+External Verification
+
+Where applicable, this includes:
 
 - Live database
 - Live backend
 - Live indexer
 - Real RPC
 - Real wallet connection
-- Real blockchain transactions where applicable
+- Real blockchain transactions
 - End-to-end application flows
 - Security review
 - Operational monitoring
 - Production configuration validation
 
-A component should be marked NOT READY when required external infrastructure has not been verified.
+A component must be marked NOT READY when required external infrastructure has not been verified.
 
-This is preferable to claiming readiness based only on local tests.
+Local test success must not be presented as proof of complete production readiness.
 
 ---
 
-18. Environment Configuration
+19. Environment Configuration
 
 Production credentials must never be invented.
 
@@ -398,9 +505,11 @@ Actual values must only be added when the corresponding infrastructure exists an
 
 Documentation may describe required variable names without exposing their secret values.
 
+No placeholder value may be represented as an operational production credential.
+
 ---
 
-19. Documentation Rules
+20. Documentation Rules
 
 All active documentation must use the current canonical facts defined in this document.
 
@@ -408,10 +517,12 @@ When a contradiction is discovered:
 
 1. Identify the conflicting statement.
 2. Compare it against this document.
-3. Correct the active documentation.
-4. Preserve factual historical records only where genuinely required.
-5. Do not introduce unsupported claims.
-6. Re-run repository-wide searches after corrections.
+3. Compare it against the current verified implementation where applicable.
+4. Correct the active documentation.
+5. Preserve historical records only where genuinely required.
+6. Remove unsupported current claims.
+7. Run repository-wide searches after corrections.
+8. Verify that related repositories remain synchronized.
 
 Documentation must not claim functionality that has not been implemented and verified.
 
@@ -424,12 +535,13 @@ Documentation must distinguish:
 - Production-ready
 - Planned
 - Blocked by external dependency
+- Audit pending
 
 These states must not be treated as interchangeable.
 
 ---
 
-20. Roadmap Status
+21. Roadmap Status
 
 Roadmap items must use explicit status labels.
 
@@ -441,30 +553,33 @@ Recommended statuses:
 - "BLOCKED"
 - "PLANNED"
 - "DEFERRED"
+- "AUDIT PENDING"
 
 A feature must not remain labeled "PLANNED" when it is already implemented and verified.
 
-Likewise, an unverified production integration must not be labeled "COMPLETED" merely because source code exists.
+An unverified production integration must not be labeled "COMPLETED" merely because source code exists.
 
 ---
 
-21. Public Claims
+22. Public Claims
 
 Public-facing metrics and statements must be evidence-based.
 
 This includes:
 
-- Number of trees financed
-- Number of trees planted
-- Number of educated users
-- Number of active agents
-- Number of transactions
+- Trees financed
+- Trees planted
+- Educated users
+- Active agents
+- Transactions
 - Payment volume
 - Partnerships
 - Governance activity
 - User activity
+- Certificates
+- Environmental outcomes
 
-Each metric should have:
+Each public metric should have:
 
 - A defined meaning
 - A source
@@ -473,20 +588,25 @@ Each metric should have:
 
 If a metric cannot be verified, it must not be presented as a verified current metric.
 
+Development or historical metrics must be labeled accordingly.
+
 ---
 
-22. Canonical URLs
+23. Canonical Destinations
 
 Purpose| Canonical destination
-Organization| https://github.com/Celo-HaiTi
-Website| https://celoht.com/
-Production dApp| https://app.celoht.com/
+GitHub organization| github.com/Celo-HaiTi
+Website| celoht.com
+Production dApp target| app.celoht.com
+Main repository| Celo-HaiTi/CeloHT
 
-Repository documentation must use the canonical destinations above.
+Repository documentation should use these canonical destinations.
+
+Obsolete or unofficial destinations must not be presented as current official resources.
 
 ---
 
-23. Synchronization Requirement
+24. Synchronization Requirement
 
 All active CeloHT repositories must remain synchronized with this document.
 
@@ -505,6 +625,7 @@ At minimum, synchronization must cover:
 - Backend
 - Indexer
 - Database
+- Authentication
 - Security
 - Production readiness
 - Public metrics
@@ -513,27 +634,30 @@ A repository is considered synchronized only when its current documentation and 
 
 ---
 
-24. Source-of-Truth Hierarchy
+25. Source-of-Truth Hierarchy
 
 When multiple documents disagree, use the following order of authority:
 
 1. Verified on-chain deployment state
-2. Current production implementation
+2. Current verified production implementation
 3. Current approved governance specification
 4. Current repository implementation
-5. Canonical CeloHT documentation
-6. Research/specification documents
+5. "CANONICAL_TRUTH.md"
+6. Current research/specification documents
 7. Roadmaps and planning documents
+8. Historical documentation
 
 Unverified assumptions must never override verified implementation or deployment state.
 
+When implementation conflicts with intended architecture, the conflict must be explicitly identified and resolved.
+
 ---
 
-25. Change Control
+26. Change Control
 
 Changes to canonical facts must be intentional.
 
-A change to this document should include:
+A change to this document should identify:
 
 - What changed
 - Why it changed
@@ -543,27 +667,82 @@ A change to this document should include:
 
 After a canonical change, affected repositories must undergo synchronization checks.
 
+A canonical change is not complete until affected documentation and implementation have been reviewed.
+
 ---
 
-26. Final Rule
+27. Historical Information
 
-The CeloHT ecosystem should present one coherent current-state reality across:
+Historical information may be retained when necessary for:
 
-- GitHub
-- Documentation
-- Website
-- dApp
-- Backend
-- Indexer
-- Database
-- Smart contracts
+- Migration documentation
+- Changelogs
+- Git history
+- Technical compatibility
+- Research
+- Audit records
+- Legal records
+
+Historical information must be clearly distinguished from current canonical state.
+
+Historical terminology must never be used in a way that makes it appear to represent the current CeloHT architecture, identity, governance, product scope, wallet support, or asset terminology.
+
+---
+
+28. Open Source
+
+CeloHT is an open-source initiative.
+
+Repositories should clearly identify, where applicable:
+
+- License
+- Contribution rules
+- Security reporting process
+- Code ownership
 - Governance
-- Public communications
+- Development status
 
-No repository should independently invent a different version of CeloHT's current architecture, governance, product scope, supported wallets, assets, deployment state, or production status.
+Where applicable, the project uses the Apache License 2.0.
 
-Celo-HaiTi is the canonical organization identity.
+Open-source status does not imply production readiness.
 
-CeloHT is the canonical project identity.
+---
 
-All current ecosystem materials must remain consistent with these facts.
+29. Final Canonical Rules
+
+The following rules are authoritative:
+
+1. Celo-HaiTi is the official project name.
+2. CeloHT is the project's short name and universal working shorthand.
+3. CeloHT is the default name used throughout current documentation, products, technical systems, repositories, interfaces, APIs, architecture, and operational materials.
+4. Celo-HaiTi is used for formal, official, organizational, legal, and brand identity contexts.
+5. Celo-HaiTi and CeloHT refer to the same current project.
+6. CeloHT is an open-source Haitian Web3 initiative.
+7. CeloHT is not a token, blockchain, cryptocurrency, or investment product.
+8. USDm is the canonical stable-value asset terminology for current CeloHT documentation.
+9. Education, Agents, and Reforestation are the three public pillars.
+10. The CeloHT dApp is an application, not a marketing landing page.
+11. An Impact Dashboard is not part of the current dApp product scope.
+12. MiniPay, Valora, and WalletConnect-compatible wallets are the canonical wallet targets.
+13. Celo Sepolia, Chain ID "11142220", is the primary development and verification network.
+14. Mainnet claims require verified deployment and infrastructure evidence.
+15. The Governance Council is the highest ongoing collective decision-making body.
+16. The Founder role does not automatically grant undocumented governance, treasury, voting, executive, or administrative powers.
+17. No feature, metric, deployment, partnership, audit, or production status may be fabricated or overstated.
+18. All CeloHT repositories must remain synchronized with this canonical truth.
+19. Implementation status must always be distinguished from intended design.
+20. Security and production claims must be supported by actual evidence.
+
+---
+
+30. Canonical Identity Statement
+
+«Celo-HaiTi is the official project name, and CeloHT is its short name and universal working shorthand. CeloHT is the default name used throughout the project's current documentation, products, technical systems, repositories, interfaces, APIs, architecture, and operational materials, while Celo-HaiTi is used for formal, official, organizational, legal, and brand identity contexts. Both names refer to the same current project.»
+
+---
+
+Status: Canonical
+
+Last reviewed: September 17, 2026
+
+Source of truth: "Celo-HaiTi/CeloHT-docs/CANONICAL_TRUTH.md"
