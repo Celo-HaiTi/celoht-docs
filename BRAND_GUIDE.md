@@ -44,7 +44,7 @@ CeloHT measures impact, not speculation: people trained, active learners, wallet
 | Heading font | Fraunces |
 | Body font | IBM Plex Sans |
 | Logo shape | Navy "C" with gold growth-arrow / bar chart |
-| License | MIT (docs/code) + trademark rules for marks |
+| License | Apache 2.0 |
 
 Full detail: [COLOR_SYSTEM.md](./COLOR_SYSTEM.md) · [TYPOGRAPHY.md](./TYPOGRAPHY.md) · [LOGO_GUIDELINES.md](./LOGO_GUIDELINES.md) · [VOICE_AND_TONE.md](./VOICE_AND_TONE.md)
 
