@@ -745,4 +745,4 @@ Status: Canonical
 
 Last reviewed: September 17, 2026
 
-Source of truth: "Celo-HaiTi/CeloHT-docs/CANONICAL_TRUTH.md"
+Source of truth: "Celo-HaiTi/celoht-docs/CANONICAL_TRUTH.md"
