@@ -1,108 +1,265 @@
-<div align="center">
-<img width="720" height="720" alt="IMG_20260728_183027" src="https://github.com/user-attachments/assets/0750c10d-c285-4058-9544-918cdcebf421" />
+<div align="center"><img width="720" height="720" alt="Johnny Dubic" src="https://github.com/user-attachments/assets/0750c10d-c285-4058-9544-918cdcebf421" />Johnny Dubic
 
+Founder · Technology Builder · Entrepreneur
 
-# Johnny Dubic
+Building practical platforms at the intersection of technology, financial access, healthcare, entrepreneurship, and sustainable economic opportunity.
 
-## Johnny Dubic - Permanently Recognized Founder of CeloHT
+Johnny Dubic is an entrepreneur and technology project builder focused on creating practical digital platforms that connect people with opportunities, services, professionals, and real-world economic infrastructure.
 
-**Johnny Dubic is permanently recognized as the Founder of CeloHT in the project's historical and institutional record.**
+He is the Founder of CeloHT, FreClean, and Danmante, three independent ventures with different missions and operating models.
 
-Permanent founder recognition is historical and institutional; it does not confer perpetual governance authority, ownership rights, veto power, or unilateral control.
+His work combines technology, entrepreneurship, digital infrastructure, open-source development, and community-oriented innovation to build projects designed for practical use in local and international markets.
 
-Founder status is separate from executive and ongoing governance authority.
+---
 
-The Founder may submit proposals, participate in public deliberation, provide historical context, and contribute technical or institutional knowledge under the same documented governance process as any other participant. Founder status does not automatically confer a Governance Council seat or vote, veto, Founder safeguard, emergency override, executive authority, or unilateral control. A proposal submitted by the Founder remains a proposal until the required collective process is completed and the outcome is documented. See [GOVERNANCE.md](./GOVERNANCE.md).
+🚀 Ventures
 
-Johnny Dubic is recognized in CeloHT documentation as the Founder of CeloHT. Additional biographical claims remain subject to the evidence-based verification process in [VERIFICATION_POLICY.md](./VERIFICATION_POLICY.md).
+01 · CeloHT
 
-## Biography
+Founder
 
-Growing up in Léogâne, Johnny developed a passion for innovation, technology, and community service. He believes blockchain can become a powerful tool for economic empowerment and social impact, particularly in underserved communities.
+Open-source Web3 infrastructure for financial access, education, entrepreneurship, and sustainable impact.
 
-His entrepreneurial journey led him to found **CeloHT**, a community-driven initiative built on the Celo blockchain to promote financial inclusion through education, local agent networks, and environmental sustainability. He also founded **FreClean**, a company specializing in professional cleaning services and locally manufactured cleaning products.
+"Visit CeloHT →" (https://celoht.com)
 
-Today, Johnny continues building solutions that combine technology, entrepreneurship, and community development to create long-term impact in Haiti and beyond.
+CeloHT is an open-source Web3 initiative operating within the Celo ecosystem.
 
-## Education
+The project focuses on building practical infrastructure and experiences around:
 
-### Primary & Secondary Education
+- Financial inclusion
+- Digital payments
+- Blockchain education
+- Entrepreneurship
+- Agent ecosystems
+- Reforestation
+- Community participation
+- Open-source development
 
-- École Mixte Saint-Étienne de Buteau
-- Léogâne, Ouest, Haiti
+CeloHT is designed to demonstrate how Web3 infrastructure can be connected to practical economic and educational opportunities rather than existing only as a technical concept.
 
-### Continuing Education
+Core Direction
 
-Committed to lifelong learning through independent study, technical documentation, open-source communities, and hands-on experience in:
+Education · Finance · Agents · Reforestation
 
+Ecosystem
+
+- Open-source development
+- Celo ecosystem
+- Digital payments
+- Educational infrastructure
+- Community-oriented technology
+- Sustainable impact
+
+Official Links
+
+Website: https://celoht.com
+GitHub: https://github.com/Celo-HaiTi
+Production App: https://app.celoht.com/
+
+---
+
+02 · FreClean
+
+Founder
+
+A commercial cleaning and product venture built around services, products, distribution, and entrepreneurial opportunity.
+
+"Visit FreClean →" (https://freclean.github.io/freclean-website/)
+
+FreClean is a commercial venture focused on professional cleaning services, cleaning products, fragrance-related products, distribution, and opportunities for independent entrepreneurs.
+
+The project combines physical products and services with a distribution-oriented business model designed to support both customers and people participating in the FreClean commercial network.
+
+Core Direction
+
+Cleaning Services · Products · Distribution · Entrepreneurship
+
+Business Focus
+
+- Professional cleaning services
+- Cleaning products
+- Fragrance products
+- Commercial customers
+- Product distribution
+- Entrepreneurial opportunities
+- Local and international expansion
+- Digital commerce
+
+FreClean operates independently from CeloHT and Danmante.
+
+Official Links
+
+Website: https://freclean.github.io/freclean-website/
+GitHub: https://github.com/FreClean
+
+---
+
+03 · Danmante
+
+Founder
+
+A healthcare technology platform connecting people with licensed healthcare professionals and certified pharmacies.
+
+"Visit Danmante →" (https://danmmante.com)
+
+Danmante is a healthcare technology platform designed to improve access to professional healthcare services by connecting users with licensed nurses and certified pharmacies through digital infrastructure.
+
+The platform is being developed around a connected healthcare journey:
+
+Patient → Licensed Professional → Appropriate Pharmacy
+
+Danmante is designed to support:
+
+- Online healthcare consultations
+- Access to licensed nurses and healthcare professionals
+- Healthcare guidance
+- Connections to certified pharmacies
+- Pharmacy discovery
+- Recommended medicine pathways
+- Digital payments
+- International accessibility where legally supported
+
+Core Direction
+
+Healthcare Access · Professional Networks · Pharmacies · Digital Payments
+
+Technology & Payments
+
+Danmante is designed to support modern digital payment infrastructure, including:
+
+- Visa
+- Mastercard
+- WalletConnect-compatible wallets
+- CeloHT payment infrastructure where applicable
+
+Healthcare professionals remain responsible for professional medical decisions, while pharmacies remain responsible for dispensing medicines according to applicable laws and regulations.
+
+Official Links
+
+Website: https://danmmante.com
+GitHub: https://github.com/Danmante
+
+---
+
+🌍 A Common Direction
+
+Although CeloHT, FreClean, and Danmante operate in different sectors, they share a common approach:
+
+«Build practical systems that connect technology with real-world opportunity.»
+
+The three ventures address different areas:
+
+Venture| Sector| Primary Focus
+CeloHT| Web3 & Financial Infrastructure| Financial access, education, entrepreneurship, sustainability
+FreClean| Commerce & Services| Cleaning, products, distribution, entrepreneurship
+Danmante| Healthcare Technology| Healthcare access, professionals, pharmacies, digital payments
+
+Each project maintains its own identity, infrastructure, operations, and development roadmap.
+
+---
+
+🎯 Mission
+
+To build practical technology and business platforms that expand access to essential services, create economic opportunities, and connect people with trusted systems and professional networks.
+
+---
+
+🌎 Vision
+
+To develop internationally recognized ventures that combine technology, entrepreneurship, and real-world infrastructure to create useful, scalable, and sustainable opportunities.
+
+---
+
+🧭 Areas of Focus
+
+Johnny's work spans several interconnected fields:
+
+- Technology & Digital Platforms
+- Web3 & Blockchain
+- Digital Payments
+- Healthcare Technology
+- Entrepreneurship
+- Open-Source Development
+- Commercial Services
+- Product Distribution
+- Telecommunications
+- Financial Access
+- Sustainable Development
+- Community-Oriented Innovation
+
+---
+
+🎓 Education & Continuous Learning
+
+Johnny's development as an entrepreneur and technology builder has been shaped through education, independent study, technical documentation, open-source communities, experimentation, and hands-on project development.
+
+Areas of continuing learning include:
+
+- Software Development
 - Web3 Technologies
 - Blockchain
-- Celo Ecosystem
-- Decentralized Finance (DeFi)
+- Digital Payments
+- Artificial Intelligence
+- Healthcare Technology
 - Digital Marketing
 - Telecommunications
-- Open Source Development
 - Entrepreneurship
-- Community Development
+- Open-Source Development
+- Platform Architecture
+- Business Development
 
-## Areas of Expertise
+---
 
-- Telecommunications
-- Web3 & Blockchain
-- Cryptocurrency Ecosystems
-- Digital Marketing
-- Journalism
-- Community Development
-- Entrepreneurship
-- Cleaning Product Formulation (Soaps, Liquid Detergents, Shampoos)
-- Financial Inclusion
-- Project Development
+🌐 Languages
 
-## Languages
+- Haitian Creole — Native
+- French — Professional Working Proficiency
+- Spanish — Professional Working Proficiency
+- English — Basic
 
-- Haitian Creole - Native
-- French  - Professional Working Proficiency
-- English - Basic
-- Spanish - Professional Working Proficiency
+---
 
-## Organizations
+🔗 Official Network
 
-### CeloHT
-**Founder (2022 - Present)**
+CeloHT
 
-A community-driven Web3 initiative leveraging the Celo blockchain to advance financial inclusion through education, decentralized community agent networks, and environmental sustainability.
+Web3 · Financial Access · Education · Sustainability
 
-### FreClean
-**Founder (2025 - Present)**
+https://celoht.com
 
-A professional cleaning services and cleaning-products company dedicated to quality, innovation, and community empowerment.
+FreClean
 
-FreClean is separate from CeloHT governance and is not a CeloHT governing body, Council, department, or legal entity.
+Commerce · Cleaning · Products · Entrepreneurship
 
-## Mission
+https://freclean.github.io/freclean-website/
 
-To empower communities through education, blockchain technology, entrepreneurship, and environmental sustainability.
+Danmante
 
-## Vision
+Healthcare · Professionals · Pharmacies · Digital Access
 
-To build internationally recognized organizations that demonstrate how Web3 technology can improve lives, strengthen local economies, and create sustainable opportunities for future generations.
+https://danmmante.com
 
-## Core Values
+---
 
-- Transparency
-- Community
-- Open Source
-- Financial Inclusion
-- Sustainability
-- Innovation
-- Integrity
-- Collaboration
+Connect
 
-## Connect
+GitHub
+https://github.com/Danmante
 
-- Website: https://celoht.com | https://frecleane.com
-- GitHub: https://github.com/Celo-HaiTi
-- LinkedIn: https://www.linkedin.com/in/johnny-dubic-590585218
-- X: https://x.com/JohnnyDubic
+LinkedIn
+https://www.linkedin.com/in/johnny-dubic-590585218
 
-Building Web3 solutions for financial inclusion, education, and sustainable development.
+X
+https://x.com/JohnnyDubic
+
+---
+
+<div align="center">Build. Connect. Create Opportunity.
+
+Johnny Dubic
+
+Founder of CeloHT · FreClean · Danmante
+
+Building practical systems for financial access, commerce, healthcare, and sustainable economic opportunity.
+
+</div>
