@@ -64,7 +64,7 @@ Founder
 
 A commercial cleaning and product venture built around services, products, distribution, and entrepreneurial opportunity.
 
-"Visit FreClean →" (https://freclean.github.io/freclean-website/)
+"Visit FreClean →" (https://freclean.com)
 
 FreClean is a commercial venture focused on professional cleaning services, cleaning products, fragrance-related products, distribution, and opportunities for independent entrepreneurs.
 
@@ -231,7 +231,7 @@ FreClean
 
 Commerce · Cleaning · Products · Entrepreneurship
 
-https://freclean.github.io/freclean-website/
+https://freclean.com
 
 Danmante
 
