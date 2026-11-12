@@ -11,6 +11,15 @@ CeloHT's on-chain footprint is intentionally minimal: only data that benefits fr
 1. **AgentRegistry** — records agent verification status, publicly and immutably
 2. **TransactionLog** — optional, opt-in transparent logging of Agent Network transaction summaries (no personal data on-chain)
 
+ERC-8004 is documented separately because its Identity, Reputation, and
+Validation registries are official external registries, not CeloHT contracts.
+The linked [CeloHT smart-contract repository](https://github.com/Celo-HaiTi/celoht-smart-contracts)
+contains the current implementation source and an identity-link adapter
+source; the adapter is not deployed, and its ERC-8004 integration has not yet
+been validated end to end. See [ERC-8004 integration](./ERC8004_INTEGRATION.md)
+for status and the distinction between those contracts and this reference
+specification.
+
 ## Design Principles
 
 - **Non-custodial:** these contracts never hold user funds. Payments move directly wallet-to-wallet via native USDm transfers.

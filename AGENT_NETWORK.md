@@ -9,7 +9,7 @@ The Agent Network is CeloHT's human bridge between cash economies and digital pa
 ## Agent Lifecycle
 
 1. **Recruitment** — candidates identified through community nomination or application, prioritizing existing trusted local figures (shop owners, community leaders)
-2. **Registration** — identity verification and application submitted through the Agent onboarding flow (see [DAPP.md](./DAPP.md#agent-dashboard))
+2. **Registration** — identity verification and application submitted through the Agent onboarding flow (see [DAPP.md](./DAPP.md))
 3. **Verification** — background and identity checks per the compliance process below
 4. **Training** — mandatory training covering the modules listed under [Training Curriculum](#training-curriculum)
 5. **Certification** — agents must pass a competency assessment before activation
@@ -23,7 +23,22 @@ The Agent Network is CeloHT's human bridge between cash economies and digital pa
 - Government-issued ID verification
 - Physical location verification (agents operate from a known, fixed community location)
 - Reference check from at least two existing community members or partner organizations
-- Digital identity record created and linked to the agent's on-chain verification status (see [SMART_CONTRACTS.md](./SMART_CONTRACTS.md#agent-registry))
+- Planned: link the CeloHT agent record to a separate ERC-8004 identity after
+  the adapter is deployed and verified. ERC-8004 ownership does not replace
+  the off-chain identity check or CeloHT verification flag; see
+  [integration status](./ERC8004_INTEGRATION.md).
+
+### ERC-8004 interoperability
+
+ERC-8004 adds a separate, transferable agent identity and optional reputation
+and validation records; it does not replace the CeloHT Agent Registry or
+perform CeloHT's off-chain identity checks. The CeloHT and ERC-8004 agent IDs
+are distinct, and ERC-8004 wallet metadata does not change CeloHT payment
+recipients. The CeloHT integration is not yet demonstrated end to end; see
+[integration status](./ERC8004_INTEGRATION.md) and the related
+[identity](./AGENT_IDENTITY.md), [registration](./AGENT_REGISTRATION.md),
+[reputation](./AGENT_REPUTATION.md), [validation](./AGENT_VALIDATION.md),
+and [payment](./AGENT_PAYMENTS.md) guides.
 
 ## Training Curriculum
 
@@ -46,10 +61,10 @@ The Agent Network is CeloHT's human bridge between cash economies and digital pa
 - **Community liquidity:** agents maintain a USDm/cash float to serve their community reliably
 
 ### Agent Dashboards
-Agents access a mobile-optimized dashboard (see [DAPP.md](./DAPP.md#agent-dashboard)) showing: transaction history, current float/liquidity status, compliance status, and training/certification status. **Full dashboard specification:** [dashboards.md](./dashboards.md)
+Agents access a mobile-optimized dashboard (see [DAPP.md](./DAPP.md)) showing: transaction history, current float/liquidity status, compliance status, and training/certification status. **Full dashboard specification:** [dashboards.md](./dashboards.md)
 
 ### Regional Coordinators
-Coordinators support clusters of agents within a region — handling escalations, float replenishment logistics, and local training delivery. Coordinators report to the Agent Network Working Group (see [GOVERNANCE.md](./GOVERNANCE.md#working-groups)).
+Coordinators support clusters of agents within a region — handling escalations, float replenishment logistics, and local training delivery. Coordinators report to the Agent Network Working Group (see [GOVERNANCE.md](./GOVERNANCE.md#15-working-groups)).
 
 ## Risk Management
 
@@ -90,7 +105,7 @@ Agents have access to a dedicated support channel (see [Community](./PARTNERS.md
 
 ## References
 
-- [SMART_CONTRACTS.md](./SMART_CONTRACTS.md#agent-registry) — on-chain agent verification record
+- [SMART_CONTRACTS.md](./SMART_CONTRACTS.md#agentregistry--reference-specification) — reference specification for on-chain agent verification
 - [SECURITY.md](./SECURITY.md) — fraud and security threat model
 - [EDUCATION.md](./EDUCATION.md) — agent training as an education delivery channel
 - [METRICS.md](./METRICS.md) — Agent Network performance reporting

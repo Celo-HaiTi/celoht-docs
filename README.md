@@ -23,6 +23,9 @@ The complete documentation for CeloHT, a Haitian-led, open-source, community-gov
 | Review the technical architecture | [ARCHITECTURE.md](./ARCHITECTURE.md) |
 | Explore the education pillar | [EDUCATION.md](./EDUCATION.md) |
 | Explore the Agent Network pillar | [AGENT_NETWORK.md](./AGENT_NETWORK.md) |
+| Understand the ERC-8004 integration status | [ERC8004_INTEGRATION.md](./ERC8004_INTEGRATION.md) |
+| Build with CeloHT agent identity, reputation, validation, and payments | [AGENT_DEVELOPER_GUIDE.md](./AGENT_DEVELOPER_GUIDE.md) |
+| Review integration security and Frontier Pool readiness | [ERC8004_SECURITY.md](./ERC8004_SECURITY.md) and [ERC8004_ROADMAP.md](./ERC8004_ROADMAP.md) |
 | Explore the reforestation pillar | [REFORESTATION.md](./REFORESTATION.md) |
 | Build on CeloHT | [DEVELOPER_GUIDE.md](./DEVELOPER_GUIDE.md) and [SMART_CONTRACTS.md](./SMART_CONTRACTS.md) |
 | Use the API | [API_REFERENCE.md](./API_REFERENCE.md) |
@@ -67,6 +70,15 @@ celoht-docs/
 ├── ARCHITECTURE.md              # System design and technical architecture
 ├── DEVELOPER_GUIDE.md           # Development guidance
 ├── SMART_CONTRACTS.md           # Smart contract documentation
+├── ERC8004_INTEGRATION.md       # ERC-8004 scope, status, and registry boundaries
+├── AGENT_IDENTITY.md            # CeloHT and ERC-8004 agent identity
+├── AGENT_REGISTRATION.md        # Registration and metadata flow
+├── AGENT_REPUTATION.md          # Feedback, aggregation, and abuse limits
+├── AGENT_VALIDATION.md          # Validation requests and responses
+├── AGENT_PAYMENTS.md            # CeloHT payment boundary and ERC-8004 metadata
+├── AGENT_DEVELOPER_GUIDE.md     # Contract-level developer workflow
+├── ERC8004_SECURITY.md          # Security controls and known limitations
+├── ERC8004_ROADMAP.md           # Readiness matrix and release gates
 ├── API_REFERENCE.md             # API documentation
 ├── SDK.md                       # SDK documentation
 ├── CLI.md                      # CLI documentation
